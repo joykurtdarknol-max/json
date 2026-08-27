@@ -1,5 +1,18 @@
 [
   {
+    "id": "case_505",
+    "title": "Vaka #505: Kandilli Yalı Muamması",
+    "subtitle": "Dilsiz Şahit & Boğaz'da Satranç Matı",
+    "date": "24 Aralık 1996",
+    "location": "Ziya Paşa Yalısı, Kandilli / İstanbul",
+    "difficulty": "Zor",
+    "summary": "Boğaz'daki kar fırtınasında, armatör Halid Ziya Arman içeriden kilitli çalışma odasında satranç tahtası başında ölü bulundu. Masada zehirli konyak kadehi, şöminede yanan odunlar ve 5 şüphelinin çözülmeyi bekleyen karanlık sırları...",
+    "thumbnail": "images/case505_cover.jpg",
+    "isAvailable": true,
+    "tag": "KİLİTLİ ODA // SATRANÇ ŞİFRESİ",
+    "filePath": "case_505.json"
+  },
+  {
     "id": "case_404",
     "title": "Vaka #404: Kuklacının Gece Vardiyası",
     "subtitle": "Tünel Meydanı Sanat Atölyesinde Astronomik Saat Cinayeti",
@@ -7,7 +20,7 @@
     "location": "Saint-Antoine Restorasyon Atölyesi, Tünel / Beyoğlu",
     "difficulty": "Zor",
     "summary": "Beyoğlu'nun ünlü antika restoratörü Agah Sırrı, atölyesindeki devasa astronomik saatin sarkacına asılmış halde bulundu. Masada yarım kalmış kahve, parçalanmış Bizans el yazması ve çarklardaki cerrahi ip... Katil kim?",
-    "thumbnail": "images/case404_cover.jpg",
+    "thumbnail": "assets/case404_cover.jpg",
     "isAvailable": true,
     "tag": "MEKANİK CİNAYET // DEDEKTİF LABİRENTİ",
     "filePath": "case_404.json"

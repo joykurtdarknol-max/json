@@ -1,0 +1,337 @@
+{
+  "id": "case_104",
+  "title": "Vaka #104: Saat 03:14 Vakası",
+  "subtitle": "Lord Alistair Croft Cinayeti",
+  "date": "12 Ekim 1994 - 03:14 AM",
+  "location": "Karasu Malikânesi, Çalışma Odası",
+  "summary": "Zengin antika saat koleksiyoncusu Lord Alistair Croft, gece 03:14 sularında malikânesindeki kilitli çalışma odasında başından ağır bir darbe alarak ölü bulundu. Masasında nadir bulunan bir antika köstekli saat kırılmış ve 03:14'te durmuş haldeydi.",
+  "weapons": [
+    {
+      "id": "dispatch_hammer",
+      "name": "Saatçi Çekici (Sivri Çelik Uç)",
+      "description": "Kafatasındaki mikroskobik çelik alaşım izleriyle uyumlu"
+    },
+    {
+      "id": "poison_whiskey",
+      "name": "Zehirli Viski Kadehi",
+      "description": "Masanın üzerindeki kadehte bulunan şüpheli kalıntılar"
+    },
+    {
+      "id": "silenced_pistol",
+      "name": "Susturuculu Tabanca",
+      "description": "Rıhtım çetesine ait kayıt dışı ateşli silah"
+    }
+  ],
+  "audioTapes": [
+    {
+      "id": "tape_01",
+      "title": "Kaset #01: Telesekreter Tehdidi",
+      "subtitle": "Carla Diaz Ses Kaydı (01:20 AM)",
+      "associatedEvidenceId": "tape_recording"
+    }
+  ],
+  "directory": [
+    {
+      "id": "dir_morgue",
+      "name": "Adli Tıp Morg Dairesi",
+      "role": "Dr. Selim Uçar (Otopsi Uzmanı)",
+      "status": "Rapor Teslim Edildi",
+      "viewTarget": "board"
+    },
+    {
+      "id": "dir_interrogation",
+      "name": "Sorgu Odası B",
+      "role": "Şüpheliler hazır bekliyor",
+      "status": "Sorguya Hazır",
+      "viewTarget": "interrogation"
+    }
+  ],
+  "newspaper": {
+    "newspaperName": "HÜR ASAYİŞ GAZETESİ",
+    "issueInfo": "SAYI: 4892 // FİYATI: 25 KURUŞ // 13 EKİM 1994",
+    "headline": "LORD CROFT CİNAYETİ ÇÖZÜLDÜ: KATİL PARMAKLIKLAR ARDINDA!",
+    "article": "Karasu Malikânesi'ndeki esrarengiz cinayet, dedektifimizin dikkati ve olay yerinden toplanan saatçi çekici deliliyle aydınlatıldı. Zanlı Viktor Vance cinayeti itiraf ederek tutuklandı.",
+    "commendationTitle": "BAŞKOMİSERLİK TAKDİRNAMESİ",
+    "commendationBody": "Olay yeri incelemesindeki yüksek titizlik, mantar panodaki hipotez eşleştirmeleri ve resmi iddianamenin sağlamlığı sebebiyle tebrik ederiz."
+  },
+  "suspects": [
+    {
+      "id": "viktor_vance",
+      "name": "Viktor Vance",
+      "age": 52,
+      "role": "Usta Saat Tamircisi & Eski Ortak",
+      "imageNormal": "/assets/viktor_vance.jpg",
+      "imageInterrogation": "/assets/viktor_interrogation.jpg",
+      "alibi": "Bütün gece rıhtımdaki saatçi atölyemdeydim. Malikâneye adım dahi atmadım.",
+      "motive": "Lord Croft'a 50.000$ antika borcu vardı ve Lord onu mahkemeye vermekle tehdit ediyordu.",
+      "stressLevel": 20,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Bu soruya yanıt vermek istemiyorum. Avukatım olmadan konuşmayacağım.",
+      "freeformKeywords": [
+        {
+          "keywords": ["saat", "03:14", "köstekli", "tamir"],
+          "response": "O saati teslim etmiştim dedim ya! Olay yerindeki kırığı bilmiyorum!",
+          "stressDelta": 25,
+          "breakthrough": "Viktor saatten bahsettiğinde elleri titremeye başladı!"
+        },
+        {
+          "keywords": ["çekiç", "silah", "atölye", "alet"],
+          "response": "Atölyeme dokunmayın! Orası benim 30 yıllık emeğim... Tamam, o gece oradaydım!",
+          "stressDelta": 40,
+          "breakthrough": "Viktor köşeye sıkıştı ve malikânede olduğunu itiraf etti!"
+        },
+        {
+          "keywords": ["borç", "50000", "para", "senet", "dolar"],
+          "response": "Lord Croft beni sömürdü! Tefecilik yaptı bana! Ama onu ben öldürmedim!",
+          "stressDelta": 20
+        },
+        {
+          "keywords": ["taksi", "rıhtım", "gece", "yağmur"],
+          "response": "O gece taksiye bindiğimi kim görmüş?! Yağmur yağıyordu sadece...",
+          "stressDelta": 15
+        }
+      ],
+      "dialogueTree": [
+        {
+          "question": "[Empati / İyi Polis] Viktor, zor durumda olduğunu biliyorum. Lord ile geçmişinizi anlat.",
+          "tactic": "good_cop",
+          "response": "Alistair ile 20 yıl önce ortak olduk. Çok kibirli bir adamdı. Son zamanlarda bana borcum yüzünden tefeci muamelesi yapıyordu...",
+          "stressDelta": 10
+        },
+        {
+          "question": "[Baskı / Kötü Polis] Bize yalan söylüyorsun! Seni o gece malikânenin etrafında görenler var!",
+          "tactic": "bad_cop",
+          "response": "Yalan söylüyorsunuz! Beni kimse göremezdi çünkü... yani çünkü ben rıhtımdaydım! Avukatımı istiyorum!",
+          "stressDelta": 20
+        },
+        {
+          "question": "[Kanıt Göster: Kırık Köstekli Saat] Bu saat senin atölyende kayıtlı ve üzerinde parmak izin var!",
+          "tactic": "evidence",
+          "response": "N-Nasıl?! O saati iki gün önce teslim etmiştim... Bekle, o saatteki çatlak... Tanrım, o gece oradaydım ama sadece konuşmak için! O bana saldırdı!",
+          "requiredEvidence": "pocket_watch",
+          "stressDelta": 35,
+          "breakthrough": "Viktor olay yerinde olduğunu ve tartışma çıktığını itiraf etti!"
+        },
+        {
+          "question": "[Kanıt Göster: Cinayet Silahı Çekiç] Rıhtım baskınında sakladığın kanlı saatçi çekici bulundu!",
+          "tactic": "evidence",
+          "response": "Yeter... Tamam! Evet, çekici ben vurdum! Borç senetlerimi istedim, vermedi, kasayı açmadı ve beni aşağıladı. Kendimi kaybettim... Ama saat 03:14 değildi, 02:30'da çıktım ben oradan!",
+          "requiredEvidence": "dispatch_hammer",
+          "stressDelta": 50,
+          "breakthrough": "Viktor cinayeti itiraf etti ancak ölüm saatinde şüpheli bir ayrıntı var!"
+        }
+      ]
+    },
+    {
+      "id": "carla_diaz",
+      "name": "Carla Diaz",
+      "age": 34,
+      "role": "Lord Croft'un Mirasçısı & Özel Asistanı",
+      "imageNormal": "/assets/carla_diaz.jpg",
+      "imageInterrogation": "/assets/carla_diaz.jpg",
+      "alibi": "Gece 01:00'de malikâneden ayrılıp şehir merkezindeki daireme gittim. Sabaha kadar uyudum.",
+      "motive": "Lord Croft onu vasiyetnamesinden çıkarmak üzereydi. Cinayet işlenirse 12 Milyon $ tek başına miras kalacaktı.",
+      "stressLevel": 15,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Bu konuda bilgim yok. Dedektif, mirasımla ilgili sorularınız varsa avukatımla görüşün.",
+      "freeformKeywords": [
+        {
+          "keywords": ["vasiyet", "miras", "12", "para", "taslak"],
+          "response": "O vasiyetname benim hakkımdı! Lord Croft bunamıştı!",
+          "stressDelta": 30,
+          "breakthrough": "Carla vasiyetnameyi bildiğini açık etti!"
+        },
+        {
+          "keywords": ["kaset", "tehdit", "ses", "telesekreter", "mesaj"],
+          "response": "O telesekreter kaydı sinirle söylendi! 02:45'te Viktor'u bahçede görmesem belki bana kalacaktı ihale!",
+          "stressDelta": 35,
+          "breakthrough": "Carla Viktor'un olay yerinde olduğunu doğruladı!"
+        }
+      ],
+      "dialogueTree": [
+        {
+          "question": "[Empati / İyi Polis] Carla, Lord Croft'a yıllarca sadakatle hizmet ettin. Vasiyetname hakkında ne düşünüyorsun?",
+          "tactic": "good_cop",
+          "response": "Lord Croft zor bir insandı ama ona hayrandım. Vasiyetname hakkında dedikodular var ama benim için önemli olan mirası değil, mirasının korunmasıydı.",
+          "stressDelta": 10
+        },
+        {
+          "question": "[Baskı / Kötü Polis] Lord Croft'un seni vasiyetten çıkaracağını öğrendiğinde onu tehdit ettin!",
+          "tactic": "bad_cop",
+          "response": "Saçmalamayın! Kanıtınız var mı? Ben sadece hukuki haklarımı arayacağımı söyledim!",
+          "stressDelta": 25
+        },
+        {
+          "question": "[Kanıt Göster: Kaset Kaydı] Kasetçalardaki ses kaydında 'Bunu yaparsan sabahı göremezsin' diyorsun!",
+          "tactic": "evidence",
+          "response": "O... o bir anlık öfkeyle söylenmiş bir şeydi! Gece 02:45'te Viktor'u malikâneye girerken gördüm ve korkup kaçtım!",
+          "requiredEvidence": "tape_recording",
+          "stressDelta": 35,
+          "breakthrough": "Carla gece 02:45'te Viktor'u gördüğünü itiraf ederek Viktor'un yalanını yıktı!"
+        }
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "id": "pocket_watch",
+      "title": "Kırık Köstekli Saat (#12)",
+      "category": "object",
+      "description": "Lord Croft'un masasında kan birikintisi içinde bulundu. Camı çatlamış, akrep ve yelkovan tam 03:14'te durmuş.",
+      "image": "/assets/pocket_watch.jpg",
+      "handwrittenNote": "Tam 03:14'te durmuş. Çarpma anında mı durdu yoksa ayarlandı mı?",
+      "sourceLocation": "Olay Yeri Masası",
+      "hiddenClueMagnifier": "Arka kapağında mikroskobik 'V. Vance - Horology' damgası ve Viktor'a ait kanlı parmak izi var.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "autopsy_report",
+      "title": "Adli Tıp Otopsi Raporu",
+      "category": "forensic",
+      "description": "Ölüm Nedeni: Kafatası arkasında sivri metal nesne darbesi. Ölüm saati tahmini: 02:00 - 03:30 arası.",
+      "handwrittenNote": "Kafatasındaki çökme yarası sivri çekiç darbesiyle uyumlu.",
+      "sourceLocation": "Morg / Dr. Selim",
+      "hiddenClueUV": "Kafatasındaki metal tortu: 'Yüksek karbonlu sert çelik - Saatçi aletleri alaşımı.'",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "will_document",
+      "title": "Değiştirilmemiş Vasiyetname",
+      "category": "document",
+      "description": "Lord Croft'un çalışma masasındaki gizli çekmecede bulundu. Henüz imzalanmamış yeni taslak Carla'yı tamamen mirastan mahrum bırakıyor.",
+      "handwrittenNote": "Carla bunu öğrendiyse cinayet için 12 milyon sebebe sahip!",
+      "sourceLocation": "Lord'un Çekmecesi",
+      "hiddenClueUV": "Belgenin köşesinde gizli filigran ve Carla'nın parmak izi parlıyor! Belgeyi görmüş!",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "tape_recording",
+      "title": "Kaset #01: Telesekreter Tehdidi",
+      "category": "audio",
+      "description": "Masadaki ses kayıt cihazında bulunan telesekreter kasedi. Olay gecesi 01:20'de kaydedilmiş.",
+      "handwrittenNote": "Carla'nın sesi: 'Beni o vasiyetten çıkarırsan sabahı göremezsin Alistair!'",
+      "sourceLocation": "Masadaki Kasetçalar",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "dispatch_hammer",
+      "title": "Kanlı Saatçi Çekici (Cinayet Silahı)",
+      "category": "dispatch",
+      "description": "Saha ekiplerinin Viktor'un rıhtımdaki atölyesine yaptığı baskında gizli zemin döşemesinin altında bulundu. Üzerinde Lord Croft'un DNA'sı var.",
+      "image": "/assets/dispatch_hammer.jpg",
+      "handwrittenNote": "Cinayet silahı kesinleşti! Kafatası kemiğindeki yara iziyle mikroskobik olarak %100 eşleşiyor!",
+      "sourceLocation": "Rıhtım Saat Atölyesi Baskını",
+      "isPinnedByDefault": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl_1",
+      "time": "22:00",
+      "title": "Akşam Yemeği ve Tartışma",
+      "description": "Lord Croft ve Carla Diaz akşam yemeğinde vasiyetname üzerine tartışırken hizmetçiler tarafından duyuldu.",
+      "isVerified": true
+    },
+    {
+      "id": "tl_2",
+      "time": "01:20",
+      "title": "Telesekreter Tehdit Kaydı",
+      "description": "Carla Diaz'ın çalışma odası telesekreterine bıraktığı öfkeli tehdit mesajı kaydedildi.",
+      "associatedEvidenceId": "tape_recording",
+      "isVerified": true
+    },
+    {
+      "id": "tl_3",
+      "time": "02:45",
+      "title": "Malikâne Bahçesinde Şüpheli Silüet",
+      "description": "Güvenlik kamerası ve Carla'nın ifadesi: Saat tamircisi Viktor Vance malikâne arka kapısından içeri girerken görüldü.",
+      "isVerified": true
+    },
+    {
+      "id": "tl_4",
+      "time": "03:14",
+      "title": "Cinayet Saati (?) / Köstekli Saat Durması",
+      "description": "Masadaki antika köstekli saat 03:14'te darbe alarak durmuş bulundu.",
+      "associatedEvidenceId": "pocket_watch",
+      "isVerified": false
+    }
+  ],
+  "dispatchMissions": [
+    {
+      "id": "mission_workshop",
+      "title": "Viktor'un Rıhtım Saat Atölyesine Baskın",
+      "targetLocation": "Rıhtım Cad. No: 14",
+      "team": "forensic",
+      "description": "Viktor'un atölyesini ve gizli bölmelerini ara, cinayet silahını ve kanlı giysileri tespit et.",
+      "durationSec": 8,
+      "status": "available",
+      "resultEvidenceId": "dispatch_hammer",
+      "resultReport": "Olay Yeri İnceleme Ekibi: Zemin tahtalarının altına gizlenmiş kanlı çekiç bulundu! Kafatası çatlağı ile tam uyumlu."
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_weapon_match",
+      "evidenceA": "autopsy_report",
+      "evidenceB": "pocket_watch",
+      "hypothesisTitle": "CİNAYET ALETİ & SAATÇİ ÇEKİCİ",
+      "hypothesisText": "Kafatasındaki yara izinin sivri ucu, köstekli saat tamirinde kullanılan sert çelik saatçi çekiciyle mikroskobik olarak eşleşti.",
+      "discovered": false
+    },
+    {
+      "id": "contra_carla_motive",
+      "evidenceA": "will_document",
+      "evidenceB": "tape_recording",
+      "hypothesisTitle": "MİRAS MOTİVASYONU & ŞANTAJ",
+      "hypothesisText": "Carla'nın vasiyetnameyi gizlice okuduğu (UV parmak izi) ve ardından bıraktığı tehdit mesajı doğrudan cinayet planını kanıtlıyor.",
+      "discovered": false
+    },
+    {
+      "id": "contra_hammer_found",
+      "evidenceA": "dispatch_hammer",
+      "evidenceB": "autopsy_report",
+      "hypothesisTitle": "KESİNLEŞEN CİNAYET SİLAHI",
+      "hypothesisText": "Atölyede bulunan saatçi çekici üzerindeki kan örneği ve kurbanın DNA'sı %100 uyuştu. Katil Viktor Vance!",
+      "discovered": false
+    }
+  ],
+  "filePages": [
+    {
+      "pageNumber": 1,
+      "title": "VAKA ÖZETİ & OLAY YERİ RAPORU",
+      "classification": "GİZLİ // ADLİ KOLLUK",
+      "contentMarkdown": "### LORD ALISTAIR CROFT CİNAYETİ\n\n**Tarih:** 12 Ekim 1994, Gece 03:14 suları\n**Konum:** Karasu Malikânesi, 2. Kat Doğu Kanadı Çalışma Odası\n\nKurban, çalışma masasının başında başının arkasından aldığı ağır ve sivri uçlu metal darbesiyle hayatını kaybetmiştir. Olay yeri incelemesinde kapının içeriden kilitli olmadığı, masada kan gölü içinde **Kırık bir Köstekli Saat (#12)** bulunduğu tespit edilmiştir.\n\n> **Dedektif Notu:** Köstekli saat tam 03:14'te durmuş. Katil olay yerini terk ederken saati yere vurmuş veya bilerek saati ayarlamış olabilir.",
+      "associatedEvidenceIds": ["pocket_watch"]
+    },
+    {
+      "pageNumber": 2,
+      "title": "ADLİ TIP & OTOPSİ BULGULARI",
+      "classification": "ADLİ TIP MORG RAPORU",
+      "contentMarkdown": "### DOKTOR SELİM UÇAR OTOPSİ ÖN RAPORU\n\n- **Ölüm Nedeni:** Kafatası oksipital bölgesinde çoklu parçalı kırık ve beyin kanaması.\n- **Kullanılan Alet:** Darbe izi 1.2 cm çapında kare-sivri uçlu, yüksek kaliteli sert çelik bir aletle (muhtemelen saatçi veya kuyumcu çekici) vurulmuş.\n- **Zaman Aralığı:** Kurbanın vücut ısısı ve mide içeriği ölümün 02:00 ile 03:30 arasında gerçekleştiğini doğrulamaktadır.",
+      "associatedEvidenceIds": ["autopsy_report"]
+    },
+    {
+      "pageNumber": 3,
+      "title": "ŞÜPHELİ PROFİLLERİ & İFADELER",
+      "classification": "BİRİNCİL ŞÜPHELİ LİSTESİ",
+      "contentMarkdown": "### 1. VIKTOR VANCE (52)\n- **Konum:** Lord'un eski ortağı & Rıhtım saat ustası.\n- **Motivasyon:** 50.000$ borç ve iflas tehdidi.\n- **İlk İfadesi:** Gece boyu atölyede olduğunu iddia ediyor.\n\n### 2. CARLA DIAZ (34)\n- **Konum:** Lord'un asistanı & yeğeni.\n- **Motivasyon:** 12 Milyon Dolarlık vasiyetname mirası.\n- **İlk İfadesi:** Gece 01:00'de evine gittiğini savunuyor.",
+      "associatedEvidenceIds": ["will_document", "tape_recording"]
+    },
+    {
+      "pageNumber": 4,
+      "title": "KRİMİNAL DELİL DÖKÜMÜ & SAHA SEVK",
+      "classification": "ASAYİŞ TELSİZ İSTASYONU",
+      "contentMarkdown": "### SAHA GÖREVLERİNE ÇAĞRI\n\nDedektif, masadaki telsiz istasyonunu kullanarak olay yeri inceleme ve devriye ekiplerini aşağıdaki noktalara sevk edebilir:\n\n1. **Rıhtım Saat Atölyesi Baskını:** Viktor'un dükkanında cinayet aletini ara.\n2. **Karasu Malikânesi Bahçe Göleti:** Dalgıç ekibiyle kayıp eşyaları tara.\n3. **İsviçre Bankası Hesap İncelemesi:** Carla'nın para transferlerini denetle.",
+      "associatedEvidenceIds": ["dispatch_hammer"]
+    }
+  ],
+  "solution": {
+    "culpritId": "viktor_vance",
+    "murderWeaponId": "dispatch_hammer",
+    "criticalEvidenceId": "dispatch_hammer",
+    "keyMotive": "Lord Croft'un 50.000$ borcu tahsil etmek için Viktor'u iflasa sürüklemesi ve Viktor'un borç senetlerini almak için malikâneye gelip tartışma anında saatçi çekiciyle Lord'u öldürmesi.",
+    "correctVerdictSummary": "Tebrikler Dedektif! Katil Viktor Vance'ti. Rıhtımdaki atölyesinde sakladığı saatçi çekici cinayet aletiyle %100 eşleşti ve sorgu odasında tam itiraf alındı."
+  }
+}

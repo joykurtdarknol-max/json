@@ -1,0 +1,439 @@
+{
+  "id": "case_305",
+  "title": "Vaka #305: Pera Palas Kanlı Senfoni",
+  "subtitle": "Dünyaca Ünlü Piyanist Julian Vance Cinayeti",
+  "date": "14 Kasım 1994 - Gece 02:40",
+  "location": "Tarihi Pera Palas Oteli, 411 Numaralı Kral Dairesi",
+  "filePages": [
+    {
+      "pageNumber": 1,
+      "id": "page_1",
+      "title": "Olay Yeri İnceleme Raporu - İlk Bulgular",
+      "classification": "GİZLİ // ADLİ KOLLUK RAPORU",
+      "contentMarkdown": "İstanbul Emniyet Müdürlüğü Kriminal Şube Amirliği'nce 14 Kasım 1994, saat 03:15'te intikal edilen olay yerindeki ilk bulgular kayıt altına alınmıştır. Maktul, Julian Vance, 411 numaralı Kral Dairesi'nin tam ortasında yer alan kuyruklu piyanonun önünde, yüzüstü düşmüş vaziyette ex halinde bulunmuştur. Dairenin kapısı içeriden zincirli olup, balkon kapısı da sıkıca kilitlidir. Klasik bir kilitli oda senaryosu ile karşı karşıyayız. \n\nMaktulün sağ el parmak uçlarında ve piyanonun La majör gamına ait tuşlarında yoğun kan lekeleri tespit edilmiştir. Kanın kurumaya yüz tutmuş olması, ölümün en az 1-2 saat önce gerçekleştiğine işaret etmektedir. Maktulün hemen yanında, zemine düşüp paramparça olmuş bir şampanya kadehi (flüt) bulunmuştur. Halıdaki şampanya kalıntılarında hafif acıbadem kokusu sezilmiş, numune alınarak Toksikoloji laboratuvarına gönderilmiştir. \n\nPiyano üzerindeki nota sehpası kırılarak devrilmiş, üzerinde yer alan orijinal el yazması Beethoven'ın 'Ay Işığı Sonatı' notaları kan sıçramış halde bulunmuştur. Odanın genel durumunda herhangi bir arbede izine rastlanmamakla birlikte, maktulün boyun kısmında hafif kızarıklıklar, ağız çevresinde ise köpüksü kalıntılar görülmüştür. Göz bebekleri büyümüş ve sabitlenmiştir.\n\n> **Dedektif Notu:** *İçeriden kilitli bir kapı, zehirli olabilecek bir kadeh ve paramparça bir nota sehpası... Kırık sehpa bir düşme sonucu mu oldu, yoksa son bir panik anında mı devrildi? Acıbadem kokusu bana hemen siyanürü hatırlattı. Katil kadehteki zehri nasıl verdi, yoksa başka bir yol mu var? Tuşlardaki kan, katilin değil kurbanın kendi çırpınışlarına ait olmalı.*",
+      "content": "İstanbul Emniyet Müdürlüğü Kriminal Şube Amirliği'nce 14 Kasım 1994, saat 03:15'te intikal edilen olay yerindeki ilk bulgular kayıt altına alınmıştır. Maktul, Julian Vance, 411 numaralı Kral Dairesi'nin tam ortasında yer alan kuyruklu piyanonun önünde, yüzüstü düşmüş vaziyette ex halinde bulunmuştur. Dairenin kapısı içeriden zincirli olup, balkon kapısı da sıkıca kilitlidir. Klasik bir kilitli oda senaryosu ile karşı karşıyayız. \n\nMaktulün sağ el parmak uçlarında ve piyanonun La majör gamına ait tuşlarında yoğun kan lekeleri tespit edilmiştir. Kanın kurumaya yüz tutmuş olması, ölümün en az 1-2 saat önce gerçekleştiğine işaret etmektedir. Maktulün hemen yanında, zemine düşüp paramparça olmuş bir şampanya kadehi (flüt) bulunmuştur. Halıdaki şampanya kalıntılarında hafif acıbadem kokusu sezilmiş, numune alınarak Toksikoloji laboratuvarına gönderilmiştir. \n\nPiyano üzerindeki nota sehpası kırılarak devrilmiş, üzerinde yer alan orijinal el yazması Beethoven'ın 'Ay Işığı Sonatı' notaları kan sıçramış halde bulunmuştur. Odanın genel durumunda herhangi bir arbede izine rastlanmamakla birlikte, maktulün boyun kısmında hafif kızarıklıklar, ağız çevresinde ise köpüksü kalıntılar görülmüştür. Göz bebekleri büyümüş ve sabitlenmiştir.\n\n> **Dedektif Notu:** *İçeriden kilitli bir kapı, zehirli olabilecek bir kadeh ve paramparça bir nota sehpası... Kırık sehpa bir düşme sonucu mu oldu, yoksa son bir panik anında mı devrildi? Acıbadem kokusu bana hemen siyanürü hatırlattı. Katil kadehteki zehri nasıl verdi, yoksa başka bir yol mu var? Tuşlardaki kan, katilin değil kurbanın kendi çırpınışlarına ait olmalı.*",
+      "associatedEvidenceIds": [
+        "champagne_flute",
+        "bloodied_sheet_music"
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "id": "page_2",
+      "title": "Adli Tıp Morgu ve Toksikoloji Raporu",
+      "classification": "GİZLİ // ADLİ TIP OTOPSİ & MORG",
+      "contentMarkdown": "Adli Tıp Kurumu, Uzman Dr. Selim Uçar İmzalı Ön Otopsi Raporu: Maktulün ölüm saati mide içeriği ve rigor mortis (ölü katılığı) verileri ışığında 00:45 ile 01:15 arası olarak daraltılmıştır. Vücutta delici veya kesici alet yarasına rastlanmamıştır. Ancak, maktulün sağ el tırnak altlarında yabancı bir deri dokusu (DNA analizine gönderildi) ve siyah pamuklu/yünlü kumaş lifleri tespit edilmiştir. \n\nToksikoloji Raporu: Kan ve mide sıvısı örneklerinde yüksek dozda 'Potasyum Siyanür' (KCN) saptanmıştır. Siyanürün kana karışma hızı göz önüne alındığında, maktulün zehri aldıktan sonra en fazla 3-5 dakika içinde bilincini kaybettiği ve solunum yetmezliğinden hayatını kaybettiği belirlenmiştir. İlginç olan bulgu ise, maktulün kanındaki siyanür oranının mide içeriğindeki orandan orantısız şekilde yüksek olmasıdır; bu da zehrin doğrudan ağız mukozasından (dil altı vb.) ya da solunum yoluyla çok hızlı bir şekilde emilmiş olabileceğini düşündürmektedir. \n\nOlay yerinden getirilen paramparça şampanya kadehinde de siyanür kalıntıları doğrulanmıştır. Fakat maktulün boğazındaki tahriş ve ağız içi doku hasarı, kadehin sadece bir hedef şaşırtmaca olabileceği şüphesini doğurmuştur. Ayrıca maktulün kronik astım hastası olduğu ve cebinde özel yapım bir inhaler sprey taşıdığı kayıtlara geçmiştir.\n\n> **Dedektif Notu:** *Dr. Uçar haklı olabilir; kadehteki zehir kurgu mu? Belki de zehri spreyine koydular veya piyano tuşlarına bir şekilde yedirdiler? Tırnak altındaki kumaş lifleri maktulün katile direndiğini gösteriyor. Katil o odaya girdi ve çıktı. Kilitli oda sırrı, içeride kalan katilin hilesi.*",
+      "content": "Adli Tıp Kurumu, Uzman Dr. Selim Uçar İmzalı Ön Otopsi Raporu: Maktulün ölüm saati mide içeriği ve rigor mortis (ölü katılığı) verileri ışığında 00:45 ile 01:15 arası olarak daraltılmıştır. Vücutta delici veya kesici alet yarasına rastlanmamıştır. Ancak, maktulün sağ el tırnak altlarında yabancı bir deri dokusu (DNA analizine gönderildi) ve siyah pamuklu/yünlü kumaş lifleri tespit edilmiştir. \n\nToksikoloji Raporu: Kan ve mide sıvısı örneklerinde yüksek dozda 'Potasyum Siyanür' (KCN) saptanmıştır. Siyanürün kana karışma hızı göz önüne alındığında, maktulün zehri aldıktan sonra en fazla 3-5 dakika içinde bilincini kaybettiği ve solunum yetmezliğinden hayatını kaybettiği belirlenmiştir. İlginç olan bulgu ise, maktulün kanındaki siyanür oranının mide içeriğindeki orandan orantısız şekilde yüksek olmasıdır; bu da zehrin doğrudan ağız mukozasından (dil altı vb.) ya da solunum yoluyla çok hızlı bir şekilde emilmiş olabileceğini düşündürmektedir. \n\nOlay yerinden getirilen paramparça şampanya kadehinde de siyanür kalıntıları doğrulanmıştır. Fakat maktulün boğazındaki tahriş ve ağız içi doku hasarı, kadehin sadece bir hedef şaşırtmaca olabileceği şüphesini doğurmuştur. Ayrıca maktulün kronik astım hastası olduğu ve cebinde özel yapım bir inhaler sprey taşıdığı kayıtlara geçmiştir.\n\n> **Dedektif Notu:** *Dr. Uçar haklı olabilir; kadehteki zehir kurgu mu? Belki de zehri spreyine koydular veya piyano tuşlarına bir şekilde yedirdiler? Tırnak altındaki kumaş lifleri maktulün katile direndiğini gösteriyor. Katil o odaya girdi ve çıktı. Kilitli oda sırrı, içeride kalan katilin hilesi.*",
+      "associatedEvidenceIds": [
+        "cyanide_vial",
+        "torn_black_glove"
+      ]
+    },
+    {
+      "pageNumber": 3,
+      "id": "page_3",
+      "title": "İlk Sorgu Dökümleri ve Şüpheli Profilleri",
+      "classification": "BİRİNCİL ŞÜPHELİ LİSTESİ & İLK SORGU",
+      "contentMarkdown": "Cinayet gecesi otelde bulunan üç ana şüpheli çapraz sorguya alınmıştır. Birinci Şüpheli: Maestro Viktor Kroll (56, Baş Orkestra Şefi). Kroll'un, Vance ile uzun süredir telif hakları ve sanatsal vizyon çatışması yaşadığı biliniyor. Sorgusunda gece 00:30'a kadar Vance ile lobide tartıştıklarını, sonra odasına çıktığını belirtti. Ancak sol elindeki taze çizik dikkat çekicidir, kendisi bunun 'konser sırasında batonu yanlış tutmaktan' olduğunu iddia etmiştir.\n\nİkinci Şüpheli: Elena Rostova (31, Baş Kemancı ve Eski Nişanlı). Rostova'nın, Vance tarafından 3 ay önce terk edildiği ve orkestradaki pozisyonunun tehlikede olduğu dedikoduları mevcuttur. Olay gecesi 01:00 sularında Vance'in kapısına geldiğini ancak açan olmadığını, sadece içeriden piyano sesi duyduğunu söylemiştir. Çantasında bulunan reçineli keman kutusu ve koyu renkli kışlık eldivenleri incelemeye alınmıştır.\n\nÜçüncü Şüpheli: Marcus Vance (44, Menajer ve Ağabey). Kardeşinin kariyerini yöneten Marcus'un son zamanlarda ciddi kumar borçları olduğu istihbarat raporlarına yansımıştır. Julian'ın üzerine yaptırdığı 1.5 Milyon Dolarlık hayat sigortasının tek lehtarıdır. Marcus, o saatlerde otelin barında içki içtiğini ve barmen tarafından da doğrulandığını iddia etse de, güvenlik kamerası kayıtları barın o saatte boş olduğunu göstermektedir.\n\n> **Dedektif Notu:** *Her birinin geçerli bir nedeni var. Viktor'un çiziği tırnak izine benziyor. Elena'nın siyah eldivenleri, tırnak altındaki liflerle eşleşebilir mi? Marcus'un alibisi ise tamamen çökük durumda, barmeni satın almış olmalı. Üçlü bir çember, ama katil o kilitli odadan nasıl çıktı? Otel anahtar kartlarının kopyalanması mümkün mü?*",
+      "content": "Cinayet gecesi otelde bulunan üç ana şüpheli çapraz sorguya alınmıştır. Birinci Şüpheli: Maestro Viktor Kroll (56, Baş Orkestra Şefi). Kroll'un, Vance ile uzun süredir telif hakları ve sanatsal vizyon çatışması yaşadığı biliniyor. Sorgusunda gece 00:30'a kadar Vance ile lobide tartıştıklarını, sonra odasına çıktığını belirtti. Ancak sol elindeki taze çizik dikkat çekicidir, kendisi bunun 'konser sırasında batonu yanlış tutmaktan' olduğunu iddia etmiştir.\n\nİkinci Şüpheli: Elena Rostova (31, Baş Kemancı ve Eski Nişanlı). Rostova'nın, Vance tarafından 3 ay önce terk edildiği ve orkestradaki pozisyonunun tehlikede olduğu dedikoduları mevcuttur. Olay gecesi 01:00 sularında Vance'in kapısına geldiğini ancak açan olmadığını, sadece içeriden piyano sesi duyduğunu söylemiştir. Çantasında bulunan reçineli keman kutusu ve koyu renkli kışlık eldivenleri incelemeye alınmıştır.\n\nÜçüncü Şüpheli: Marcus Vance (44, Menajer ve Ağabey). Kardeşinin kariyerini yöneten Marcus'un son zamanlarda ciddi kumar borçları olduğu istihbarat raporlarına yansımıştır. Julian'ın üzerine yaptırdığı 1.5 Milyon Dolarlık hayat sigortasının tek lehtarıdır. Marcus, o saatlerde otelin barında içki içtiğini ve barmen tarafından da doğrulandığını iddia etse de, güvenlik kamerası kayıtları barın o saatte boş olduğunu göstermektedir.\n\n> **Dedektif Notu:** *Her birinin geçerli bir nedeni var. Viktor'un çiziği tırnak izine benziyor. Elena'nın siyah eldivenleri, tırnak altındaki liflerle eşleşebilir mi? Marcus'un alibisi ise tamamen çökük durumda, barmeni satın almış olmalı. Üçlü bir çember, ama katil o kilitli odadan nasıl çıktı? Otel anahtar kartlarının kopyalanması mümkün mü?*",
+      "associatedEvidenceIds": [
+        "hotel_keycard",
+        "violin_rosin_box"
+      ]
+    },
+    {
+      "pageNumber": 4,
+      "id": "page_4",
+      "title": "Kriminal Saha Sevk & İstihbarat Raporu",
+      "classification": "GİZLİ // ASAYİŞ TELSİZ İSTİHBARATI",
+      "contentMarkdown": "Saha ekiplerimiz cinayetin arka planını araştırmak üzere 3 farklı lokasyona sevk edilmiştir. 1. Ekip, Tepebaşı'ndaki bir antika müzik aletleri dükkanına baskın yapmıştır. Dükkan sahibinin, Maestro Kroll'a yakın zamanda 'antik çağlardan kalma, içi boşaltılmış ağırlıklı bir metronom' sattığı öğrenilmiştir. Bu metronomun, zehir veya gizli bir mekanizma taşımak için modifiye edilmiş olabileceği değerlendirilmektedir.\n\n2. Ekip, eski Galata mahzenlerindeki yasa dışı kimyasal karaborsasını araştırmıştır. 'Kör İlyas' lakaplı bir satıcı, bir hafta önce 'siyah şapkalı ve aksanlı' bir kadına yüksek saflıkta potasyum siyanür sattığını itiraf etmiştir. Bu eşkal, doğrudan Elena Rostova'yı işaret etmektedir, zira kendisi Rus aksanıyla konuşmaktadır.\n\n3. Ekip ise Çiçek Pasajı'ndaki tefecilerin mekanını basmıştır. Marcus Vance'in borçlu olduğu tefeci, Marcus'un iki gün önce 'Büyük bir miras bekliyorum, borcumu fazlasıyla kapatacağım' diyerek süre istediğini doğrulamıştır. Tüm bu saha bulguları, şüphelilerin üçünün de cinayet hazırlığı içinde olabileceğini, veya en azından bu cinayetten ciddi şekilde fayda sağladıklarını kanıtlamaktadır.\n\n> **Dedektif Notu:** *Saha raporları işleri daha da karıştırıyor. Elena zehri almış, Viktor metronomu hazırlamış, Marcus mirası beklemiş... Bu bir komplo mu, yoksa hepsi birbirinden habersiz mi harekete geçti? Zehrin asıl kaynağı Elena gibi görünüyor ama odaya girip zehri veren o mu?*",
+      "content": "Saha ekiplerimiz cinayetin arka planını araştırmak üzere 3 farklı lokasyona sevk edilmiştir. 1. Ekip, Tepebaşı'ndaki bir antika müzik aletleri dükkanına baskın yapmıştır. Dükkan sahibinin, Maestro Kroll'a yakın zamanda 'antik çağlardan kalma, içi boşaltılmış ağırlıklı bir metronom' sattığı öğrenilmiştir. Bu metronomun, zehir veya gizli bir mekanizma taşımak için modifiye edilmiş olabileceği değerlendirilmektedir.\n\n2. Ekip, eski Galata mahzenlerindeki yasa dışı kimyasal karaborsasını araştırmıştır. 'Kör İlyas' lakaplı bir satıcı, bir hafta önce 'siyah şapkalı ve aksanlı' bir kadına yüksek saflıkta potasyum siyanür sattığını itiraf etmiştir. Bu eşkal, doğrudan Elena Rostova'yı işaret etmektedir, zira kendisi Rus aksanıyla konuşmaktadır.\n\n3. Ekip ise Çiçek Pasajı'ndaki tefecilerin mekanını basmıştır. Marcus Vance'in borçlu olduğu tefeci, Marcus'un iki gün önce 'Büyük bir miras bekliyorum, borcumu fazlasıyla kapatacağım' diyerek süre istediğini doğrulamıştır. Tüm bu saha bulguları, şüphelilerin üçünün de cinayet hazırlığı içinde olabileceğini, veya en azından bu cinayetten ciddi şekilde fayda sağladıklarını kanıtlamaktadır.\n\n> **Dedektif Notu:** *Saha raporları işleri daha da karıştırıyor. Elena zehri almış, Viktor metronomu hazırlamış, Marcus mirası beklemiş... Bu bir komplo mu, yoksa hepsi birbirinden habersiz mi harekete geçti? Zehrin asıl kaynağı Elena gibi görünüyor ama odaya girip zehri veren o mu?*",
+      "associatedEvidenceIds": [
+        "broken_metronome"
+      ]
+    },
+    {
+      "pageNumber": 5,
+      "id": "page_5",
+      "title": "Finansal İnceleme ve Vasiyetname Analizi",
+      "classification": "GİZLİ // MALİ ŞUBE & ŞANTAJ ANALİZİ",
+      "contentMarkdown": "Maktulün avukatından zorla alınan son vasiyetname taslağı, cinayetin ardındaki en karanlık sırrı açığa çıkarmıştır. Julian Vance, ölümünden sadece 48 saat önce vasiyetnamesini değiştirmek üzere avukatına talimat vermiş, ağabeyi Marcus'u menajerlikten kovmayı ve mirastan men etmeyi planlamıştır. Dahası, Julian'ın İsviçre Bankası Zürih şubesinden gelen dekontlar, her ay yüklü miktarda kime ait olduğu bilinmeyen bir hesaba 'sus payı' adı altında para transfer edildiğini göstermektedir.\n\nOdadaki aramada, piyano kapağının iç kısmına bantlanmış, daktiloyla yazılmış yarım bir şantaj mektubu bulunmuştur. Mektupta, 'O geceki hatanı tüm dünya bilecek, konser bittikten sonra odanda bekle...' yazmaktadır. Bu şantajın kimden geldiği henüz belirsizdir ancak Maestro Kroll'un geçmişteki bir intihal skandalıyla bağlantılı olabileceği düşünülmektedir.\n\n> **Dedektif Notu:** *Şantaj, intihal, dışlanmış bir kardeş ve terk edilmiş bir aşık. Vasiyetnamenin değişeceğini bilen Marcus'un zamanı daralmıştı. Ama mektubu yazan kim? O odaya sadece şampanya içmeye değil, bir yüzleşmeye gelmişler. Kilitli kapı numarası bir otel çalışanının, yani master anahtara sahip birinin işi olmasın? Otel anahtarını detaylı incelemeliyim.*",
+      "content": "Maktulün avukatından zorla alınan son vasiyetname taslağı, cinayetin ardındaki en karanlık sırrı açığa çıkarmıştır. Julian Vance, ölümünden sadece 48 saat önce vasiyetnamesini değiştirmek üzere avukatına talimat vermiş, ağabeyi Marcus'u menajerlikten kovmayı ve mirastan men etmeyi planlamıştır. Dahası, Julian'ın İsviçre Bankası Zürih şubesinden gelen dekontlar, her ay yüklü miktarda kime ait olduğu bilinmeyen bir hesaba 'sus payı' adı altında para transfer edildiğini göstermektedir.\n\nOdadaki aramada, piyano kapağının iç kısmına bantlanmış, daktiloyla yazılmış yarım bir şantaj mektubu bulunmuştur. Mektupta, 'O geceki hatanı tüm dünya bilecek, konser bittikten sonra odanda bekle...' yazmaktadır. Bu şantajın kimden geldiği henüz belirsizdir ancak Maestro Kroll'un geçmişteki bir intihal skandalıyla bağlantılı olabileceği düşünülmektedir.\n\n> **Dedektif Notu:** *Şantaj, intihal, dışlanmış bir kardeş ve terk edilmiş bir aşık. Vasiyetnamenin değişeceğini bilen Marcus'un zamanı daralmıştı. Ama mektubu yazan kim? O odaya sadece şampanya içmeye değil, bir yüzleşmeye gelmişler. Kilitli kapı numarası bir otel çalışanının, yani master anahtara sahip birinin işi olmasın? Otel anahtarını detaylı incelemeliyim.*",
+      "associatedEvidenceIds": [
+        "swiss_bank_slip",
+        "blackmail_letter"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "id": "cyanide_vial",
+      "title": "Boş Cam Flakon",
+      "description": "Üzerinde etiketi sökülmüş, 10ml'lik küçük bir tıbbi cam şişe.",
+      "details": "Şişenin dibinde beyazımsı kristalize kalıntılar var. Laboratuvar KCN (Potasyum Siyanür) olduğunu doğruladı. Otel koridorundaki bir saksının içine gizlenmiş olarak bulundu.",
+      "category": "weapon",
+      "uvDetails": "Flakonun üzerinde çok hafif silinmiş, ancak UV ışıkta belli olan deri eldiven izleri mevcut. Çıplak elle dokunulmamış.",
+      "assetUrl": "/assets/toxin_vial.jpg",
+      "image": "/assets/toxin_vial.jpg",
+      "hiddenClueUV": "Flakonun üzerinde çok hafif silinmiş, ancak UV ışıkta belli olan deri eldiven izleri mevcut. Çıplak elle dokunulmamış.",
+      "hiddenClueMagnifier": "Şişenin dibinde beyazımsı kristalize kalıntılar var. Laboratuvar KCN (Potasyum Siyanür) olduğunu doğruladı. Otel koridorundaki bir saksının içine gizlenmiş olarak bulundu.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Boş Cam Flakon\n\n**Bulgular:** Şişenin dibinde beyazımsı kristalize kalıntılar var. Laboratuvar KCN (Potasyum Siyanür) olduğunu doğruladı. Otel koridorundaki bir saksının içine gizlenmiş olarak bulundu.\n\n**Toksikoloji/Biyoloji:** Flakonun üzerinde çok hafif silinmiş, ancak UV ışıkta belli olan deri eldiven izleri mevcut. Çıplak elle dokunulmamış.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "bloodied_sheet_music",
+      "title": "Kanlı Nota Kağıdı",
+      "description": "Beethoven'ın 'Ay Işığı Sonatı'nın orijinal el yazması kopyası.",
+      "details": "Piyanonun üzerinden yere düşen ve yırtılan sayfa. Üzerine sıçrayan kan, maktulün ağzından gelen köpüklü kana ait. Ancak notaların arasına kurşun kalemle aceleyle çizilmiş ekstra bir nota dizilimi var.",
+      "category": "clue",
+      "uvDetails": "UV ışık altında sayfanın arkasında görünmez mürekkeple 'E.R. için son uyarı' yazısı parlıyor.",
+      "assetUrl": "/assets/newspaper_piece.png",
+      "image": "/assets/corkboard_bg.jpg",
+      "hiddenClueUV": "UV ışık altında sayfanın arkasında görünmez mürekkeple 'E.R. için son uyarı' yazısı parlıyor.",
+      "hiddenClueMagnifier": "Piyanonun üzerinden yere düşen ve yırtılan sayfa. Üzerine sıçrayan kan, maktulün ağzından gelen köpüklü kana ait. Ancak notaların arasına kurşun kalemle aceleyle çizilmiş ekstra bir nota dizilimi var.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Kanlı Nota Kağıdı\n\n**Bulgular:** Piyanonun üzerinden yere düşen ve yırtılan sayfa. Üzerine sıçrayan kan, maktulün ağzından gelen köpüklü kana ait. Ancak notaların arasına kurşun kalemle aceleyle çizilmiş ekstra bir nota dizilimi var.\n\n**Toksikoloji/Biyoloji:** UV ışık altında sayfanın arkasında görünmez mürekkeple 'E.R. için son uyarı' yazısı parlıyor.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "hotel_keycard",
+      "title": "Otel Master Anahtar Kartı",
+      "description": "Pera Palas'ın 4. katındaki tüm odaları açabilen manyetik bir kart.",
+      "details": "Otel müdürünün kayıp olduğunu bildirdiği yedek master kart. Maktulün yatağının altına itilmiş halde bulundu. İçeriden kilitli kapı gizemini çözebilecek kilit delil.",
+      "category": "clue",
+      "uvDetails": "Kartın manyetik şeridinde Marcus Vance'in parmak izi net bir şekilde parlıyor.",
+      "assetUrl": "/assets/fingerprint_dust.jpg",
+      "image": "/assets/desk_bg.jpg",
+      "hiddenClueUV": "Kartın manyetik şeridinde Marcus Vance'in parmak izi net bir şekilde parlıyor.",
+      "hiddenClueMagnifier": "Otel müdürünün kayıp olduğunu bildirdiği yedek master kart. Maktulün yatağının altına itilmiş halde bulundu. İçeriden kilitli kapı gizemini çözebilecek kilit delil.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Otel Master Anahtar Kartı\n\n**Bulgular:** Otel müdürünün kayıp olduğunu bildirdiği yedek master kart. Maktulün yatağının altına itilmiş halde bulundu. İçeriden kilitli kapı gizemini çözebilecek kilit delil.\n\n**Toksikoloji/Biyoloji:** Kartın manyetik şeridinde Marcus Vance'in parmak izi net bir şekilde parlıyor.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "champagne_flute",
+      "title": "Kırık Şampanya Kadehi",
+      "description": "Kristal kesim, pahalı bir şampanya flütü.",
+      "details": "Maktulün hemen yanında parçalanmış halde. Siyanür kalıntıları içeriyor, ancak maktulün dudak iziyle uyuşan bir tüketim izi tam olarak doğrulanamadı. Kadehin zehirli olması sadece bir tuzak mı?",
+      "category": "clue",
+      "uvDetails": "Kadehin sağlam kalan sap kısmında, silinmeye çalışılmış kalın dudak boyası (ruj) izleri mevcut.",
+      "assetUrl": "/assets/lipstick_mirror.jpg",
+      "image": "/assets/lipstick_mirror.jpg",
+      "hiddenClueUV": "Kadehin sağlam kalan sap kısmında, silinmeye çalışılmış kalın dudak boyası (ruj) izleri mevcut.",
+      "hiddenClueMagnifier": "Maktulün hemen yanında parçalanmış halde. Siyanür kalıntıları içeriyor, ancak maktulün dudak iziyle uyuşan bir tüketim izi tam olarak doğrulanamadı. Kadehin zehirli olması sadece bir tuzak mı?",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Kırık Şampanya Kadehi\n\n**Bulgular:** Maktulün hemen yanında parçalanmış halde. Siyanür kalıntıları içeriyor, ancak maktulün dudak iziyle uyuşan bir tüketim izi tam olarak doğrulanamadı. Kadehin zehirli olması sadece bir tuzak mı?\n\n**Toksikoloji/Biyoloji:** Kadehin sağlam kalan sap kısmında, silinmeye çalışılmış kalın dudak boyası (ruj) izleri mevcut.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "torn_black_glove",
+      "title": "Yırtık Siyah Eldiven",
+      "description": "İpek astarlı, lüks yün kumaştan siyah kadın eldiveninin bir teki.",
+      "details": "Otel lobisindeki çöp kutusunda bulundu. İşaret parmağı kısmındaki kumaş yırtılmış. Maktulün tırnak altından çıkan liflerle birebir uyuşuyor.",
+      "category": "clue",
+      "uvDetails": "Eldivenin iç astarında 'E.R.' inisiyalleri altın sarısı iplikle işlenmiş.",
+      "assetUrl": "/assets/crime_scene_dressing_room.jpg",
+      "image": "/assets/crime_scene_dressing_room.jpg",
+      "hiddenClueUV": "Eldivenin iç astarında 'E.R.' inisiyalleri altın sarısı iplikle işlenmiş.",
+      "hiddenClueMagnifier": "Otel lobisindeki çöp kutusunda bulundu. İşaret parmağı kısmındaki kumaş yırtılmış. Maktulün tırnak altından çıkan liflerle birebir uyuşuyor.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Yırtık Siyah Eldiven\n\n**Bulgular:** Otel lobisindeki çöp kutusunda bulundu. İşaret parmağı kısmındaki kumaş yırtılmış. Maktulün tırnak altından çıkan liflerle birebir uyuşuyor.\n\n**Toksikoloji/Biyoloji:** Eldivenin iç astarında 'E.R.' inisiyalleri altın sarısı iplikle işlenmiş.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "blackmail_letter",
+      "title": "Şantaj Mektubu",
+      "description": "Daktiloyla yazılmış ve kenarları yanık bir mektup.",
+      "details": "Piyanonun kapağının altına gizlenmişti. 'O geceki hatanı tüm dünya bilecek, konser bittikten sonra odanda bekle...' yazılı. Eski bir Underwood daktilodan çıkma.",
+      "category": "document",
+      "uvDetails": "Kağıdın sol üst köşesinde, Maestro Kroll'un her zaman kullandığı özel puro tütününün külleri yapışmış halde tespit edildi.",
+      "assetUrl": "/assets/document_financial.jpg",
+      "image": "/assets/case105_thumb.jpg",
+      "hiddenClueUV": "Kağıdın sol üst köşesinde, Maestro Kroll'un her zaman kullandığı özel puro tütününün külleri yapışmış halde tespit edildi.",
+      "hiddenClueMagnifier": "Piyanonun kapağının altına gizlenmişti. 'O geceki hatanı tüm dünya bilecek, konser bittikten sonra odanda bekle...' yazılı. Eski bir Underwood daktilodan çıkma.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Şantaj Mektubu\n\n**Bulgular:** Piyanonun kapağının altına gizlenmişti. 'O geceki hatanı tüm dünya bilecek, konser bittikten sonra odanda bekle...' yazılı. Eski bir Underwood daktilodan çıkma.\n\n**Toksikoloji/Biyoloji:** Kağıdın sol üst köşesinde, Maestro Kroll'un her zaman kullandığı özel puro tütününün külleri yapışmış halde tespit edildi.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "broken_metronome",
+      "title": "Kırık Antika Metronom",
+      "description": "Ahşap, ağırlıklı eski tip bir piyano metronomu.",
+      "details": "Odanın köşesinde devrilmiş. Ağırlık mekanizmasının içi oyulmuş ve içine küçük bir mekanizma yerleştirilmiş gibi görünüyor. Belki de zaman ayarlı bir tetikleyici?",
+      "category": "weapon",
+      "uvDetails": "İçindeki oyuk bölmede siyanür tozunun izleri net şekilde parlıyor. Kadehe zehir buradan dökülmüş.",
+      "assetUrl": "/assets/pocket_watch.jpg",
+      "image": "/assets/pocket_watch.jpg",
+      "hiddenClueUV": "İçindeki oyuk bölmede siyanür tozunun izleri net şekilde parlıyor. Kadehe zehir buradan dökülmüş.",
+      "hiddenClueMagnifier": "Odanın köşesinde devrilmiş. Ağırlık mekanizmasının içi oyulmuş ve içine küçük bir mekanizma yerleştirilmiş gibi görünüyor. Belki de zaman ayarlı bir tetikleyici?",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Kırık Antika Metronom\n\n**Bulgular:** Odanın köşesinde devrilmiş. Ağırlık mekanizmasının içi oyulmuş ve içine küçük bir mekanizma yerleştirilmiş gibi görünüyor. Belki de zaman ayarlı bir tetikleyici?\n\n**Toksikoloji/Biyoloji:** İçindeki oyuk bölmede siyanür tozunun izleri net şekilde parlıyor. Kadehe zehir buradan dökülmüş.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "swiss_bank_slip",
+      "title": "İsviçre Banka Dekontu",
+      "description": "Zürih merkezli bir bankadan alınmış hesap özeti.",
+      "details": "Julian Vance'in gizli hesabından, 'M.V.' isimli bir hesaba her ay 50.000 Dolar 'Danışmanlık Ücreti' adı altında para çıkarıldığını belgeliyor.",
+      "category": "document",
+      "uvDetails": "Belgenin altında, 'Artık ödeme yapılmayacak - Sözleşme iptal' notu Julian'ın kendi el yazısıyla eklenmiş.",
+      "assetUrl": "/assets/document_financial.jpg",
+      "image": "/assets/desk_bg.jpg",
+      "hiddenClueUV": "Belgenin altında, 'Artık ödeme yapılmayacak - Sözleşme iptal' notu Julian'ın kendi el yazısıyla eklenmiş.",
+      "hiddenClueMagnifier": "Julian Vance'in gizli hesabından, 'M.V.' isimli bir hesaba her ay 50.000 Dolar 'Danışmanlık Ücreti' adı altında para çıkarıldığını belgeliyor.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** İsviçre Banka Dekontu\n\n**Bulgular:** Julian Vance'in gizli hesabından, 'M.V.' isimli bir hesaba her ay 50.000 Dolar 'Danışmanlık Ücreti' adı altında para çıkarıldığını belgeliyor.\n\n**Toksikoloji/Biyoloji:** Belgenin altında, 'Artık ödeme yapılmayacak - Sözleşme iptal' notu Julian'ın kendi el yazısıyla eklenmiş.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    },
+    {
+      "id": "violin_rosin_box",
+      "title": "Keman Reçinesi Kutusu",
+      "description": "Baş kemancıların yaylarını kayganlaştırmak için kullandığı çam sakızı reçinesi.",
+      "details": "Elena'nın çantasından çıktı. İçindeki reçine bloğu ortadan ikiye kırılmış ve içi oyulmuş.",
+      "category": "clue",
+      "uvDetails": "Reçinenin içindeki boşluk, otel koridorunda bulunan siyanür flakonunun boyutlarıyla tam olarak örtüşüyor.",
+      "assetUrl": "/assets/prescription_pills.jpg",
+      "image": "/assets/inhaler_spray.jpg",
+      "hiddenClueUV": "Reçinenin içindeki boşluk, otel koridorunda bulunan siyanür flakonunun boyutlarıyla tam olarak örtüşüyor.",
+      "hiddenClueMagnifier": "Elena'nın çantasından çıktı. İçindeki reçine bloğu ortadan ikiye kırılmış ve içi oyulmuş.",
+      "sourceLocation": "411 No Kral Dairesi",
+      "forensicAnalysisMarkdown": "### KRİMİNAL LABORATUVAR ANALİZ RAPORU\n\n**İncelenen Nesne:** Keman Reçinesi Kutusu\n\n**Bulgular:** Elena'nın çantasından çıktı. İçindeki reçine bloğu ortadan ikiye kırılmış ve içi oyulmuş.\n\n**Toksikoloji/Biyoloji:** Reçinenin içindeki boşluk, otel koridorunda bulunan siyanür flakonunun boyutlarıyla tam olarak örtüşüyor.\n\n> **Uzman Görüşü:** Olay gecesi kullanılan veya temasa maruz kalan birincil delil niteliğindedir."
+    }
+  ],
+  "suspects": [
+    {
+      "id": "viktor_kroll",
+      "name": "Viktor Kroll",
+      "age": 56,
+      "occupation": "Baş Orkestra Şefi",
+      "motive": "İntihal skandalının ortaya çıkmasını engellemek ve sanatsal kontrolü geri almak.",
+      "alibi": "00:30'dan sonra odamda yeni senfoni üzerinde çalışıyordum.",
+      "freeformKeywords": [
+        "kroll",
+        "şef",
+        "maestro",
+        "viktor",
+        "orkestra"
+      ],
+      "dialogueTree": [
+        {
+          "id": "q1",
+          "question": "Julian Vance ile son zamanlarda aranız nasıldı?",
+          "answer": "O şımarık bir dahiydi, ama disiplinsizdi. Müziğimi katlediyordu. Tartışmalarımız sanat içindi, şahsi değildi."
+        },
+        {
+          "id": "q2",
+          "question": "Sol elinizdeki çizik nasıl oldu?",
+          "answer": "Konser sırasında batonla fazla sert bir hamle yaptım, nota sehpasına çarptım. Abartılacak bir şey yok."
+        },
+        {
+          "id": "q3",
+          "question": "Odanızda bulunan antika metronomun içi neden oyulmuş?",
+          "answer": "Ben antika toplarım. Onu öyle aldım, akustik bir deney için modifiye edilmişti sadece."
+        },
+        {
+          "id": "q4",
+          "question": "Şantaj mektubundaki puro külünü nasıl açıklayacaksınız?",
+          "answer": "Otelde benim gibi puro içen onlarca adam var. Mektubu ben yazmadım, Julian'ın sırları onu bu hale getirdi."
+        }
+      ]
+    },
+    {
+      "id": "elena_rostova",
+      "name": "Elena Rostova",
+      "age": 31,
+      "occupation": "Baş Kemancı",
+      "motive": "Terk edilmenin intikamını almak ve kariyerini bitirmesini engellemek.",
+      "alibi": "Gece 01:00'de kapısına gittim, açmadı. Müzik sesini duyup odama döndüm.",
+      "freeformKeywords": [
+        "elena",
+        "rostova",
+        "keman",
+        "kemancı",
+        "nişanlı"
+      ],
+      "dialogueTree": [
+        {
+          "id": "q1",
+          "question": "Neden gece 01:00'de eski nişanlınızın kapısına gittiniz?",
+          "answer": "Onunla yüzleşmek istedim. Beni orkestradan atmakla tehdit ediyordu. Ama kapıyı çalmaya cesaret edemedim."
+        },
+        {
+          "id": "q2",
+          "question": "Galata mahzenlerinden neden siyanür satın aldınız?",
+          "answer": "(Yüzü asılır) Keman yaylarını temizlemek için eski bir Rus formülü deniyordum, zehir olduğunu bilmiyordum."
+        },
+        {
+          "id": "q3",
+          "question": "Yırtık siyah eldiven size mi ait?",
+          "answer": "Benim öyle bir eldivenim yok. Zaten dün gece ellerim üşümesin diye odamda bıraktım eldivenlerimi."
+        },
+        {
+          "id": "q4",
+          "question": "Reçine kutunuzun içi neden siyanür şişesini saklayacak şekilde oyulmuş?",
+          "answer": "Siz ne demeye çalışıyorsunuz? Bana komplo kuruyorlar, o şişeyi ben koymadım oraya!"
+        }
+      ]
+    },
+    {
+      "id": "marcus_vance",
+      "name": "Marcus Vance",
+      "age": 44,
+      "occupation": "Julian'ın Menajeri ve Kardeşi",
+      "motive": "Vasiyetname değişmeden önce 1.5 Milyon dolarlık hayat sigortasını almak.",
+      "alibi": "Bütün gece otelin barında viski içiyordum, barmene sorabilirsiniz.",
+      "freeformKeywords": [
+        "marcus",
+        "vance",
+        "menajer",
+        "kardeş",
+        "abi",
+        "ağabey"
+      ],
+      "dialogueTree": [
+        {
+          "id": "q1",
+          "question": "Kardeşinizin sizi mirastan men edeceğinden haberiniz var mıydı?",
+          "answer": "Asla! Biz et ve tırnak gibiyiz. O benim sayemde bu noktaya geldi. Miras saçmalığı yalan."
+        },
+        {
+          "id": "q2",
+          "question": "Tefecilere olan yüklü borcunuzu nasıl ödemeyi planlıyordunuz?",
+          "answer": "Geçici bir nakit sıkışıklığı. Julian'ın yeni Avrupa turnesi anlaştık, oradan avans alacaktım."
+        },
+        {
+          "id": "q3",
+          "question": "Barda olduğunuzu söylüyorsunuz ama kamera kayıtları aksini iddia ediyor?",
+          "answer": "Kameralar kör noktada kalmış olmalı. Ben oradaydım, barmen beni gördü diyorum size!"
+        },
+        {
+          "id": "q4",
+          "question": "Otel master anahtarında parmak iziniz bulundu. Odaya siz mi girdiniz?",
+          "answer": "Ben onun menajeriyim, odasına girip çıkmam çok normal. Anahtarı düşürmüş olmalıyım."
+        }
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "elena_glove_lie",
+      "suspectId": "elena_rostova",
+      "evidenceId": "torn_black_glove",
+      "questionId": "q3",
+      "resolvedText": "Elena eldiveni olmadığını iddia etti, ancak bulunan eldivenin içinde kendi inisiyalleri 'E.R.' var ve maktulün tırnaklarındaki liflerle eşleşiyor. O gece odaya girdiği ve maktulle boğuştuğu kesin."
+    },
+    {
+      "id": "marcus_alibi_lie",
+      "suspectId": "marcus_vance",
+      "evidenceId": "swiss_bank_slip",
+      "questionId": "q1",
+      "resolvedText": "Marcus mirasın reddini bilmediğini ve aralarının iyi olduğunu söyledi. Ancak banka dekontundaki Julian'ın notu, ödemelerin kesildiğini ve Marcus'un bu durumdan haberdar olduğunu gösteriyor. Cinayet için zamanı daralmıştı."
+    },
+    {
+      "id": "viktor_letter_lie",
+      "suspectId": "viktor_kroll",
+      "evidenceId": "blackmail_letter",
+      "questionId": "q4",
+      "resolvedText": "Viktor mektubu kendisinin yazmadığını iddia etse de, mektuptaki puro külü onun izini taşıyor. Şantajı yapan ve o gece hesaplaşmak isteyen kişi bizzat oydu."
+    }
+  ],
+  "dispatchMissions": [
+    {
+      "id": "mission_tepebasi",
+      "title": "Tepebaşı Antika Dükkanı Baskını",
+      "location": "Tepebaşı",
+      "description": "Maestro Kroll'un kredi kartı ekstresinde görünen tuhaf antika alımını araştırmak üzere sivil ekipleri dükkana sevk et.",
+      "durationSeconds": 15,
+      "rewardEvidenceId": "broken_metronome"
+    },
+    {
+      "id": "mission_galata",
+      "title": "Galata Mahzenleri Zehir Satıcısı",
+      "location": "Galata Mahzenleri",
+      "description": "Bölgedeki yasadışı kimyasal karaborsacıları sorgulayarak siyanürün kaynağını bul.",
+      "durationSeconds": 20,
+      "rewardEvidenceId": "cyanide_vial"
+    },
+    {
+      "id": "mission_bank",
+      "title": "İsviçre Bankası Zürih Şubesi HTS ve Kayıtlar",
+      "location": "Mali Şube",
+      "description": "Julian Vance'in offshore hesap hareketlerini mali polise incelet.",
+      "durationSeconds": 15,
+      "rewardEvidenceId": "swiss_bank_slip"
+    }
+  ],
+  "timeline": [
+    {
+      "time": "22:30",
+      "description": "Büyük Gala Konseri Pera Palas Balo Salonu'nda sona erdi. Julian Vance ayakta alkışlandı."
+    },
+    {
+      "time": "23:45",
+      "description": "Viktor Kroll ve Julian Vance lobide telif hakları yüzünden sert bir tartışma yaşadı."
+    },
+    {
+      "time": "00:15",
+      "description": "Julian Vance, 411 numaralı Kral Dairesi'ne çıktı ve kapıyı içeriden kilitledi. (Marcus master anahtarla onu takip etti)"
+    },
+    {
+      "time": "00:45",
+      "description": "Şantaj mektubu ve yüzleşme. Zehirli şampanya kadehi ikram edildi veya içildi."
+    },
+    {
+      "time": "01:00",
+      "description": "Elena kapıya geldi. Müzik çalıyordu ama kapıyı açan olmadı. Maktul o sırada zehrin etkisiyle can çekişiyor ve piyanonun üzerine yığılıyordu."
+    },
+    {
+      "time": "02:40",
+      "description": "Oda servisi içeriden piyano tuşlarına vurulma sesi duyup kapıyı çaldı, açılmayınca güvenlik çağrıldı ve ceset bulundu."
+    }
+  ],
+  "audioTapes": [
+    {
+      "id": "tape_rehearsal",
+      "title": "Kaset: Son Prova Kaydı",
+      "subtitle": "Konser Öncesi Kulis Ses Kaydı",
+      "associatedEvidenceId": "broken_metronome",
+      "audioUrl": "/assets/tape_noise.mp3"
+    },
+    {
+      "id": "tape_voicemail",
+      "title": "Kaset: Otel Telesekreter Kaydı",
+      "subtitle": "00:20'de bırakılan mesaj",
+      "associatedEvidenceId": "hotel_keycard",
+      "audioUrl": "/assets/tape_noise.mp3"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "weapon_champagne",
+      "name": "Siyanürlü Şampanya Kadehi",
+      "description": "İçine potasyum siyanür karıştırılmış şampanya.",
+      "isCorrect": false
+    },
+    {
+      "id": "weapon_inhaler",
+      "name": "Zehirli Astım Spreyi (İnhaler)",
+      "description": "Siyanürün doğrudan solunum yoluna verilmesi için modifiye edilmiş sprey.",
+      "isCorrect": true
+    },
+    {
+      "id": "weapon_metronome",
+      "name": "Metronom İçi Zehir Düzeneği",
+      "description": "Zaman ayarlı zehir salınım cihazı.",
+      "isCorrect": false
+    },
+    {
+      "id": "weapon_strangulation",
+      "name": "Eldivenle Boğma",
+      "description": "Arbede sırasında nefessiz bırakma.",
+      "isCorrect": false
+    }
+  ],
+  "newspaper": {
+    "headline": "PERA PALAS'TA KANLI SONAT!",
+    "content": "Ünlü piyanist Julian Vance'in katili nihayet demir parmaklıklar ardında! Dedektifin titiz çalışması sayesinde, hırslı eski nişanlının ve açgözlü ağabeyin gölgesinde asıl cinayeti planlayan kişi ortaya çıkarıldı. Kıskançlık, para ve sanat uğruna işlenen bu karanlık cinayet, İstanbul gecelerinin unutulmaz bir lekesi olarak tarihe geçti.",
+    "date": "16 Kasım 1994, Hürriyet Manşet"
+  },
+  "solution": {
+    "culpritId": "elena_rostova",
+    "murderWeaponId": "weapon_inhaler",
+    "criticalEvidenceId": "torn_black_glove",
+    "keyMotive": "İntikam ve Kariyer Hırsı",
+    "correctVerdictSummary": "Elena Rostova, terk edilmenin verdiği öfkeyle siyanürü Galata'dan temin etti. O gece odaya gizlice girerek maktulün astım spreyine zehri enjekte etti. Çıkan kısa boğuşmada maktul tırnaklarıyla onun eldivenini yırttı. Astım krizi geçiren Julian kendi spreyini kullanınca doğrudan ciğerlerine siyanürü çekti ve can havliyle piyanonun üzerine yığılıp kanlı notaları yere düşürdü. Master anahtarı ve şantaj mektubu Marcus ve Viktor'un da o gece niyetli olduklarını gösterse de asıl bitirici hamleyi Elena yaptı."
+  }
+}

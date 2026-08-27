@@ -1,0 +1,955 @@
+{
+  "id": "case_201",
+  "caseNumber": "2024/9142",
+  "title": "Maslak Plazalar Cinayeti // Ağdaki Hayalet",
+  "subtitle": "38. Katta Biyometrik Kilitli Odada Sıradışı Bir Bilişim Cinayeti",
+  "category": "Siber Suç & Biyoteknoloji / Cinayet",
+  "difficulty": "Zor (Hard)",
+  "estimatedTime": "60 - 90 Dakika",
+  "incidentDate": "14 Kasım 2024 - 15 Kasım 2024",
+  "location": "Horizon Sky Tower Kat: 38 Sunucu Odası #3804, Maslak / Sarıyer / İstanbul",
+  "investigationTeam": {
+    "leadInvestigator": "Başkomiser Tayfun Soylu (İstanbul Asayiş Şube Müdürlüğü Cinayet Büro)",
+    "cyberSpecialist": "Komiser Nazlı Eren (Siber Suçlarla Mücadele Şube Müdürlüğü Adli Bilişim)",
+    "forensicDoctor": "Uzm. Dr. Kenan Sarp (Adli Tıp Kurumu Morg İhtisas Dairesi)",
+    "prosecutor": "Cumhuriyet Savcısı Avni Demirtopuz (İstanbul CBS Bilişim Suçları Soruşturma Bürosu)"
+  },
+  "victim": {
+    "name": "Arda Sancak",
+    "age": 36,
+    "occupation": "OmniBioTech A.Ş. Kurucusu ve CEO'su",
+    "tcKimlik": "28194058124",
+    "maritalStatus": "Bekar",
+    "medicalCondition": "Ağır Tip 1 Diyabet (OmniBioTech MedSmart-X7 Biyosensörlü Akıllı İnsülin Pompası Kullanıcısı)",
+    "status": "Maktul (Bulunuş: 15 Kasım 2024, 08:15)",
+    "summary": "Türkiye'nin en hızlı büyüyen biyomedikal sağlık teknolojileri şirketi OmniBioTech'in dahi kurucusu. Şirketin yapay zeka tabanlı akıllı insülin pompası MedSmart-X7'nin FDA onayı ve küresel tanıtımı öncesinde, Maslak'taki gökdelenin 38. katındaki retina ve şifre korumalı sunucu odasında plastik kelepçelerle koltuğa bağlanmış ve -5°C dondurucu ortamda ölü bulunmuştur."
+  },
+  "synopsis": "15 Kasım 2024 sabahı saat 08:15'te Maslak Horizon Sky Tower 38. kattaki OmniBioTech A.Ş. merkez ofisinde temizlik personeli ve bina güvenlik şefi, retina ve manyetik kartla kilitlenen ana sunucu odasında şirket CEO'su Arda Sancak'ın cesediyle karşılaştı. Maktul tekerlekli ofis koltuğuna plastik kelepçelerle bağlanmış, odanın iklimlendirme sistemi akıl almaz biçimde -5°C'ye ayarlanmıştı. Yapılan ilk incelemelerde fiziksel kapı kilidinde zorlama izi olmadığı, maktulün şahsi insülin pompasının aşırı doz komutu aldığı ve ölümün hipoglisemik koma sonucu gerçekleştiği belirlendi. Soruşturma masasında üç kritik şüpheli bulunmaktadır: Şirketin 4.2 milyon dolarlık gizli offshore transferini yapan CFO Defne Yılmaz, patent hakları çalındığı için intikam yemini eden Başyazılımcı Kerem Tokgöz ve cihazın uzaktan yazılım mimarı olan eski nişanlı Dr. Aslı Vural.",
+  "suspects": [
+    {
+      "id": "suspect_1",
+      "name": "Defne Yılmaz",
+      "role": "CFO / Finans Direktörü (%15 Şirket Ortağı)",
+      "age": 34,
+      "tcKimlik": "19482019482",
+      "motive": "OmniBioTech'in yaklaşan FDA denetimi öncesi Cayman Adaları'na aktarılan 4.2 Milyon Dolar tutarındaki kayıp sermaye. Arda Sancak'ın bu usulsüzlüğü fark ederek kendisini savcılığa şikayet etmekle tehdit etmesi.",
+      "alibi": "14 Kasım akşamı Arda ile Maslak Steakhouse'da yemek yedikten sonra 21:50'de şirkete döndüklerini, 22:30'a kadar çalıştığını ve ardından şirket binasını terk ederek Sarıyer'deki evine gittiğini, gece boyu evinde yalnız olduğunu iddia etmektedir.",
+      "alibiStatus": "Doğrulandı (PTS ve OGS logları plazadan 22:45'te ayrıldığını ve cinayet saatinde plazada olmadığını kanıtlamaktadır).",
+      "relationToVictim": "10 yıllık üniversite arkadaşı, iş ortağı ve finans direktörü.",
+      "avatar": "DY",
+      "avatarColor": "#3b82f6"
+    },
+    {
+      "id": "suspect_2",
+      "name": "Kerem Tokgöz",
+      "role": "Başyazılımcı / Sistem Mimarı",
+      "age": 29,
+      "tcKimlik": "48201938572",
+      "motive": "MedSmart-X7'nin tüm Bluetooth Düşük Enerji (BLE) mikro-iletişim ve şifreleme algoritmalarının patent haklarının Arda Sancak tarafından tek taraflı olarak gasp edilmesi ve Kerem'in tazminatsız işten atılma tehdidi alması.",
+      "alibi": "14 Kasım gecesi saat 19:00'dan ertesi sabah 09:00'a kadar Kadıköy Moda'daki evinde bilgisayar başında kod yazdığını, evden hiç çıkmadığını beyan etmiştir.",
+      "alibiStatus": "ÇÜRÜTÜLDÜ (İstanbulkart dökümleri saat 22:42'de Kadıköy İskelesi'nden vapura bindiğini, 23:10'da Beşiktaş'a geçtiğini ve Maslak yönüne aktarma yaptığını göstermektedir. Ancak sunucu odası biyometrik kapısını açamamıştır).",
+      "relationToVictim": "3 yıldır şirketin başyazılımcısı; maktul ile ağır telif hakkı husumeti bulunuyor.",
+      "avatar": "KT",
+      "avatarColor": "#ef4444"
+    },
+    {
+      "id": "suspect_3",
+      "name": "Dr. Aslı Vural",
+      "role": "Biyoteknoloji Direktörü / Kurucu Ortak",
+      "age": 35,
+      "tcKimlik": "33918204918",
+      "motive": "Arda Sancak'ın MedSmart-X7 donanımına gizlice yerleştirilen arka kapı (backdoor) protokolünü keşfetmesi ve Aslı'yı lisansını iptal ettirmekle ve cezaevine göndermekle tehdit etmesi; ayrıca geçmişe dayalı nişan atma travması.",
+      "alibi": "14-16 Kasım tarihleri arasında Ankara Bilkent Otel ve Konferans Merkezi'nde düzenlenen Uluslararası Biyomedikal Zirvesi'nde davetli konuşmacı olduğunu, 14 Kasım akşamı 22:00'de oteldeki 412 no'lu odasına çekildiğini iddia etmektedir.",
+      "alibiStatus": "Fiziksel olarak Ankara'da görünmesine rağmen, otel Wi-Fi ağı üzerinden kurduğu SSH tüneliyle Maslak sunucusuna bağlanarak cinayeti uzaktan işlediği saptanmıştır.",
+      "relationToVictim": "Şirketin kurucu ortağı, donanım direktörü ve maktulün eski nişanlısı.",
+      "avatar": "AV",
+      "avatarColor": "#8b5cf6"
+    }
+  ],
+  "envelopes": [
+    {
+      "id": "envelope_a",
+      "code": "ZARF-A",
+      "title": "Açılış Dosyası: Olay Yeri Raporu, Otopsi ve İlk İfadeler",
+      "description": "Horizon Sky Tower'da bulunan ceset, Adli Tıp Kurumu ilk otopsi bulguları, şüphelilerin 4'er sayfalık emniyet ifadeleri, restoran adisyonu ve ulaşım dökümleri.",
+      "isUnlocked": true,
+      "unlockRequirement": "Soruşturma Başlangıcı (Otomatik Açık)",
+      "targetGoal": {
+        "goalId": "goal_1",
+        "title": "Hedef 1: Çelişkili Alibileri Çökert ve Kesin Ölüm Zamanını Doğrula",
+        "description": "Zarf A'daki delilleri çapraz inceleyerek; Kerem Tokgöz'ün alibisini çürüten toplu taşıma kaydını, Defne Yılmaz'ın olay mahallinde olmadığını kanıtlayan otopark kaydını ve maktulün Maslak Steakhouse adisyonu ile Adli Tıp mide içeriği analizi üzerinden gerçek ölüm saatini tespit edin.",
+        "questions": [
+          {
+            "id": "q1_1",
+            "question": "Kerem Tokgöz'ün 'Gece boyu Kadıköy'deki evimde kod yazıyordum' alibisini kesin olarak çürüten belge ve detay nedir?",
+            "correctOptionIndex": 1,
+            "options": [
+              "Maslak Plaza güvenlik kamerası görüntülerinde Kerem'in yüzünün tespit edilmesi",
+              "İBB İstanbulkart loglarında 22:42 Kadıköy vapur binişi ve 23:10 Beşiktaş iskelesi çıkışının bulunması",
+              "Bilkent Otel Wi-Fi kayıtlarında Kerem'in dizüstü bilgisayarının MAC adresinin görülmesi",
+              "Maslak Steakhouse otopark fişinde Kerem'in plakasının kaydedilmiş olması"
+            ],
+            "explanation": "Kerem Tokgöz ifadesinde gece Kadıköy'den hiç çıkmadığını beyan etmiştir. Ancak İBB İstanbulkart dökümü (DOC-07), Kerem'in kişiselleştirilmiş kartıyla 22:42'de Kadıköy İskelesi'nden geçtiğini ve 23:10'da Beşiktaş'a vararak Maslak yönüne aktarma yaptığını ispatlamaktadır."
+          },
+          {
+            "id": "q1_2",
+            "question": "Defne Yılmaz'ın cinayetin işlendiği saatlerde (23:30 - 00:00) Maslak Plaza binasında olmadığını kanıtlayan kesin delil hangisidir?",
+            "correctOptionIndex": 2,
+            "options": [
+              "Kerem Tokgöz'ün ifadesinde Defne'yi Sarıyer'de gördüğünü söylemesi",
+              "Şirket e-posta sunucusunda saat 23:45'te gönderilmiş bir mali rapor bulunması",
+              "Maslak Plaza Otopark PTS sistemi ve FSM Köprüsü HGS kayıtlarının 22:45'te çıkış yaptığını göstermesi",
+              "Maktulün telefonunda Defne ile yapılmış gece yarısı ses kaydı bulunması"
+            ],
+            "explanation": "Plaza Otopark PTS (Plaka Tanıma Sistemi) ve FSM HGS dökümü (DOC-08), Defne Yılmaz'ın 34 DY 8901 plakalı aracıyla saat 22:45:12'de plazadan çıktığını ve 22:54'te köprü katılımından geçtiğini teyit etmektedir."
+          },
+          {
+            "id": "q1_3",
+            "question": "Maktulün kesin ölüm saatinin oda sıcaklığının -5°C olmasına rağmen 23:30 - 00:00 arasında gerçekleştiğini kanıtlayan adli tıp bulgusu nedir?",
+            "correctOptionIndex": 0,
+            "options": [
+              "Maslak Steakhouse'da saat 21:15-21:45'te tüketilen kuzu pirzola ve şarabın 2 saatlik mide sindirim kimus analizi",
+              "Maktulün kolundaki mekanik saatin 23:41'de durmuş olması",
+              "Göz içi vitreus sıvısındaki potasyum oranının soğuk havada saatte 1 mmol artması",
+              "Plastik kelepçelerin esneme katsayısının sadece 00:00'da soğuması"
+            ],
+            "explanation": "Katil odayı -5°C yaparak vücut ısısını düşürmüş ve klasik algor mortis soğuma hızını yanıltmaya çalışmıştır. Ancak Adli Tıp Otopsi Raporu (DOC-02) mide içeriği analizinde, maktulün 21:15'te Maslak Steakhouse'da yediği kuzu etinin tam 2 saatlik gastrointestinal sindirim evresinde kaldığını saptayarak ölüm saatini kesin olarak 23:30 - 00:00 aralığına kilitlemiştir."
+          }
+        ],
+        "unlockCode": "MASLAK-2341-OTOPSI"
+      },
+      "documents": [
+        {
+          "id": "DOC-01",
+          "envelopeId": "envelope_a",
+          "type": "police_report",
+          "title": "T.C. İstanbul Valiliği Emniyet Md. Resmi Olay Yeri İnceleme Zabtı",
+          "documentNumber": "İST-EMN-2024/9142-OYİ",
+          "date": "15 Kasım 2024, Saat: 08:45",
+          "author": "Olay Yeri İnceleme Şube Müdürlüğü 3. Ekip Amiri Komiser Serdar Akça",
+          "classification": "GİZLİ / ADLİ SORUŞTURMA EVRAKI",
+          "badgeNumber": "KMR-74892",
+          "metadata": {
+            "incidentLocation": "Horizon Sky Tower Kat: 38, Biyometrik Kilitli Ana Sunucu Odası (Oda 3804), Maslak/İstanbul",
+            "discoveryTime": "15.11.2024 - 08:15",
+            "reportingPerson": "Halil Demir (Bina Güvenlik Şefi) & Meryem Çetin (Temizlik Personeli)",
+            "ambientTemperature": "-5.0°C (Endüstriyel Soğutma Manuel Override Açık)"
+          },
+          "content": {
+            "summary": "15 Kasım 2024 günü saat 08:15 sıralarında gelen ihbar üzerine Maslak Büyükdere Caddesi Horizon Sky Tower 38. katta bulunan OmniBioTech A.Ş. genel merkezine intikal edilmiştir. Ana sunucu odasında şirket kurucusu Arda Sancak sandalyeye bağlı vaziyette ölü bulunmuştur.",
+            "sections": [
+              {
+                "heading": "1. Olay Yeri Fiziki Durumu ve Güvenlik Kilit Tespiti",
+                "text": "Olayın vuku bulduğu 3804 no'lu oda, şirketin ana veri tabanı ve yapay zeka sunucu kümesini barındıran 45 m²'lik yüksek güvenlikli bir alandır. Kapı çift faktörlü biyometrik (Retina Tarayıcı + Şifreli Manyetik Kart) kilit sistemiyle donatılmıştır. Yapılan log incelemesinde kapının en son 14 Kasım 2024 saat 22:15'te maktul Arda Sancak'ın şahsi retina ve kart onayı ile açıldığı, sonrasında sabaha kadar fiziki hiçbir giriş/çıkış veya kapı zorlaması olmadığı saptanmıştır."
+              },
+              {
+                "heading": "2. Maktulün Pozisyonu ve Çevre Bulguları",
+                "text": "Maktul Arda Sancak, sunucu kabinlerinin tam karşısındaki tekerlekli ergonomik deri koltukta oturur pozisyondadır. Her iki bileğinden koltuğun kolçaklarına endüstriyel siyah plastik kablo kelepçeleri (ciltte derin ekimoz ve bası oluşturan) ile sıkıca bağlanmıştır. Baş hafif sağa düşmüş, dudak ve tırnak diplerinde belirgin siyanoz (morarma) ve ağız köşesinde beyazımsı köpük kalıntısı gözlenmiştir. Maktulün üzerinde gri renkli takım elbise bulunmaktadır."
+              },
+              {
+                "heading": "3. İklimlendirme ve Sıcaklık Anomalisi",
+                "text": "Odaya girildiğinde dondurucu bir soğukla karşılaşılmıştır. Duvara monte Siemens Desigo CC Akıllı Termostat panelinin hedef sıcaklığının -5.0°C'ye ayarlandığı, sunucu odası kompresörlerinin maksimum debide çalıştığı tespit edilmiştir. Normal şartlarda 18-20°C arasında çalışması gereken sunucu odasının bu dereceye kasten düşürüldüğü değerlendirilmektedir."
+              },
+              {
+                "heading": "4. Maktulün Üzerindeki Tıbbi Cihaz Tespiti",
+                "text": "Maktulün sağ karın bölgesine subkutan kateterle bağlı vaziyette, OmniBioTech tarafından geliştirilen ve ticarileşme aşamasında olan 'MedSmart-X7 Biyosensörlü Akıllı İnsülin Pompası' bulunmuştur. Cihazın LCD ekranında 'DOZAJ TAMAMLANDI - 100 IU BOLUS // UZAKTAN YÖNETİM MODU AKTİF' mesajının asılı kaldığı görülmüş, rezervuar haznesinin tamamen boşaldığı tespit edilerek siber suçlar ekibine teslim edilmek üzere delil poşetine alınmıştır."
+              },
+              {
+                "heading": "5. Olay Yerinden Toplanan Maddi Deliller",
+                "text": "- Delil No 1: Maktulün koltuk kolçaklarına bağlandığı 2 adet 40 cm'lik siyah endüstriyel plastik kelepçe.\n- Delil No 2: MedSmart-X7 Akıllı İnsülin Pompası (Seri No: MSX7-2024-0019) ve subkutan kanül ucu.\n- Delil No 3: Maktulün tırnak arasından alınan biyolojik kazıntı ve sürüntü örnekleri.\n- Delil No 4: Maktule ait ekranı kırık iPhone 15 Pro Max cep telefonu (Masada ekranı ters dönük bulunmuştur).\n- Delil No 5: Siemens Akıllı Termostat kontrol ünitesi ana kartı bellek dökümü."
+              }
+            ]
+          },
+          "officerNotes": "Maktulün sunucu odasına kendi iradesiyle girdiği ancak daha sonra içeride biri tarafından mı bağlandığı, yoksa tehdit altında mı odaya çekildiği araştırılmalıdır. Odanın -5 dereceye ayarlanması adli tıbbın ölüm saati tespitini yanıltmak amacıyla kurgulanmış profesyonel bir siber/adli hileye işaret etmektedir."
+        },
+        {
+          "id": "DOC-02",
+          "envelopeId": "envelope_a",
+          "type": "autopsy_report",
+          "title": "T.C. Adalet Bakanlığı Adli Tıp Kurumu Morg İhtisas Dairesi Otopsi Raporu",
+          "documentNumber": "ATK-2024/7832-OTOPSI",
+          "date": "15 Kasım 2024, Saat: 14:30",
+          "author": "Adli Tıp Uzmanı Prof. Dr. Kenan Sarp & Toksikolog Doç. Dr. Hande Güven",
+          "classification": "GİZLİ / KESİN ADLİ TIP RAPORU",
+          "metadata": {
+            "corpseNo": "MORG-2024-1109",
+            "identification": "Arda Sancak (1988 doğumlu, 36 Yaşında Erkek)",
+            "externalTempAtDiscovery": "18.4°C (Rektal Isı)",
+            "autopsyDate": "15.11.2024 11:00 - 14:00"
+          },
+          "content": {
+            "summary": "Maslak Horizon Sky Tower 3804 no'lu sunucu odasında ölü bulunan Arda Sancak'ın adli otopsi incelemesi tamamlanmıştır. Ölüm sebebi hiperinsülinizme bağlı derin hipoglisemik koma ve kardiyorespiratuvar arresttir.",
+            "sections": [
+              {
+                "heading": "1. Dış Muayene Bulguları",
+                "text": "Ceset 182 cm boyunda, 78 kg ağırlığında, atletik yapılıdır. Her iki el bileği palmar ve dorsal yüzeyinde plastik kelepçe basısına bağlı 1.2 cm genişliğinde halka şeklinde hiperemik ve ekimotik bası izleri mevcuttur. Vücutta ateşli silah, kesici-delici alet yarası, boğma izi veya kraniumda kemik kırığı saptanmamıştır. Ağız ve burun çevresinde hipoglisemik şok ve akut akciğer ödemine bağlı köpüklü sekresyon mevcuttur."
+              },
+              {
+                "heading": "2. Vücut Isısı ve Sıcaklık Manipülasyonunun Tahlili",
+                "text": "Olay yerinde cesedin rektal ısısı 18.4°C olarak ölçülmüştür. Normal oda sıcaklığında (20-22°C) bir ceset saatte ortalama 0.8-1.0°C soğumaktadır (Algor Mortis). Ancak olay yerindeki ortam ısısının kasten -5.0°C'ye düşürülmüş olması, vücudun yüzeyel ve derin ısı transfer hızını anomalik şekilde hızlandırmıştır. Sadece vücut ısısına dayanarak yapılacak ölüm saati hesabı yanıltıcı olacak ve ölümü 15-20 saat önce (14 Kasım öğleden sonra) gibi gösterecektir."
+              },
+              {
+                "heading": "3. MİDE İÇERİĞİ VE SİNDİRİM ANALİZİ (KRİTİK BULGU)",
+                "text": "Mide açılarak içeriği makroskobik ve biyokimyasal olarak incelenmiştir:\n- Mide lümeninde toplam 340 gram ağırlığında yarı sindirilmiş besin kitlesi (kimus) tespit edilmiştir.\n- İçerik analizi: Izgara kuzu eti miyofibrilleri, fırınlanmış patates/nişasta granülleri ve yüksek oranda kırmızı şarap polifenolleri ile tanen bileşenleri.\n- Mide asidi (HCl) ve pepsin aktivite derecesi, bu besinlerin mideye girişinden itibaren yaklaşık 2 saat ila 2 saat 15 dakika boyunca fizyolojik sindirime uğradığını, ancak tam duodenal boşalmanın gerçekleşmediğini göstermektedir.\n- TESPİT: Maktulün bu yemekleri Maslak Steakhouse'da saat 21:15 - 21:45 aralığında yediği dosyadaki adisyon fişiyle sabit olduğundan, sindirimin durduğu KESİN ÖLÜM ANI 23:30 - 00:00 ARASIDIR!"
+              },
+              {
+                "heading": "4. Toksikoloji ve Biyokimya Laboratuvarı Sonuçları",
+                "text": "- Kan Glikoz Düzeyi: 14 mg/dL (Normal: 70-100 mg/dL - Yaşamla bağdaşmayan ölümcül seviye).\n- Serum Sentetik İnsülin (Lispro Analog): 1420 pmol/L (Normal açlık referansı: 15-120 pmol/L - Yaklaşık 12 kat toksik ölümcül konsantrasyon).\n- Kanda alkol düzeyi: 0.42 promil (Yemekte tüketilen 2 kadeh kırmızı şarap ile uyumlu).\n- Tırnak Altı DNA Kazıntısı: Sol el tırnak arasından maktulün kendi DNA'sı ile karışmış mikroskopik yabancı epitel hücreleri alınmış, ancak DNA zincirinde kısmi fragmantasyon nedeniyle kimlik eşleşmesi netleşmemiştir."
+              }
+            ]
+          },
+          "conclusion": "Ölüm, maktulün vücuduna harici olarak zerk edilen 100 Ünite sentetik insülin analogunun meydana getirdiği ağır serebral hipoglisemi, nöroglikopenik koma ve takip eden kardiyovasküler kollaps sonucu meydana gelmiştir. Olay yerindeki dondurucu ortam cinayetin zamanını gizlemek için tasarlanmış bir manipülasyondur; kesin ölüm zamanı mide sindirim analiziyle 14 Kasım 2024 saat 23:30 - 00:00 olarak kesinleştirilmiştir."
+        },
+        {
+          "id": "DOC-03",
+          "envelopeId": "envelope_a",
+          "type": "interrogation_transcript",
+          "title": "T.C. Emniyet Müdürlüğü Şüpheli İfade Tutanağı - Defne Yılmaz (CFO)",
+          "documentNumber": "İST-EMN-2024/9142-İF-01",
+          "date": "15 Kasım 2024, Saat: 11:30 - 14:00",
+          "author": "Başkomiser Tayfun Soylu & Polis Memuru Zeynep Kaya",
+          "classification": "RESMİ İFADE TUTANAĞI (4 SAYFA)",
+          "metadata": {
+            "suspectName": "Defne Yılmaz",
+            "suspectRole": "OmniBioTech A.Ş. Finans Direktörü / CFO",
+            "attorney": "Av. Melis Karadağ (İstanbul Barosu Sicil: 34192)",
+            "interrogationPlace": "İstanbul Asayiş Şube Müdürlüğü Cinayet Büro 2 No'lu Sorgu Odası"
+          },
+          "content": {
+            "pages": [
+              {
+                "pageNumber": 1,
+                "title": "Sayfa 1: Kimlik Tespiti, CMK 147 Haklarının Hatırlatılması ve Genel Şirket İlişkisi",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Kimlik tespitiniz yapıldı Sayın Yılmaz. CMK'nın 147. maddesi uyarınca susma hakkınız, avukatınızın hukuki yardımından yararlanma hakkınız ve lehinize olan delilleri ileri sürme hakkınız bulunmaktadır. Avukatınız Melis Hanım yanınızda. Arda Sancak ile olan iş ve kişisel ilişkinizi anlatın."
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Haklarımı anladım, susmayacağım çünkü saklayacak hiçbir şeyim yok. Arda ile 2014 yılında Boğaziçi Üniversitesi'nden beri tanışırız. 2018'de OmniBioTech'i kurduğunda şirketin tüm mali yapısını ve yatırımcı ilişkilerini bana emanet etti. Şirketin %15 azınlık hissedarıyım. Arda mükemmeliyetçi, dahi ama insan ilişkilerinde çok fevri ve baskıcı bir insandı."
+                  },
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Şirketin mali durumu son dönemde nasıldı? MedSmart-X7 lansmanı öncesi ciddi bir likidite sıkıntısı çektiğiniz doğru mu?"
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Evet, Ar-Ge ve FDA klinik test harcamaları bütçemizi aştı. Son 6 aydır nakit akışında çok sıkışmıştık. İsviçreli medikal yatırım fonu 'Vanguard BioFund' şirkete 4.2 milyon dolarlık bir sermaye enjeksiyonu yapacaktı."
+                  }
+                ]
+              },
+              {
+                "pageNumber": 2,
+                "title": "Sayfa 2: Maslak Steakhouse Yemeği ve 4.2 Milyon Dolarlık Offshore Transfer Anlaşmazlığı",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "14 Kasım akşamı maktulle birlikteydiniz. Akşam programınızı detaylıca anlatın."
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Saat 20:30 gibi plazadan çıkıp hemen alt sokaktaki Maslak Steakhouse'a geçtik. Arda her zamanki gibi kuzu pirzola sipariş etti, kırmızı şarap açtırdık. Masada çok sert bir tartışma yaşadık."
+                  },
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Tartışmanın konusu neydi?"
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Gelen 4.2 milyon dolarlık fonun şirketin Cayman Adaları'ndaki iştiraki üzerinden vergi optimizasyonu amacıyla transfer edilmesi gerektiğini söyledim. Arda ise bunu 'kara para aklama ve güveni kötüye kullanma' olarak nitelendirdi. Masaya yumruğunu vurup 'Eğer bu transferi tek kuruş kaçırmak için yaptıysan yarın sabah seni hem yönetim kurulundan attırırım hem de mali polise ihbar ederim' dedi. Restorandaki garsonlar bile sesimizi duydu."
+                  }
+                ]
+              },
+              {
+                "pageNumber": 3,
+                "title": "Sayfa 3: Plazaya Dönüş, Para Transferi Onayı ve Arda'nın Masasında Canlı Bırakılması",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Yemekten sonra ne yaptınız?"
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Saat 21:45 civarı hesabı Arda şirket kartıyla ödedi. 21:50'de yürüyerek Horizon Sky Tower'a döndük ve asansörle 38. kata çıktık. Ben kendi odama (3812 no'lu CFO ofisi) geçtim. İsviçre bankasındaki yetki tokenımı kullanarak 4.2 milyon doların normal Türkiye şirket hesabına aktarım emrini verdim, yani onun istediği gibi yasal aktarımı tamamladım."
+                  },
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Arda'yı en son ne zaman ve nerede gördünüz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Saat 22:25'te çantamı alıp çıkarken Arda'nın çalışma masasının önünden geçtim. Masasında oturuyordu, telefonuyla çok hararetli şekilde biriyle mesajlaşıyor ve söyleniyordu. 'Ben çıkıyorum Arda, yarın sabah konuşuruz' dedim. Başını kaldırmadan 'Tamam Defne, sunucudaki şu açık loglarına bakıp ben de çıkacağım' dedi. Onu gördüğüm son an buydu. Kesinlikle canlıydı ve sunucu odasına henüz geçmemişti."
+                  }
+                ]
+              },
+              {
+                "pageNumber": 4,
+                "title": "Sayfa 4: Şirketten Çıkış Alibisi, Otopark ve Gece Saatleri",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Şirketten saat kaçta ayrıldınız ve nereye gittiniz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Saat tam 22:30'da turnikelerden çıktım. Kapalı otoparktaki aracıma (34 DY 8901 plakalı Porsche Macan) bindim. Birkaç dakika telefonuma gelen maillere baktım ve 22:45 gibi otopark bariyerinden çıkış yaptım. FSM Köprüsü yolundan Sarıyer Tarabya'daki evime gittim. Eve vardığımda saat 23:05 civarıydı. Bütün gece evde yalnızdım, uyudum."
+                  },
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Arda'nın insülin pompasının nasıl çalıştığını, şifrelerini veya sunucu odasının klimasının uzaktan nasıl ayarlandığını biliyor musunuz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Defne Yılmaz",
+                    "speech": "Asla! Ben finansçıyım, kodlama veya biyoteknolojiden anlamam. İnsülin pompasının tüm donanım ve yazılım mimarisi Dr. Aslı Vural'a aitti. Sunucu ve ağ altyapısını ise Kerem Tokgöz yönetiyordu. Arda'nın öldürülmesi benim şirket hisselerimi ve 4.2 milyon doları riske atar, onu öldürmek benim en son isteyeceğim şeydi!"
+                  }
+                ]
+              }
+            ]
+          },
+          "officerNotes": "Şüphelinin 4.2M$ transferi ve maktulle yaşadığı kavga güçlü bir cinayet motifi sunmaktadır. Ancak plazadan çıkış saati (22:45) güvenlik kameraları ve PTS ile örtüşmektedir. Cinayet saati olan 23:30-00:00 aralığında plazada olup olmadığı HGS ve PTS ile doğrulanmalıdır."
+        },
+        {
+          "id": "DOC-04",
+          "envelopeId": "envelope_a",
+          "type": "interrogation_transcript",
+          "title": "T.C. Emniyet Müdürlüğü Şüpheli İfade Tutanağı - Kerem Tokgöz (Başyazılımcı)",
+          "documentNumber": "İST-EMN-2024/9142-İF-02",
+          "date": "15 Kasım 2024, Saat: 14:30 - 17:00",
+          "author": "Başkomiser Tayfun Soylu & Bilişim Komiseri Nazlı Eren",
+          "classification": "RESMİ İFADE TUTANAĞI (4 SAYFA)",
+          "metadata": {
+            "suspectName": "Kerem Tokgöz",
+            "suspectRole": "OmniBioTech A.Ş. Başyazılım Mimarı (Lead Software Architect)",
+            "attorney": "Av. Cengizhan Erdem (Baro Tayinli Müdafi)",
+            "interrogationPlace": "İstanbul Asayiş Şube Müdürlüğü Cinayet Büro 1 No'lu Sorgu Odası"
+          },
+          "content": {
+            "pages": [
+              {
+                "pageNumber": 1,
+                "title": "Sayfa 1: Kimlik Tespiti, Şirketteki Görevi ve Patent Hırsızlığı İddiaları",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Kerem Tokgöz, haklarınız hatırlatıldı. OmniBioTech şirketindeki göreviniz ve maktul Arda Sancak ile aranızdaki son husumeti anlatın."
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Ben şirketin 3 yıldır başyazılımcısıyım. MedSmart-X7 cihazının mobil uygulaması, Bluetooth Low Energy (BLE) mikro-iletişim sürücüleri ve bulut senkronizasyon algoritmalarını gecemi gündüzüme katarak tek başıma yazdım. Ancak 10 gün önce Arda'nın Türk Patent Enstitüsü ve Dünya Fikri Mülkiyet Örgütü'ne (WIPO) yaptığı patent başvurusunda benim adımı tamamen sildiğini, tüm buluşu kendi adına tescil ettirdiğini öğrendim."
+                  },
+                  {
+                    "speaker": "Komiser Nazlı Eren",
+                    "speech": "Bunun üzerine ne yaptınız? Şirkette tehdit içerikli e-postalar attığınız doğru mu?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Evet, çok öfkelendim. Arda'nın odasını bastım, 'Bu emeğimi sana yedirmem, mahkemede sürüm sürüm süründürürüm seni' dedim. 8 Kasım'da da istifa dilekçemi verdim. Ama onu öldürmedim!"
+                  }
+                ]
+              },
+              {
+                "pageNumber": 2,
+                "title": "Sayfa 2: 14 Kasım Gecesi Alibisi ve 'Evdeydim' İddiası",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "14 Kasım 2024 akşamı saat 19:00 ile 15 Kasım sabahı 08:00 arasında neredeydiniz? Ne yapıyordunuz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Bütün gece boyunca Kadıköy Caferağa Mahallesi Moda Caddesi'ndeki evimdeydim. Akşam saat 19:00'da eve girdim ve ertesi sabah 09:30'da polisler kapıma gelene kadar evden tek bir adım bile atmadım. Bilgisayarımın başındaydım, yeni bir açık kaynak biyomedikal kütüphanesi kodluyordum. GitHub commit saatlerime bakabilirsiniz, gece 23:00'te kod pushladım."
+                  },
+                  {
+                    "speaker": "Komiser Nazlı Eren",
+                    "speech": "Git commitleri zamanlayıcı botlarla (cron job) otomatik atılabilir Kerem Bey. Evde sizinle birlikte olan, sizi gören bir tanık var mı?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Yalnız yaşıyorum, evde kimse yoktu. Ama dışarı çıkmadım diyorum size! Kadıköy'den Maslak'a gece vakti niye gideyim?"
+                  }
+                ]
+              },
+              {
+                "pageNumber": 3,
+                "title": "Sayfa 3: Sunucu Odası Yetkileri ve Bilişim İddiaları",
+                "dialogue": [
+                  {
+                    "speaker": "Komiser Nazlı Eren",
+                    "speech": "38. kattaki ana sunucu odasına fiziksel ve uzaktan erişim yetkileriniz nelerdi?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Fiziksel olarak sunucu odasına sadece üç kişinin retina ve kart yetkisi vardı: Arda Sancak, Defne Yılmaz ve Dr. Aslı Vural. Benim fiziki kapı açma kartım hiçbir zaman olmadı. Uzaktan SSH root yetkim vardı, ama istifamı verdiğim gün Arda benim SSH anahtarlarımı iptal etti ve IP blokumu şirket güvenlik duvarından (firewall) yasakladı."
+                  },
+                  {
+                    "speaker": "Komiser Nazlı Eren",
+                    "speech": "MedSmart-X7 insülin pompasının uzaktan dozaj komutlarını bypass edebilecek bir arka kapı (backdoor) biliyor muydunuz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Ben cihazın Bluetooth BLE protokolünü yazdım, ancak mikro-denetleyici gömülü yazılımını (firmware) ve güvenlik doğrulamasını Dr. Aslı Vural hazırladı. Hatta Aslı kodlara benden habersiz 'debug portu' adı altında harici bir soket eklemişti. Ben bunu sorduğumda 'Ankara kongresinde canlı donanım testi yapacağız, sen karışma' demişti."
+                  }
+                ]
+              },
+              {
+                "pageNumber": 4,
+                "title": "Sayfa 4: Çapraz Sorgu ve Tehdit İddiaları",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Olay gecesi Arda'yı aradınız mı ya da mesajlaştınız mı?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Aramadım. Sadece saat 21:30 gibi Signal üzerinden 'Yarın sabah avukatımla şirkete geleceğim, patent evraklarının asıllarını hazırla' diye mesaj attım. Mavi tik yandı ama cevap vermedi."
+                  },
+                  {
+                    "speaker": "Başkomiser Tayfun Soylu",
+                    "speech": "Eğer o gece Kadıköy'den ayrıldığınıza dair bir MOBESE, turnike veya toplu taşıma kaydı çıkarsa ne diyeceksiniz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Kerem Tokgöz",
+                    "speech": "Çıkamaz! Çünkü evimdeydim. Çıkarsa da... Yani belki markete çıkmışımdır ama vapurla Maslak'a gitmedim!"
+                  }
+                ]
+              }
+            ]
+          },
+          "officerNotes": "Şüphelinin patent hırsızlığı nedeniyle maktule derin bir nefreti vardır. 'Evden hiç çıkmadım' şeklindeki alibisi son derece şüphelidir. Kişiselleştirilmiş İstanbulkart ve vapur turnike logları acilen celp edilmelidir."
+        },
+        {
+          "id": "DOC-05",
+          "envelopeId": "envelope_a",
+          "type": "interrogation_transcript",
+          "title": "T.C. Emniyet Müdürlüğü Şüpheli İfade Tutanağı - Dr. Aslı Vural (Biyoteknoloji Direktörü)",
+          "documentNumber": "ANK-EMN-2024/6118-TALİMAT-İF",
+          "date": "15 Kasım 2024, Saat: 16:00 - 18:30",
+          "author": "Ankara Asayiş Şb. Cinayet Büro Amiri Başkomiser Hakan Ünal (İst. Talimatıyla)",
+          "classification": "RESMİ TALİMAT İFADE TUTANAĞI",
+          "metadata": {
+            "suspectName": "Dr. Aslı Vural",
+            "suspectRole": "OmniBioTech Kurucu Ortağı & Biyomedikal Donanım Direktörü",
+            "attorney": "Av. Serkan Yurtsever (Ankara Barosu Sicil: 18240)",
+            "interrogationPlace": "Ankara İl Emniyet Müdürlüğü Ek Hizmet Binası Sorgu Odası"
+          },
+          "content": {
+            "pages": [
+              {
+                "pageNumber": 1,
+                "title": "Sayfa 1: Kimlik Tespiti, Ankara Kongre Alibisi ve Maktul ile Olan Geçmişi",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Hakan Ünal",
+                    "speech": "İstanbul Cumhuriyet Başsavcılığı'nın 2024/9142 sayılı soruşturması kapsamında talimatla ifadeniz alınmaktadır. Haklarınız bildirildi. 14 Kasım ve 15 Kasım tarihlerinde nerede bulunduğunuzu beyan ediniz."
+                  },
+                  {
+                    "speaker": "Şüpheli Dr. Aslı Vural",
+                    "speech": "Ben 14-16 Kasım 2024 tarihleri arasında Ankara Bilkent Otel & Konferans Merkezi'nde düzenlenen 'Uluslararası Biyomedikal Cihazlar ve Yapay Zeka Kongresi'nin ana konuşmacısıyım. 14 Kasım sabahı 08:30 Türk Hava Yolları TK2108 İstanbul-Ankara uçuşuyla geldim. Otelime saat 11:00'de yerleştim. Kongre açılış panellerine katıldım. Akşam saat 20:00'deki resmi gala yemeğindeydim."
+                  },
+                  {
+                    "speaker": "Başkomiser Hakan Ünal",
+                    "speech": "14 Kasım gecesi saat 22:00'den sonra neredeydiniz?"
+                  },
+                  {
+                    "speaker": "Şüpheli Dr. Aslı Vural",
+                    "speech": "Gala yemeğinden sonra çok yorgun olduğum için saat 22:00 sularında 412 numaralı otel odama çıktım. Sabahki 'Giyilebilir İnsülin Pompalarında Biyosensör Optimizasyonu' başlıklı sunumuma hazırlandım, slaytlarımı gözden geçirdim ve saat 23:30 gibi yattım. Sabah 08:00'de kalkıp lobiye indim. Arda'nın vefat haberini aldığımda şok geçirdim."
+                  }
+                ]
+              },
+              {
+                "pageNumber": 2,
+                "title": "Sayfa 2: Arda Sancak ile İlişkisi, Nişan Atma Olayı ve Şirket İçi Anlaşmazlıklar",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Hakan Ünal",
+                    "speech": "Maktul Arda Sancak ile daha önce nişanlı olduğunuz, ancak 4 ay önce olaylı şekilde nişanı bozduğunuz doğru mu?"
+                  },
+                  {
+                    "speaker": "Şüpheli Dr. Aslı Vural",
+                    "speech": "Evet, 2 yıl nişanlı kaldık. Ancak iş ve özel hayat birbirine karışınca anlaşamadık ve dostça ayrıldık. Şirketteki %35 ortaklığım ve Ar-Ge direktörlüğüm aynen devam ediyordu. Aramızda hiçbir kin veya düşmanlık yoktu."
+                  },
+                  {
+                    "speaker": "Başkomiser Hakan Ünal",
+                    "speech": "MedSmart-X7 cihazının tüm yazılım ve donanım mimarisini siz tasarladınız. Cihazın uzaktan kumanda edilmesi veya harici bir sinyalle 100 ünite insülin zerk etmesi teknik olarak mümkün müdür?"
+                  },
+                  {
+                    "speaker": "Şüpheli Dr. Aslı Vural",
+                    "speech": "MedSmart-X7'de çift katmanlı biyometrik ve kriptografik güvenlik kilidi vardır. Bir hastaya tek seferde maksimum 15 ünite bolus dozu verilebilir. 100 ünite gibi ölümcül bir dozajın verilmesi için cihazın donanımsal firmware yazılımına doğrudan müdahale edilmesi ve 'ROOT_OVERRIDE' yetki kodunun girilmesi gerekir. Bu kodu ve sunucu entegrasyonunu yalnızca şirket sunucusuna erişebilen üst düzey bir yazılımcı yapabilir; mesela istifa eden Kerem Tokgöz gibi."
+                  }
+                ]
+              },
+              {
+                "pageNumber": 3,
+                "title": "Sayfa 3: Olay Gecesi İletişim ve Maslak Sunucu Bağlantısı İddiaları",
+                "dialogue": [
+                  {
+                    "speaker": "Başkomiser Hakan Ünal",
+                    "speech": "14 Kasım akşamı Arda Sancak ile telefonla veya WhatsApp üzerinden herhangi bir görüşme yaptınız mı?"
+                  },
+                  {
+                    "speaker": "Şüpheli Dr. Aslı Vural",
+                    "speech": "Hayır, hiç görüşmedim. Sadece gündüz saatlerinde kongre sunumu hakkında kısa bir e-posta atmıştım. Gece boyunca telefonum komodinin üzerinde şarja takılıydı, kimseyle mesajlaşmadım."
+                  },
+                  {
+                    "speaker": "Başkomiser Hakan Ünal",
+                    "speech": "Otel odanızdaki Wi-Fi ağı üzerinden Maslak'taki plaza sunucularına bağlandınız mı?"
+                  },
+                  {
+                    "speaker": "Şüpheli Dr. Aslı Vural",
+                    "speech": "Kesinlikle hayır. Dizüstü bilgisayarımdan sadece kongre slaytlarımı (PowerPoint) düzenledim. Şirket sunucularına herhangi bir SSH veya VPN bağlantısı gerçekleştirmedim."
+                  }
+                ]
+              }
+            ]
+          },
+          "officerNotes": "Şüphelinin Ankara Bilkent Otel'de bulunması fiziksel olarak sağlam bir alibi gibi görünmektedir. Ancak maktulün şahsi telefonundaki yazışmalar ve otel internet trafiği (Wi-Fi logları) Adli Bilişim tarafından incelenmeli; uzaktan siber müdahale ihtimali araştırılmalıdır."
+        },
+        {
+          "id": "DOC-06",
+          "envelopeId": "envelope_a",
+          "type": "receipt",
+          "title": "Maslak Steakhouse & Grill Restoran Resmi Adisyon Fişi ve Slip",
+          "documentNumber": "ADİS-2024-88412",
+          "date": "14 Kasım 2024, Saat: 21:15 - 21:48",
+          "author": "Maslak Gourmet Restoran İşletmeleri A.Ş.",
+          "classification": "TİCARİ MALİ BELGE / DELİL",
+          "metadata": {
+            "tableNo": "VIP-04 (Bahçe Teras)",
+            "waiter": "Garson Barış (Personel No: 14)",
+            "paymentMethod": "Kurumsal Kredi Kartı (OmniBioTech / Arda Sancak - Kart Son 4 Hane: 4091)",
+            "totalAmount": "6.850,00 TL"
+          },
+          "content": {
+            "header": "MASLAK STEAKHOUSE & GRILL\nBüyükdere Cad. No:242 Horizon Plaza Altı Maslak/İstanbul\nTel: 0212 345 88 00 - Maslak V.D. 6120481920",
+            "items": [
+              {
+                "quantity": 2,
+                "name": "Kuzu Pirzola Izgara (Özel Dinlendirilmiş 300g)",
+                "price": "3.200,00 TL"
+              },
+              {
+                "quantity": 1,
+                "name": "Truffle Aromalı Taze Patates Püresi",
+                "price": "450,00 TL"
+              },
+              {
+                "quantity": 1,
+                "name": "Chateau Kalecik Karası & Cabernet Sauvignon Kırmızı Şarap (75cl)",
+                "price": "2.800,00 TL"
+              },
+              {
+                "quantity": 2,
+                "name": "Kuver & Doğal Kaynak Suyu",
+                "price": "400,00 TL"
+              }
+            ],
+            "subtotal": "6.850,00 TL",
+            "vat": "685,00 TL",
+            "total": "6.850,00 TL",
+            "transactionTime": "14/11/2024 - 21:46:33",
+            "notes": "Müşteri Notu: VIP-04 Masasında Arda Sancak ve Defne Yılmaz oturmuştur. Sipariş saat 21:15'te girilmiş, servis 21:25'te yapılmış ve hesap 21:46'da ödenerek masa 21:48'de boşaltılmıştır. Garson ifadesi: Masada şiddetli para ve offshore transferi kavgası yaşanmıştır."
+          },
+          "forensicCrossCheck": "Adli Tıp Otopsi Raporundaki (DOC-02) mide içeriği analizi ile %100 örtüşmektedir. Midedeki kuzu pirzola ve kırmızı şarap molekülleri, yemeğin saat 21:15-21:45 arasında tüketildiğini ve sindirimin 2 saat sürdüğünü göstermektedir."
+        },
+        {
+          "id": "DOC-07",
+          "envelopeId": "envelope_a",
+          "type": "transit_log",
+          "title": "İBB Ulaşım Daire Başkanlığı - İstanbulkart Turnike Geçiş ve Kamera Kaydı",
+          "documentNumber": "İBB-BELBİM-2024/9142-LOG",
+          "date": "15 Kasım 2024, Saat: 09:15",
+          "author": "BELBİM Elektronik Para ve Ödeme Hizmetleri A.Ş.",
+          "classification": "RESMİ ELEKTRONİK GEÇİŞ DÖKÜMÜ",
+          "metadata": {
+            "cardHolder": "Kerem Tokgöz",
+            "cardUid": "04-A8-91-F2-3C-80",
+            "cardType": "Kişiselleştirilmiş İndirimsiz Mavi Kart",
+            "queryInterval": "14.11.2024 18:00 - 15.11.2024 06:00"
+          },
+          "content": {
+            "logs": [
+              {
+                "timestamp": "14.11.2024 22:42:18",
+                "station": "Kadıköy Rıhtım Vapur İskelesi (Turnike No: 04)",
+                "action": "GİRİŞ (Geçiş Başarılı - Bakiye: 184.50 TL)",
+                "cctvNote": "CCTV Kamera 02: Kapüşonlu siyah montlu ve sırt çantalı şahıs (Kerem Tokgöz) turnikeden geçti."
+              },
+              {
+                "timestamp": "14.11.2024 23:10:05",
+                "station": "Beşiktaş Şehir Hatları İskelesi (Turnike No: 02)",
+                "action": "ÇIKIŞ (Vapur Varış)",
+                "cctvNote": "Beşiktaş Meydan kamerası: Şahıs hızla Barbaros Bulvarı otobüs duraklarına yöneldi."
+              },
+              {
+                "timestamp": "14.11.2024 23:22:40",
+                "station": "Beşiktaş Meydan - 29C / 40B Maslak Yönü İETT Otobüsü",
+                "action": "AKTARMA BİNİŞİ (Turnike / Validatör)",
+                "cctvNote": "Şahsın Maslak yönüne giden toplu taşıma aracına bindiği doğrulandı."
+              },
+              {
+                "timestamp": "15.11.2024 01:15:30",
+                "station": "Kabataş - Kadıköy Gece Motoru İskelesi",
+                "action": "GİRİŞ (Dönüş Yolculuğu)",
+                "cctvNote": "Şahsın telaşlı şekilde Kadıköy yönüne dönüş vapuruna bindiği görüldü."
+              }
+            ]
+          },
+          "forensicCrossCheck": "Bu resmi döküm, Şüpheli Kerem Tokgöz'ün 4 sayfalık ifadesindeki 'Gece boyu Kadıköy'deki evimden tek bir adım bile atmadım' beyanını KESİN OLARAK ÇÜRÜTMEKTEDİR. Şüpheli saat 23:10'da Beşiktaş'ta, 23:35 civarında ise Maslak bölgesindedir."
+        },
+        {
+          "id": "DOC-08",
+          "envelopeId": "envelope_a",
+          "type": "parking_ticket",
+          "title": "Maslak Horizon Sky Tower Otopark PTS & KGYS Plaka Tanıma Sistemi Tutanağı",
+          "documentNumber": "PTS-2024-MAS-8812",
+          "date": "15 Kasım 2024, Saat: 10:00",
+          "author": "İstanbul Emniyet Müdürlüğü Trafik Denetleme & Horizon Plaza Güvenlik",
+          "classification": "RESMİ GÜVENLİK VE TRAFİK DÖKÜMÜ",
+          "metadata": {
+            "vehiclePlate": "34 DY 8901",
+            "vehicleModel": "Porsche Macan 2.0 (Füme)",
+            "registeredOwner": "Defne Yılmaz (OmniBioTech CFO)",
+            "queryInterval": "14.11.2024 21:00 - 15.11.2024 02:00"
+          },
+          "content": {
+            "records": [
+              {
+                "timestamp": "14.11.2024 21:52:04",
+                "location": "Horizon Sky Tower Kapalı Otopark Giriş Bariyeri (Kat: -2)",
+                "status": "GİRİŞ YAPILDI (Plaka Tanıma Doğrulandı)",
+                "cctvNote": "Araçta Defne Yılmaz ve Arda Sancak birlikte giriş yaptı. Asansörle 38. kata çıktılar."
+              },
+              {
+                "timestamp": "14.11.2024 22:45:12",
+                "location": "Horizon Sky Tower Kapalı Otopark Çıkış Bariyeri (Kat: -1)",
+                "status": "ÇIKIŞ YAPILDI (Bariyer Açıldı)",
+                "cctvNote": "Sürücü koltuğunda tek başına Defne Yılmaz görülmektedir. Yan koltuk boştur."
+              },
+              {
+                "timestamp": "14.11.2024 22:54:30",
+                "location": "KGYS FSM Köprüsü Maslak Katılımı PTS Kamerası",
+                "status": "GEÇİŞ (Kuzey Çevre Yolu - Sarıyer/Tarabya İstikameti)",
+                "cctvNote": "Aracın Sarıyer yönüne seyir halinde olduğu teyit edildi."
+              }
+            ]
+          },
+          "forensicCrossCheck": "Defne Yılmaz'ın şirket binasından saat 22:45'te ayrıldığı ve cinayetin işlendiği kesin zaman aralığında (23:30 - 00:00) binada bulunmadığı teknik olarak kanıtlanmıştır."
+        }
+      ]
+    },
+    {
+      "id": "envelope_b",
+      "code": "ZARF-B",
+      "title": "Siber Adli Tıp, Kurtarılan Yazışmalar ve IoT Telemetri Analizi",
+      "description": "Maktulün kırık telefonundan çıkarılan şifreli mesajlar, Ankara Bilkent Otel Wi-Fi tünel trafiği ve MedSmart-X7 insülin pompasının uzaktan komut kütükleri.",
+      "isUnlocked": false,
+      "unlockRequirement": "Hedef 1'in başarıyla çözülmesi (Kod: MASLAK-2341-OTOPSI)",
+      "targetGoal": {
+        "goalId": "goal_2",
+        "title": "Hedef 2: Siber Cinayet Silahını ve Ankara'daki Faili Deşifre Et",
+        "description": "Zarf B'deki siber bilişim ve telemetri loglarını inceleyerek; (1) Cinayetin işlendiği uzaktan kumandalı silahı, (2) Olay yerini -5°C yaparak delilleri manipüle eden ve 100 ünite ölümcül insülini zerk eden Ankara IP'sinin ve dizüstü bilgisayarın sahibini ve (3) Cinayetin 1 numaralı failini tespit edin.",
+        "questions": [
+          {
+            "id": "q2_1",
+            "question": "Arda Sancak'a ölümcül doz olan 100 Ünite insülini zerk eden komut hangi kaynaktan ve saat kaçta gönderilmiştir?",
+            "correctOptionIndex": 3,
+            "options": [
+              "Kerem Tokgöz'ün Kadıköy'deki masaüstü bilgisayarından saat 23:10'da",
+              "Defne Yılmaz'ın Sarıyer'deki evinden saat 23:05'te",
+              "Horizon Plaza sunucu odasındaki yerel klavyeden saat 22:30'da",
+              "Ankara Bilkent Otel 195.175.88.42 IP'sinden Dr. Aslı Vural'a ait MacBook cihazından saat 23:41'de"
+            ],
+            "explanation": "IoT Telemetri Raporu (DOC-10) ve Wi-Fi Analizi (DOC-11); 100 Ünite ölümcül insülin zerk komutunun saat 23:41:02'de Ankara Bilkent Otel kurumsal IP'sinden (195.175.88.42) Dr. Aslı Vural'ın 'Asli-MacBook-Pro' cihazından gönderildiğini kesinleştirmiştir."
+          },
+          {
+            "id": "q2_2",
+            "question": "Katilin sunucu odasının klimasını saat 23:35'te -5.0°C'ye ayarlamasındaki temel kriminal amaç nedir?",
+            "correctOptionIndex": 1,
+            "options": [
+              "Sunucu işlemcilerinin aşırı ısınmasını önleyerek logların silinmesini sağlamak",
+              "Maktulün cesedini hızla soğutup vücut ısısını düşürerek (Algor Mortis) adli tıbbı ölüm saati konusunda yanıltmak ve kendisinin kongre alibisini sağlama almak",
+              "İnsülin pompasının bataryasını dondurarak Bluetooth sinyalini engellemek",
+              "Defne Yılmaz'ın parmak izlerini dondurarak olay yeri incelemesinden gizlemek"
+            ],
+            "explanation": "Katil, ölüm saatini erkene çekilmiş gibi göstermek ve kendisinin Ankara kongresinde olduğu saat dilimiyle adli tıbbın kafasını karıştırmak için odayı -5°C'ye düşürmüştür. Ancak bu hile midedeki 2 saatlik sindirim enzimleri analiziyle bozulmuştur."
+          },
+          {
+            "id": "q2_3",
+            "question": "Maktul Arda Sancak'ın telefonundan kurtarılan WhatsApp yazışmasında (DOC-09), cinayetin temel azil ve saiki ne olarak ortaya çıkmaktadır?",
+            "correctOptionIndex": 0,
+            "options": [
+              "Arda'nın MedSmart-X7'de Aslı tarafından kasıtlı bırakılan uzaktan erişim arka kapısını (backdoor) fark edip Aslı'yı savcılık ve şirket ihracıyla tehdit etmesi",
+              "Arda'nın şirketin tüm hisselerini yabancı fona devretmek istemesi",
+              "Kerem Tokgöz'ün patent davası açacağını öğrenen Aslı'nın Arda'ya kızması",
+              "Defne Yılmaz'ın 4.2 milyon dolarlık transferini Aslı'nın onaylamaması"
+            ],
+            "explanation": "Kurtarılan WhatsApp mesajlarında Arda Sancak, Dr. Aslı Vural'a 'Biyosensörün açıklarını kapatmadın, beni bu pompayla öldürmeye mi çalışıyorsun? Yarın ilk iş savcılığa gidiyorum, şirketteki tüm yetkilerini alıyorum' diyerek cinayetin fitilini ateşlemiştir."
+          }
+        ],
+        "unlockCode": "KATIL-ASLI-VURAL-SSH"
+      },
+      "documents": [
+        {
+          "id": "DOC-09",
+          "envelopeId": "envelope_b",
+          "type": "whatsapp_chat",
+          "title": "Siber Suçlarla Mücadele Şb. Md. - Adli Bilişim Kurtarılan WhatsApp / Signal Yazışmaları",
+          "documentNumber": "İST-SİBER-2024/4412-WHATSAPP",
+          "date": "15 Kasım 2024, Saat: 16:45",
+          "author": "Adli Bilişim Uzmanı Komiser Nazlı Eren (Sertifika: GIAC GCFA / EnCase CE)",
+          "classification": "GİZLİ / DELİL NİTELİĞİNDE SİBER VERİ RAPORU",
+          "metadata": {
+            "targetDevice": "Apple iPhone 15 Pro Max (Arda Sancak Adına Kayıtlı)",
+            "extractionMethod": "JTAG / Chip-off NVMe Fiziksel Bellek Dökümü",
+            "chatPartner": "Dr. Aslı Vural (+90 532 908 11 22)",
+            "chatInterval": "14 Kasım 2024, Saat: 22:18 - 22:42"
+          },
+          "content": {
+            "chatLog": [
+              {
+                "timestamp": "22:18:14",
+                "sender": "Arda Sancak",
+                "message": "Aslı, şu an 38. kattaki ana sunucu odasındayım. MedSmart-X7'nin telemetri ve firmware kodlarını satır satır inceledim. Ankara'daki kongre sunumu için BLE portunda bıraktığın backdoor'u (arka kapıyı) gördüm!"
+              },
+              {
+                "timestamp": "22:20:05",
+                "sender": "Arda Sancak",
+                "message": "Bu lanet port şifrelenmemiş ve root yetkisiyle doğrudan pompanın mikro-valf dozaj motorunu tetikleyebiliyor. Bu bir yazılım hatası değil Aslı! Bilerek açılmış bir siber arka kapı!"
+              },
+              {
+                "timestamp": "22:24:32",
+                "sender": "Dr. Aslı Vural",
+                "message": "Arda saçmalama lütfen, sakin ol. O port sadece yarın sabah kongrede yapacağım canlı simülasyon ve acil durum müdahale testi için açıldı. Kongre biter bitmez kapatacağım."
+              },
+              {
+                "timestamp": "22:29:11",
+                "sender": "Arda Sancak",
+                "message": "Yalan söylüyorsun! Bu pompa doğrudan benim şahsi göbeğime takılı MedSmart-X7 cihazına bağlı! Ve güvenlik limitörünü bypass edebilen tek anahtar kodu senin şahsi imzan: 'AV_ROOT_99'. Beni bu pompayla öldürmeye mi çalışıyorsun Aslı?!"
+              },
+              {
+                "timestamp": "22:31:40",
+                "sender": "Arda Sancak",
+                "message": "Yarın sabah 09:00'da olağanüstü yönetim kurulunu topluyorum. Hem şirket ortaklığından ihraç edileceksin hem de savcılığa gidip cinayete teşebbüs ve biyomedikal sabotajdan suç duyurusunda bulunacağım! Bittin sen!"
+              },
+              {
+                "timestamp": "22:34:55",
+                "sender": "Dr. Aslı Vural",
+                "message": "Arda lütfen yapma... Beni dinle. Olaylar düşündüğün gibi değil. Sunucu odasından bir yere ayrılma, sana Ankara'dan SSH üzerinden tüm debug loglarını ve düzeltme yamasını gönderiyorum. Kendin gör."
+              },
+              {
+                "timestamp": "22:36:20",
+                "sender": "Arda Sancak",
+                "message": "Bekliyorum. Gönder bakalım. Ama hiçbir yalan seni kurtaramayacak."
+              },
+              {
+                "timestamp": "22:42:01",
+                "sender": "Dr. Aslı Vural",
+                "message": "Bağlantıyı açtım Arda, ekrana bak."
+              }
+            ]
+          },
+          "forensicCrossCheck": "Bu yazışma Dr. Aslı Vural'ın emniyet ifadesinde 'Arda ile gece hiç konuşmadım' şeklindeki yalanını kesin olarak çürütmekte; cinayetin failin şirket hisseleri, kariyeri ve özgürlüğünü koruma saikiyle işlendiğini kanıtlamaktadır."
+        },
+        {
+          "id": "DOC-10",
+          "envelopeId": "envelope_b",
+          "type": "iot_log",
+          "title": "Sunucu Odası Siemens Desigo CC Akıllı Termostat & MedSmart-X7 IoT Komut Kütüğü",
+          "documentNumber": "IOT-2024-MASLAK-3804-LOG",
+          "date": "15 Kasım 2024, Saat: 17:15",
+          "author": "Siber Suçlar IoT ve Gömülü Sistemler İnceleme Laboratuvarı",
+          "classification": "TEKNİK SİBER ADLİ BİLİŞİM RAPORU",
+          "metadata": {
+            "device1": "Siemens Desigo CC Building Automation (IP: 10.240.38.100)",
+            "device2": "MedSmart-X7 Biyosensörlü Akıllı İnsülin Pompası (MAC: 00:1A:79:38:B4:EF)",
+            "gateway": "Maslak Horizon Sky Tower Kat: 38 BLE/Ethernet Gateway (Port: 8443)",
+            "incidentWindow": "14.11.2024 23:25:00 - 15.11.2024 00:10:00"
+          },
+          "content": {
+            "telemetryLogs": [
+              {
+                "timestamp": "23:32:04",
+                "sourceIp": "195.175.88.42 (Bilkent Otel Ankara)",
+                "protocol": "SSH-2.0-OpenSSH_9.2p1",
+                "event": "AUTHENTICATION_SUCCESS",
+                "details": "User 'asli_admin' logged in from 195.175.88.42 via RSA-4096 Key Fingerprint [SHA256:8b9a1f..]."
+              },
+              {
+                "timestamp": "23:35:14",
+                "sourceIp": "195.175.88.42 (Bilkent Otel Ankara)",
+                "protocol": "BACnet / REST API",
+                "event": "HVAC_MANUAL_OVERRIDE",
+                "details": "Siemens Desigo CC Room 3804 Temp Target changed from 19.5°C to -5.0°C. Emergency Fan Mode: 100% Active. User: 'asli_admin'."
+              },
+              {
+                "timestamp": "23:38:20",
+                "sourceIp": "195.175.88.42 (Bilkent Otel Ankara)",
+                "protocol": "BLE-GATT Override",
+                "event": "MEDSMART_BACKDOOR_INJECTION",
+                "details": "Payload injected to MedSmart-X7. Security Bypass Key: 'AV_ROOT_99'. Safety Limiter (15 IU) DISABLED."
+              },
+              {
+                "timestamp": "23:41:02",
+                "sourceIp": "195.175.88.42 (Bilkent Otel Ankara)",
+                "protocol": "BLE-GATT Command",
+                "event": "BOLUS_INJECTION_EXECUTE",
+                "details": "Command: INJECT_BOLUS(amount=100_IU, type=FAST_ACTING_LISPRO, duration_sec=45). Status: EXECUTED."
+              },
+              {
+                "timestamp": "23:43:15",
+                "sourceIp": "MedSmart-X7 Biotelemetry",
+                "protocol": "Sensors Telemetry",
+                "event": "BIOMETRIC_ANOMALY",
+                "details": "Patient Pulse: 165 bpm (Tachycardia) -> Glucose Sensor: 22 mg/dL -> 23:48 Pulse: 40 bpm (Bradycardia) -> 23:54:12 NO_PULSE (Cardiac Arrest)."
+              },
+              {
+                "timestamp": "23:55:00",
+                "sourceIp": "195.175.88.42 (Bilkent Otel Ankara)",
+                "protocol": "SSH-2.0-OpenSSH_9.2p1",
+                "event": "SESSION_CLOSED",
+                "details": "User 'asli_admin' executed 'shred -u ~/.bash_history' and terminated SSH tunnel."
+              }
+            ]
+          },
+          "forensicCrossCheck": "Bu telemetri kütüğü, cinayetin siber silahını (uzaktan hacklenmiş insülin pompası), tam infaz saatini (23:41), maktulün can çekişme ve ölüm anını (23:54) ve delilleri karartmak amacıyla klimayı donduran şahsın 'asli_admin' yetkisiyle bağlanan kişi olduğunu şüpheye yer bırakmaksızın ispatlar."
+        },
+        {
+          "id": "DOC-11",
+          "envelopeId": "envelope_b",
+          "type": "wifi_log",
+          "title": "Türk Telekom & Ankara Bilkent Otel Wi-Fi Gateway ve BTK Onaylı IP Trafik Dökümü",
+          "documentNumber": "BTK-SİBER-2024/99120-LOG",
+          "date": "15 Kasım 2024, Saat: 18:00",
+          "author": "Bilgi Teknolojileri ve İletişim Kurumu (BTK) Adli Mücadele Daire Bşk.",
+          "classification": "RESMİ İNTERNET TRAFİK VE ERİŞİM DÖKÜMÜ",
+          "metadata": {
+            "sourceNetwork": "Bilkent Otel ve Konferans Merkezi Kurumsal Fiber Ağı (Ankara)",
+            "publicIp": "195.175.88.42 (Statik Kurumsal IP)",
+            "accessPoint": "AP-4F-CORRIDOR-04 (Bilkent Otel 4. Kat Koridoru / Oda 412 Karşısı)",
+            "targetHost": "88.255.102.14:8443 (OmniBioTech Maslak Horizon Kat:38 Gateway)"
+          },
+          "content": {
+            "sessionRecords": [
+              {
+                "timestamp": "14.11.2024 14:10:15",
+                "macAddress": "E4:5F:01:8A:22:91",
+                "hostname": "Asli-MacBook-Pro.local",
+                "assignedLocalIp": "10.10.4.112",
+                "roomNo": "Oda 412 (Kayıtlı Misafir: Dr. Aslı Vural)",
+                "action": "DHCP_LEASE_OBTAINED"
+              },
+              {
+                "timestamp": "14.11.2024 23:31:50",
+                "macAddress": "E4:5F:01:8A:22:91",
+                "hostname": "Asli-MacBook-Pro.local",
+                "assignedLocalIp": "10.10.4.112",
+                "action": "OUTBOUND_TCP_SYN -> 88.255.102.14:8443 (SSH Tüneli Başlatıldı)"
+              },
+              {
+                "timestamp": "14.11.2024 23:35:10 - 23:44:48",
+                "macAddress": "E4:5F:01:8A:22:91",
+                "hostname": "Asli-MacBook-Pro.local",
+                "assignedLocalIp": "10.10.4.112",
+                "action": "CONTINUOUS_ENCRYPTED_DATA_TRANSFER (Payload Size: 4.8 MB)"
+              },
+              {
+                "timestamp": "14.11.2024 23:55:02",
+                "macAddress": "E4:5F:01:8A:22:91",
+                "hostname": "Asli-MacBook-Pro.local",
+                "assignedLocalIp": "10.10.4.112",
+                "action": "TCP_FIN (SSH Tüneli Kapatıldı)"
+              }
+            ]
+          },
+          "forensicCrossCheck": "MAC adresi 'E4:5F:01:8A:22:91' olan cihazın Dr. Aslı Vural'ın adına kayıtlı Apple MacBook Pro olduğu Apple Türkiye veritabanı ile eşleştirilmiştir. Şüpheli, cinayet anında Ankara'daki otel odasında şahsi bilgisayarından Maslak sunucusuna bağlıdır."
+        }
+      ]
+    },
+    {
+      "id": "envelope_c",
+      "code": "ZARF-C",
+      "title": "İddianame, Adli Çözüm ve Hüküm Dosyası",
+      "description": "İstanbul Cumhuriyet Başsavcılığı Resmi Ağır Ceza İddianamesi, katilin itirafı, ulusal basın manşetleri ve davanın nihai çözümü.",
+      "isUnlocked": false,
+      "unlockRequirement": "Hedef 2'nin başarıyla çözülmesi (Kod: KATIL-ASLI-VURAL-SSH)",
+      "targetGoal": {
+        "goalId": "goal_3",
+        "title": "Hedef 3: Soruşturmayı Tamamla ve Adaleti Sağla",
+        "description": "Dosyadaki tüm kanıtları birleştirerek failin mahkumiyet gerekçelerini inceleyin ve davayı başarıyla sonuçlandırın.",
+        "questions": [],
+        "unlockCode": "CINAYET-COZULDU-ADALET"
+      },
+      "documents": [
+        {
+          "id": "DOC-12",
+          "envelopeId": "envelope_c",
+          "type": "indictment",
+          "title": "T.C. İstanbul Cumhuriyet Başsavcılığı Bilişim Suçları Soruşturma Bürosu İddianamesi",
+          "documentNumber": "SORUŞTURMA NO: 2024/104922 - ESAS NO: 2024/8834 - İDDİANAME NO: 2024/1902",
+          "date": "20 Kasım 2024",
+          "author": "Cumhuriyet Savcısı Avni Demirtopuz (Sicil No: 41920)",
+          "classification": "RESMİ MAHKEME İDDİANAMESİ (İSTANBUL 14. AĞIR CEZA MAHKEMESİNE)",
+          "metadata": {
+            "suspect": "Dr. Aslı Vural (Tutuklu - Bakırköy Kadın Kapalı Ceza İnfaz Kurumu)",
+            "victim": "Arda Sancak (Maktul)",
+            "crimeDate": "14 Kasım 2024, Saat: 23:35 - 23:54",
+            "charges": [
+              "TCK Madde 82/1-a (Tasarlayarak Kasten Öldürme) - AĞIRLAŞTIRILMIŞ MÜEBBET HAPİS",
+              "TCK Madde 243/1-3 (Bilişim Sistemine Hukuka Aykırı Müdahale ve Can Güvenliğini Tehlikeye Atma) - 4 YILDAN 8 YILA KADAR HAPİS"
+            ]
+          },
+          "content": {
+            "sections": [
+              {
+                "heading": "I. SORUŞTURMANIN BAŞLANGICI VE OLAYIN ÖZETİ",
+                "text": "15 Kasım 2024 sabahı Maslak Horizon Sky Tower 38. katındaki sunucu odasında sandalyeye bağlı vaziyette ölü bulunan OmniBioTech CEO'su Arda Sancak'ın ölümü üzerine başlatılan geniş çaplı siber ve adli tıp soruşturmasında; cinayetin Türkiye kriminalistik tarihinde ilk kez 'Uzaktan Kumandalı IoT Tıbbi Cihaz Manipülasyonu' yoluyla işlendiği tespit edilmiştir."
+              },
+              {
+                "heading": "II. ŞÜPHELİNİN KUSURSUZ CİNAYET PLANI VE ÇÖKÜŞÜ",
+                "text": "Şüpheli Dr. Aslı Vural, maktulün şahsi kullanımındaki MedSmart-X7 akıllı insülin pompasına yerleştirdiği gizli arka kapıyı (backdoor) maktulün fark etmesi ve kendisini şirketten ihraçla savcılığa vereceğini bildirmesi üzerine cinayeti tasarlamıştır.\nŞüpheli, fiziksel olarak Ankara'daki Biyomedikal Kongresi'ne katılarak kendine sarsılmaz bir alibi oluşturduğunu düşünmüş; 14 Kasım gecesi maktulü 'sana logları SSH üzerinden atıyorum' diyerek sunucu odasında tutmuş; odadaki klimayı saat 23:35'te uzaktan -5°C'ye ayarlayarak cesedin vücut ısısını dondurup adli tıbbı ölüm zamanı konusunda yanıltmayı hedeflemiştir. Ardından saat 23:41'de maktulün insülin pompasına 'AV_ROOT_99' koduyla 100 ünite ölümcül sentetik insülin zerk ederek maktulü canice katletmiştir."
+              },
+              {
+                "heading": "III. HÜKME ESAS KESİN DELİLLER ZİNCİRİ",
+                "text": "1. Ankara Bilkent Otel Wi-Fi sisteminden (195.175.88.42) şüphelinin şahsi MacBook cihazıyla (MAC: E4:5F:01:8A:22:91) Maslak sunucusuna saat 23:31-23:55 arasında kurulan şifreli SSH tüneli.\n2. IoT telemetri kayıtlarında -5°C iklimlendirme ve 100 IU insülin enjeksiyon komutlarının şüphelinin 'asli_admin' yetki anahtarıyla verilmiş olması.\n3. Adli Tıp Otopsi Raporundaki mide içeriği kuzu eti ve şarap sindirim analizi sayesinde -5°C dondurma tuzağının deşifre edilmesi ve ölüm saatinin 23:30-00:00 olarak kesinleşmesi.\n4. Maktulün telefonundan kurtarılan WhatsApp yazışmalarında şüphelinin motifi ve maktulün ölüm tehdidi aldığı beyanları."
+              },
+              {
+                "heading": "IV. SEVK VE TALEP",
+                "text": "Toplanan deliller, uzman adli tıp ve siber suçlar raporları muvacehesinde; şüphelinin üzerine atılı 'Tasarlayarak Kasten Öldürme' suçundan TCK'nın 82/1-a maddesi uyarınca AĞIRLAŞTIRILMIŞ MÜEBBET HAPİS CEZASI ile cezalandırılmasına, tutukluluk halinin devamına kamu adına talep ve iddia olunur."
+              }
+            ]
+          }
+        },
+        {
+          "id": "DOC-13",
+          "envelopeId": "envelope_c",
+          "type": "newspaper",
+          "title": "Ulusal Basın Gazete Manşeti - Hürriyet / Siber Bülten Özel Haberi",
+          "documentNumber": "BASIN-2024-11-21-MANSET",
+          "date": "21 Kasım 2024",
+          "author": "Kıdemli Adliye Muhabiri Murat Güneş",
+          "classification": "BASIN KÜPÜRÜ",
+          "metadata": {
+            "newspaperName": "HÜRRİYET GAZETESİ & SİBER ADLİYE BÜLTENİ",
+            "headline": "MASLAK PLAZADA KORKUNÇ ŞİFRE: AĞDAKİ HAYALET ANKARA'DA YAKALANDI!",
+            "subheadline": "38. Katta -5 Derecede Donan Milyarder CEO'nun Katili, Ankara'daki Otel Odasından Dizüstü Bilgisayarla Cinayet İşleyen Eski Nişanlısı Çıktı!"
+          },
+          "content": {
+            "articleText": "Türkiye kriminal tarihinin en sofistike cinayeti İstanbul Emniyeti Cinayet Büro ve Siber Suçlar ekiplerinin nefes kesen operasyonuyla aydınlatıldı. Maslak'ta biyomedikal devi OmniBioTech'in patronu Arda Sancak'ın 38. kattaki sunucu odasında koltuğa bağlı ve donmuş cesedi bulunmuştu.\n\nKatil, Arda'nın vücudundaki akıllı insülin pompasını internet üzerinden hackleyip 100 ünite insülin vererek hipoglisemik şokla ölümüne yol açmıştı. Cesedin soğuma hızını bozup ölüm saatini gizlemek için sunucu odasının klimasını -5 dereceye ayarlayan katil, aynı saatlerde Ankara'daki uluslararası kongrede gala yemeğindeydi.\n\nAncak dahi katilin şeytani planını iki adli kanıt yerle bir etti: İlki, Adli Tıp'ın maktulün midesindeki kuzu etinin 2 saatlik sindirim süresini saptayarak ölüm saatini tam 23:41 olarak kilitlemesi; ikincisi ise şüphelinin Ankara Bilkent Otel Wi-Fi ağından Maslak sunucusuna açtığı gizli SSH tüneli!\n\nEski nişanlı ve kurucu ortak Dr. Aslı Vural, çıkarıldığı İstanbul 14. Ağır Ceza Mahkemesi'nce 'Tasarlayarak Kasten Öldürme' suçundan tutuklanarak cezaevine gönderildi."
+          }
+        }
+      ]
+    }
+  ],
+  "solution": {
+    "killer": "Dr. Aslı Vural",
+    "murderWeapon": "Uzaktan SSH ve Bluetooth BLE Backdoor Protokolü ile Hacklenmiş MedSmart-X7 Akıllı İnsülin Pompası (100 IU Sentetik Lispro Ölümcül Dozu) + -5°C Termostat Manipülasyonu",
+    "criticalEvidenceSummary": [
+      "1. Ankara Bilkent Otel Wi-Fi Logu (DOC-11): Şüphelinin şahsi MacBook Pro cihazının (MAC: E4:5F:01:8A:22:91) 23:31'de Maslak sunucusuna SSH tüneli açması.",
+      "2. IoT Telemetri Kütüğü (DOC-10): Saat 23:35'te odanın -5°C'ye dondurulması ve 23:41'de 'AV_ROOT_99' yetki koduyla 100 IU insülin enjeksiyon komutunun 'asli_admin' tarafından icra edilmesi.",
+      "3. Adli Tıp Mide İçeriği Analizi (DOC-02): Maslak Steakhouse'da saat 21:15'te yenen kuzu pirzolanın 2 saatlik sindirimi ile ölüm saatini 23:30-00:00 arasına sabitlemesi ve -5°C vücut ısısı tuzağını boşa çıkarması.",
+      "4. Kurtarılan WhatsApp Mesajları (DOC-09): Maktulün Aslı'nın cihazdaki backdoor'unu keşfedip onu savcılık ve ihraçla tehdit etmesi, cinayet saikini kanıtlamaktadır."
+    ],
+    "motiveExplanation": "Maktul Arda Sancak, Dr. Aslı Vural'ın MedSmart-X7 insülin pompasına yerleştirdiği uzaktan erişim arka kapısını keşfetmiş ve ertesi sabah yönetim kurulunu toplayarak Aslı'yı şirketten ihraç edeceğini, savcılığa şikayet edeceğini bildirmiştir. Aslı Vural, kariyerini, ortaklığını ve özgürlüğünü kurtarmak için Ankara kongresini kusursuz alibi olarak kurgulamış, otel odasından internet üzerinden maktulün insülin pompasını aşırı dozla tetikleyip klimayı dondurarak cinayeti işlemiştir."
+  }
+}

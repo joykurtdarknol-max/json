@@ -1,5 +1,18 @@
 [
   {
+    "id": "case_404",
+    "title": "Vaka #404: Kuklacının Gece Vardiyası",
+    "subtitle": "Tünel Meydanı Sanat Atölyesinde Astronomik Saat Cinayeti",
+    "date": "14 Kasım 1995",
+    "location": "Saint-Antoine Restorasyon Atölyesi, Tünel / Beyoğlu",
+    "difficulty": "Zor",
+    "summary": "Beyoğlu'nun ünlü antika restoratörü Agah Sırrı, atölyesindeki devasa astronomik saatin sarkacına asılmış halde bulundu. Masada yarım kalmış kahve, parçalanmış Bizans el yazması ve çarklardaki cerrahi ip... Katil kim?",
+    "thumbnail": "images/case404_cover.jpg",
+    "isAvailable": true,
+    "tag": "MEKANİK CİNAYET // DEDEKTİF LABİRENTİ",
+    "filePath": "case_404.json"
+  },
+  {
     "id": "case_305",
     "title": "Vaka #305: Pera Palas Kanlı Senfoni",
     "subtitle": "Dünyaca Ünlü Piyanist Julian Vance Cinayeti",

@@ -1,0 +1,562 @@
+{
+  "id": "case_404",
+  "caseNumber": "1995/404",
+  "title": "Vaka #404: Kuklacının Gece Vardiyası",
+  "subtitle": "Tünel Meydanı Sanat Atölyesinde Astronomik Saat Cinayeti",
+  "date": "14 Kasım 1995 - Gece 02:30",
+  "location": "Saint-Antoine Sanat & Restorasyon Atölyesi, Tünel Meydanı, Beyoğlu / İstanbul",
+  "summary": "Beyoğlu'nun en ünlü antika restoratörü ve mühür uzmanı Agah Sırrı, atölyesindeki devasa astronomik saatin sarkacına asılmış halde ölü bulundu. Masada yarım kalmış kahve, parçalanmış Bizans el yazması ve çarklardaki cerrahi ip kalıntıları... İlk bakışta intihar gibi görünen olay, 4 şüphelinin karanlık sırlarıyla bir labirente dönüşüyor.",
+  "weapons": [
+    {
+      "id": "weapon_delayed_clockwork",
+      "name": "Mekanik Astronomik Saat Düzeneği (Kuru Buz Tetiklemeli)",
+      "description": "02:00 ağırlık dişlisine yerleştirilen kuru buzun erimesiyle serbest kalan cerrahi sütur ipi ve sarkacın mekanik asma kuvveti.",
+      "isCorrect": true
+    },
+    {
+      "id": "weapon_digitalis_poison",
+      "name": "Yüksükotu (Digitalis) Zehri",
+      "description": "Kahve fincanına damlatılan, kalbi durdurmaya yönelik bitkisel tentür.",
+      "isCorrect": false
+    },
+    {
+      "id": "weapon_craft_knife",
+      "name": "Kanlı Çelik Maket Bıçağı",
+      "description": "Antika restorasyonunda kullanılan, üzerinde kan izi bulunan keskin bistüri/maket bıçağı.",
+      "isCorrect": false
+    },
+    {
+      "id": "weapon_manual_strangle",
+      "name": "Deri Eldivenle Boğma",
+      "description": "Fiziksel güç kullanılarak arkadan maktulün boğazının sıkılması.",
+      "isCorrect": false
+    }
+  ],
+  "audioTapes": [
+    {
+      "id": "tape_dimitri",
+      "title": "Kaset #01: Dimitri'nin Gece Yarısı Tehdidi",
+      "subtitle": "Telesekreter Kaydı (14 Kasım 00:45) - Arka Planda Tramvay Sesi",
+      "associatedEvidenceId": "evidence_blackmail_tape"
+    },
+    {
+      "id": "tape_station_call",
+      "title": "Kaset #02: Taksim Karakol Telsiz Raporu",
+      "subtitle": "Nöbetçi Amiri Telsiz Anonsu (02:40 AM)",
+      "associatedEvidenceId": "evidence_police_log"
+    }
+  ],
+  "directory": [
+    {
+      "id": "dir_morgue",
+      "name": "Adli Tıp Kurumu Morg İhtisas",
+      "role": "Dr. Selim Uçar (Baştabip Yardımcısı)",
+      "status": "Otopsi Tamamlandı",
+      "viewTarget": "board"
+    },
+    {
+      "id": "dir_station",
+      "name": "Taksim Asayiş Şube Karakolu",
+      "role": "Nöbetçi Komiser Muzaffer",
+      "status": "Nöbet Defteri Teftişte",
+      "viewTarget": "desk"
+    },
+    {
+      "id": "dir_interrogation",
+      "name": "Asayiş Sorgu Odası (4 Şüpheli)",
+      "role": "Gözaltı ve Çapraz Sorgu",
+      "status": "Sorguya Hazır",
+      "viewTarget": "interrogation"
+    }
+  ],
+  "filePages": [
+    {
+      "pageNumber": 1,
+      "id": "page_1",
+      "title": "Olay Yeri İlk İntikal & Atölye Krokisi",
+      "classification": "GİZLİ // CİNAYET MASASI İLK TUTANAK",
+      "contentMarkdown": "### İSTANBUL ASAYİŞ ŞUBE MÜDÜRLÜĞÜ // CİNAYET BÜRO AMİRLİĞİ\n\n**Olay No:** 1995/404  \n**Tarih/Saat:** 14 Kasım 1995, Salı - 03:10  \n**Olay Yeri:** Saint-Antoine Sanat & Restorasyon Atölyesi, Çatı Katı, Tünel / Beyoğlu  \n**İlk Müdahale Ekibi:** Başkomiser Rıza Yalçın, Olay Yeri İnceleme Ekip-4  \n\n#### 📌 Olay Yerinin Genel Durumu\nMaktul **Agah Sırrı (64)**, atölyenin doğu duvarına monte edilmiş 2.40 metre yüksekliğindeki 18. yüzyıl Venedik yapımı astronomik duvar saatinin pirinç sarkacına boynundan asılmış vaziyette bulunmuştur. Maktulün ayakları yerden 15 cm yukarıdadır. Saatin sarkaç ağırlığı yerinden oynamış ve kadran tam **02:30:18**'de durmuştur.\n\nMasanın üzerinde yarım içilmiş ve soğumuş bir fincan Türk kahvesi, açık bir Bizans cilt restorasyon tezgahı ve zemine saçılmış kurşun mühürler görülmüştür. Odanın çelik kasasının kapağı açık, kilit mekanizması zorlanmış ve kasa önündeki parke üzerinde damla halinde taze kan izleri tespit edilmiştir. Pencereler şiddetli lodos ve yağmur nedeniyle kapalıdır; ancak arka yangın merdivenine açılan servis kapısının mandalı dışarıdan zorlanmıştır.\n\n> 🕵️‍♂️ **Dedektif Notu:** *İlk bakışta bir intihar ya da hırsızlık sırasında işlenen vahşi bir cinayet gibi duruyor. Ancak astronomik saatin çarklarındaki pirinç tozu ve yerdeki nem lekesi sıradan bir asılma olmadığını gösteriyor. Bir saat nasıl intihar aletine dönüşür?*",
+      "content": "### İSTANBUL ASAYİŞ ŞUBE MÜDÜRLÜĞÜ // CİNAYET BÜRO AMİRLİĞİ\n\n**Olay No:** 1995/404  \n**Tarih/Saat:** 14 Kasım 1995, Salı - 03:10  \n**Olay Yeri:** Saint-Antoine Sanat & Restorasyon Atölyesi, Çatı Katı, Tünel / Beyoğlu  \n**İlk Müdahale Ekibi:** Başkomiser Rıza Yalçın, Olay Yeri İnceleme Ekip-4  \n\n#### 📌 Olay Yerinin Genel Durumu\nMaktul **Agah Sırrı (64)**, atölyenin doğu duvarına monte edilmiş 2.40 metre yüksekliğindeki 18. yüzyıl Venedik yapımı astronomik duvar saatinin pirinç sarkacına boynundan asılmış vaziyette bulunmuştur. Maktulün ayakları yerden 15 cm yukarıdadır. Saatin sarkaç ağırlığı yerinden oynamış ve kadran tam **02:30:18**'de durmuştur.\n\nMasanın üzerinde yarım içilmiş ve soğumuş bir fincan Türk kahvesi, açık bir Bizans cilt restorasyon tezgahı ve zemine saçılmış kurşun mühürler görülmüştür. Odanın çelik kasasının kapağı açık, kilit mekanizması zorlanmış ve kasa önündeki parke üzerinde damla halinde taze kan izleri tespit edilmiştir. Pencereler şiddetli lodos ve yağmur nedeniyle kapalıdır; ancak arka yangın merdivenine açılan servis kapısının mandalı dışarıdan zorlanmıştır.\n\n> 🕵️‍♂️ **Dedektif Notu:** *İlk bakışta bir intihar ya da hırsızlık sırasında işlenen vahşi bir cinayet gibi duruyor. Ancak astronomik saatin çarklarındaki pirinç tozu ve yerdeki nem lekesi sıradan bir asılma olmadığını gösteriyor. Bir saat nasıl intihar aletine dönüşür?*",
+      "associatedEvidenceIds": [
+        "evidence_astronomic_clock",
+        "evidence_broken_coffee"
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "id": "page_2",
+      "title": "Adli Tıp Otopsi & Toksikoloji Raporu",
+      "classification": "GİZLİ // ADLİ TIP MORG İHTİSAS DAİRESİ",
+      "contentMarkdown": "### T.C. ADLİ TIP KURUMU BAŞKANLIĞI // PROTOKOL NO: 1995/8812\n\n**Maktul:** Agah Sırrı (D. 1931 - Ö. 14.11.1995)  \n**Otopsiyi Yapan:** Uzm. Dr. Selim Uçar (Adli Tıp Morg İhtisas)  \n\n#### 1. Dış Muayene ve Boyun İzi Bulguları\n- Maktulün boynunda 0.4 cm kalınlığında, yukarıya ve arkaya doğru uzanan belirgin bir ligatür izi (asılma oluğu) mevcuttur.\n- **Kritik Tespit:** Asılma oluğunun derinliği ve yapısı incelendiğinde; kullanılan ipin kendir ya da naylon halat değil, **tıbbi cerrahi ipek sütur (No: 5 cerrahi dikiş ipi)** olduğu anlaşılmıştır.\n- Boyun omurlarında (C2-C3 servikal) tipik 'cellat kırığı' (hangman's fracture) görülmüştür. Bu kırık, ani ve mekanik bir dikey çekme kuvvetinin uygulandığını, maktulün ağırlığının yavaşça serbest kalmadığını kanıtlar.\n\n#### 2. Toksikoloji ve İç Muayene\n- Midede ve kanda **0.15 mg/L Yüksükotu Tentürü (Digitalis Purpurea)** glikozitleri saptanmıştır.\n- **Uzman Yorumu:** Bu doz yetişkin bir insanı öldürmek için yetersizdir (letal doz > 0.80 mg/L). Ancak nabzı 40'a düşürür, hipotansiyon ve derin bir kas paralizisi (felç/uyuşukluk) yaratarak kurbanın 2-3 saat boyunca fiziki direnç göstermesini engeller.\n- Maktul boynuna ip geçirildiğinde **hayattaydı fakat tamamen bilinci bulanık ve hareketsizdi.**",
+      "content": "### T.C. ADLİ TIP KURUMU BAŞKANLIĞI // PROTOKOL NO: 1995/8812\n\n**Maktul:** Agah Sırrı (D. 1931 - Ö. 14.11.1995)  \n**Otopsiyi Yapan:** Uzm. Dr. Selim Uçar (Adli Tıp Morg İhtisas)  \n\n#### 1. Dış Muayene ve Boyun İzi Bulguları\n- Maktulün boynunda 0.4 cm kalınlığında, yukarıya ve arkaya doğru uzanan belirgin bir ligatür izi (asılma oluğu) mevcuttur.\n- **Kritik Tespit:** Asılma oluğunun derinliği ve yapısı incelendiğinde; kullanılan ipin kendir ya da naylon halat değil, **tıbbi cerrahi ipek sütur (No: 5 cerrahi dikiş ipi)** olduğu anlaşılmıştır.\n- Boyun omurlarında (C2-C3 servikal) tipik 'cellat kırığı' (hangman's fracture) görülmüştür. Bu kırık, ani ve mekanik bir dikey çekme kuvvetinin uygulandığını, maktulün ağırlığının yavaşça serbest kalmadığını kanıtlar.\n\n#### 2. Toksikoloji ve İç Muayene\n- Midede ve kanda **0.15 mg/L Yüksükotu Tentürü (Digitalis Purpurea)** glikozitleri saptanmıştır.\n- **Uzman Yorumu:** Bu doz yetişkin bir insanı öldürmek için yetersizdir (letal doz > 0.80 mg/L). Ancak nabzı 40'a düşürür, hipotansiyon ve derin bir kas paralizisi (felç/uyuşukluk) yaratarak kurbanın 2-3 saat boyunca fiziki direnç göstermesini engeller.\n- Maktul boynuna ip geçirildiğinde **hayattaydı fakat tamamen bilinci bulanık ve hareketsizdi.**",
+      "associatedEvidenceIds": [
+        "evidence_surgical_suture",
+        "evidence_autopsy_full"
+      ]
+    },
+    {
+      "pageNumber": 3,
+      "id": "page_3",
+      "title": "Birincil Şüpheli Profilleri & İlk Sorgular",
+      "classification": "GİZLİ // ASAYİŞ ŞÜPHELİ FİŞLERİ",
+      "contentMarkdown": "### GÖZALTINDAKİ 4 ŞÜPHELİ\n\n#### 1. 🥼 Dr. Feridun Çelik (62) - Adli Tıp Kıdemli Tabibi\n- **İlişki:** Maktulün Galatasaray Lisesi'nden 40 yıllık dostu ve amatör mekanik saat koleksiyoneri.\n- **Alibi İddiası:** Gece 01:00 ile 03:00 arası Taksim Karakolu'nda başka bir asayiş vakasının adli muayene nöbetinde olduğunu belirtiyor.\n- **Şüphe:** Olay yerine ilk koşan hekim oldu. Saatin mekanizmasını maktulle birlikte restore ettiklerini söylüyor.\n\n#### 2. 🎨 Leyla Feruz (27) - Genç Ressam & Atölye Çırağı\n- **İlişki:** 2 yıldır atölyede minyatür ve yağlıboya restorasyonu yapıyor. Maktulle gizli ilişkisi olduğu biliniyor.\n- **Alibi İddiası:** Gece 23:30'da atölyeden ayrıldığını ve Cihangir'deki evine gittiğini savunuyor.\n- **Şüphe:** Çantasında bir şişe yüksükotu tentürü ve gece 04:00 Sirkeci-Paris tren bileti bulundu!\n\n#### 3. 🎲 Tevfik Sırrı (34) - Maktulün Evlatlığı & Saha Sahaflar Çarşısı Esnafı\n- **İlişki:** 8 yaşında Agah Bey tarafından evlat edinilmiş. Kumar borçları yüzünden babasıyla sürekli kavgalı.\n- **Alibi İddiası:** Gece boyu Beyoğlu Arka Sokak kumarhanesinde kağıt oynadığını iddia ediyor.\n- **Şüphe:** Atölyedeki kasada parmak izleri ve cebinde kanlı bir maket bıçağı ele geçirildi.\n\n#### 4. ⛪ Dimitri 'Gölge' (48) - Eski Kilise Zangoçu & Eser Kaçakçısı\n- **İlişki:** Tarihi eser ve ikona kaçakçılığından sabıkalı.\n- **Alibi İddiası:** Gece Karaköy rıhtımında olduğunu söylüyor.\n- **Şüphe:** Yangın merdivenindeki 43 numara çamurlu postal izleri onunla eşleşti; maktulün telesekreterinde tehdit mesajı var!",
+      "content": "### GÖZALTINDAKİ 4 ŞÜPHELİ\n\n#### 1. 🥼 Dr. Feridun Çelik (62) - Adli Tıp Kıdemli Tabibi\n- **İlişki:** Maktulün Galatasaray Lisesi'nden 40 yıllık dostu ve amatör mekanik saat koleksiyoneri.\n- **Alibi İddiası:** Gece 01:00 ile 03:00 arası Taksim Karakolu'nda başka bir asayiş vakasının adli muayene nöbetinde olduğunu belirtiyor.\n- **Şüphe:** Olay yerine ilk koşan hekim oldu. Saatin mekanizmasını maktulle birlikte restore ettiklerini söylüyor.\n\n#### 2. 🎨 Leyla Feruz (27) - Genç Ressam & Atölye Çırağı\n- **İlişki:** 2 yıldır atölyede minyatür ve yağlıboya restorasyonu yapıyor. Maktulle gizli ilişkisi olduğu biliniyor.\n- **Alibi İddiası:** Gece 23:30'da atölyeden ayrıldığını ve Cihangir'deki evine gittiğini savunuyor.\n- **Şüphe:** Çantasında bir şişe yüksükotu tentürü ve gece 04:00 Sirkeci-Paris tren bileti bulundu!\n\n#### 3. 🎲 Tevfik Sırrı (34) - Maktulün Evlatlığı & Saha Sahaflar Çarşısı Esnafı\n- **İlişki:** 8 yaşında Agah Bey tarafından evlat edinilmiş. Kumar borçları yüzünden babasıyla sürekli kavgalı.\n- **Alibi İddiası:** Gece boyu Beyoğlu Arka Sokak kumarhanesinde kağıt oynadığını iddia ediyor.\n- **Şüphe:** Atölyedeki kasada parmak izleri ve cebinde kanlı bir maket bıçağı ele geçirildi.\n\n#### 4. ⛪ Dimitri 'Gölge' (48) - Eski Kilise Zangoçu & Eser Kaçakçısı\n- **İlişki:** Tarihi eser ve ikona kaçakçılığından sabıkalı.\n- **Alibi İddiası:** Gece Karaköy rıhtımında olduğunu söylüyor.\n- **Şüphe:** Yangın merdivenindeki 43 numara çamurlu postal izleri onunla eşleşti; maktulün telesekreterinde tehdit mesajı var!",
+      "associatedEvidenceIds": [
+        "evidence_digitalis_vial",
+        "evidence_bloody_knife"
+      ]
+    },
+    {
+      "pageNumber": 4,
+      "id": "page_4",
+      "title": "Telsiz Saha Baskınları & İstihbarat Raporu",
+      "classification": "GİZLİ // ASAYİŞ TELSİZ DÖKÜMÜ",
+      "contentMarkdown": "### ASAYİŞ TELSİZ İSTASYONU SAHA RAPORLARI\n\n**Telsiz Kodu:** BEYOĞLU-MERKEZ / ASAYİŞ-3\n\n1. **Taksim Polis Karakolu İncelemesi (Ekip-1):**\n   - Dr. Feridun Çelik'in nöbet defteri incelendi. Defterde saat **01:30** ile **03:00** arasında karakolda olduğu yazılı. Ancak nöbetçi polis memuru, doktorun saat **01:45** sularında 'Hava alıp çay içeceğim' diyerek yaklaşık 45 dakika karakoldan ayrıldığını fısıldadı!\n\n2. **Karaköy Rıhtımı Dimitri'nin Zulası (Ekip-2):**\n   - Dimitri'nin deposunda yapılan aramada maktulün atölyesinden çalınan 14. yüzyıl altın yaldızlı Meryem Ana İkonası bulundu. Dimitri, 'Ben girdiğimde Agah masada uyuyordu, saati bile tıkırdamıyordu, ikonu aldım kaçtım!' diye yemin ediyor.\n\n3. **Sahaflar Çarşısı Tevfik'in Dükkanı (Ekip-3):**\n   - Tevfik'in borçlu olduğu tefecilerin senetleri ele geçirildi. Ayrıca Tevfik'in çekmecesinde Agah Bey'in onu evlatlıktan reddettiğine dair noter ihtarnamesi bulundu.",
+      "content": "### ASAYİŞ TELSİZ İSTASYONU SAHA RAPORLARI\n\n**Telsiz Kodu:** BEYOĞLU-MERKEZ / ASAYİŞ-3\n\n1. **Taksim Polis Karakolu İncelemesi (Ekip-1):**\n   - Dr. Feridun Çelik'in nöbet defteri incelendi. Defterde saat **01:30** ile **03:00** arasında karakolda olduğu yazılı. Ancak nöbetçi polis memuru, doktorun saat **01:45** sularında 'Hava alıp çay içeceğim' diyerek yaklaşık 45 dakika karakoldan ayrıldığını fısıldadı!\n\n2. **Karaköy Rıhtımı Dimitri'nin Zulası (Ekip-2):**\n   - Dimitri'nin deposunda yapılan aramada maktulün atölyesinden çalınan 14. yüzyıl altın yaldızlı Meryem Ana İkonası bulundu. Dimitri, 'Ben girdiğimde Agah masada uyuyordu, saati bile tıkırdamıyordu, ikonu aldım kaçtım!' diye yemin ediyor.\n\n3. **Sahaflar Çarşısı Tevfik'in Dükkanı (Ekip-3):**\n   - Tevfik'in borçlu olduğu tefecilerin senetleri ele geçirildi. Ayrıca Tevfik'in çekmecesinde Agah Bey'in onu evlatlıktan reddettiğine dair noter ihtarnamesi bulundu.",
+      "associatedEvidenceIds": [
+        "evidence_police_log",
+        "evidence_blackmail_tape"
+      ]
+    },
+    {
+      "pageNumber": 5,
+      "id": "page_5",
+      "title": "Gizli Sandık & 1975 Tarihli Örtbas İtirafı",
+      "classification": "GİZLİ // ADLİ ARŞİV BELGESİ",
+      "contentMarkdown": "### ATÖLYEDE RESTORE EDİLEN TARİHİ BİZANS SANDIĞI\n\nOlay yeri inceleme ekipleri, maktulün çalışma masasının hemen arkasında bulunan ceviz kaplama çift kilitli sandığı incelemeye aldı. Sandığın alt gizli bölmesinde (çift zemin) sararmış mühürlü bir zarf bulundu.\n\n#### 📜 Zarfın İçindeki İtiraf Belgesi (12 Mayıs 1975):\n*\"Ben, Adli Tıp Tabibi Dr. Feridun Çelik... İşbu rapor ile Galata rıhtımında ölü bulunan Armatör Selim Kazaz'ın şüpheli ölümünü, aldığım 500.000 TL karşılığında 'kalp krizi' olarak tescil ettiğimi, asıl ölümün striknin zehirlenmesi olduğunu vicdan azabıyla itiraf ederim...\"*\n\n> 🕵️‍♂️ **Dedektif Notu:** *Agah Sırrı bu sandığı restore ederken gizli bölmeyi açmış ve 20 yıl önceki bu korkunç sırrı bulmuş! Dr. Feridun bunu öğrenince ne yaptı? 40 yıllık dostluk bu şantaj ve adli skandal karşısında bir cinayet planına mı dönüştü?*",
+      "content": "### ATÖLYEDE RESTORE EDİLEN TARİHİ BİZANS SANDIĞI\n\nOlay yeri inceleme ekipleri, maktulün çalışma masasının hemen arkasında bulunan ceviz kaplama çift kilitli sandığı incelemeye aldı. Sandığın alt gizli bölmesinde (çift zemin) sararmış mühürlü bir zarf bulundu.\n\n#### 📜 Zarfın İçindeki İtiraf Belgesi (12 Mayıs 1975):\n*\"Ben, Adli Tıp Tabibi Dr. Feridun Çelik... İşbu rapor ile Galata rıhtımında ölü bulunan Armatör Selim Kazaz'ın şüpheli ölümünü, aldığım 500.000 TL karşılığında 'kalp krizi' olarak tescil ettiğimi, asıl ölümün striknin zehirlenmesi olduğunu vicdan azabıyla itiraf ederim...\"*\n\n> 🕵️‍♂️ **Dedektif Notu:** *Agah Sırrı bu sandığı restore ederken gizli bölmeyi açmış ve 20 yıl önceki bu korkunç sırrı bulmuş! Dr. Feridun bunu öğrenince ne yaptı? 40 yıllık dostluk bu şantaj ve adli skandal karşısında bir cinayet planına mı dönüştü?*",
+      "associatedEvidenceIds": [
+        "evidence_confession_letter",
+        "evidence_byzantine_chest"
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "id": "evidence_astronomic_clock",
+      "title": "Antika Astronomik Saat & Mekanik Dişliler",
+      "category": "object",
+      "description": "Atölye duvarında asılı, pirinç sarkaçlı ve ağırlık mekanizmalı tarihi Venedik saati. Kadran 02:30:18'de durmuş.",
+      "image": "/assets/pocket_watch.jpg",
+      "sourceLocation": "Atölye Doğu Duvarı",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-01",
+      "handwrittenNote": "Saat sarkacının üst dişlisine mekanik bir çentik tutturulmuş. Saat tam 02:30 ağırlık boşaltmasında ipi serbest bırakmış!",
+      "hiddenClueUV": "Dişlilerin üzerinde ve zemin parkesinde buharlaşmış saf distile su ve dondurucu kuru buz (CO2) tortusu parlıyor!",
+      "hiddenClueMagnifier": "Pirinç mandalın ucunda cerrahi dikiş ipinin sıyrılmış lifleri ve saatçi cımbızı izi mevcut.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "evidence_surgical_suture",
+      "title": "Cerrahi İpek Sütur İpi (Boyun Bağı)",
+      "category": "forensic",
+      "description": "Maktulün boynunda bulunan ve saat sarkacına bağlanan 0.4 cm kalınlığında örgülü cerrahi dikiş ipi.",
+      "image": "/assets/dispatch_hammer.jpg",
+      "sourceLocation": "Maktulün Boynu / Saat Sarkacı",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-02",
+      "handwrittenNote": "Piyasada satılmayan, yalnızca Adli Tıp ve üniversite cerrahi ameliyathanelerinde kullanılan steril ipek ip!",
+      "hiddenClueUV": "İpin düğüm noktasında Adli Tıp morglarında kullanılan 'Klorheksidin' antiseptik solüsyonu parıldıyor!",
+      "hiddenClueMagnifier": "Atılan düğüm klasik bir denizci veya intihar düğümü değil; yalnızca cerrahların bildiği çift kilitli 'Fisherman Suture' düğümü.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "evidence_digitalis_vial",
+      "title": "Yüksükotu (Digitalis) Tentür Şişesi",
+      "category": "object",
+      "description": "Leyla Feruz'un deri el çantasında ele geçirilen, kahverengi damlalıklı cam şişe.",
+      "image": "/assets/toxin_vial.jpg",
+      "sourceLocation": "Leyla Feruz'un El Çantası",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-03",
+      "handwrittenNote": "Leyla'nın parmak izleri şişenin üzerinde. Ancak maktulün midesindeki miktar ölümcül dozun 5'te 1'i!",
+      "hiddenClueUV": "Damlalığın ucunda kahve kalıntısı tespit edildi. Fincana damlatılmış.",
+      "hiddenClueMagnifier": "Etikette 'Eczacıbaşı Laboratuvarı 1993 - Kalp Aritmi Solüsyonu' yazıyor.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "evidence_bloody_knife",
+      "title": "Kanlı Maket Bıçağı & Borç Senetleri",
+      "category": "object",
+      "description": "Tevfik Sırrı'nın pardösü cebinden çıkan kanlı maket bıçağı ve 120.000 TL'lik kumar borcu senetleri.",
+      "image": "/assets/inhaler_spray.jpg",
+      "sourceLocation": "Tevfik Sırrı'nın Cebi",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-04",
+      "handwrittenNote": "Bıçaktaki kan grubu 'A Rh Pozitif'. Maktul Agah Bey ise '0 Rh Negatif'! Kan Tevfik'in kendi el kesiğine ait!",
+      "hiddenClueUV": "Maket bıçağının kabzasında çelik kasa boyası kalıntıları var.",
+      "hiddenClueMagnifier": "Tevfik'in sağ işaret parmağında taze derin bir kesik bandajı var.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "evidence_police_log",
+      "title": "Taksim Karakolu Resmi Nöbet Defteri",
+      "category": "document",
+      "description": "14 Kasım gecesi nöbetçi personeli ve adli tabiplerin giriş-çıkış kayıtlarını içeren resmi defter.",
+      "image": "/assets/desk_bg.jpg",
+      "sourceLocation": "Taksim Asayiş Şube Masası",
+      "officialDocumentNo": "T.C. EMNİYET // DEFTER-1995/11",
+      "handwrittenNote": "Dr. Feridun'un imza saati 01:30'dan daksille 02:30'a çevrilmiş!",
+      "hiddenClueUV": "Daksilin altında 'Çıkış: 01:40 - Giriş: 02:45' yazısı mor ışıkta net şekilde okunuyor!",
+      "hiddenClueMagnifier": "Tahrifat sonradan yapılmış, daksil üzerindeki mürekkep nöbetçi amirin değil, Dr. Feridun'un dolmakalemine ait.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "evidence_blackmail_tape",
+      "title": "Dimitri'nin Tehdit Ses Kasedi",
+      "category": "audio",
+      "description": "Atölye telesekreterine gece 00:45'te bırakılan öfkeli ses kaydı.",
+      "image": "/assets/theme_music.mp3",
+      "sourceLocation": "Atölye Telesekreteri",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // SES-01",
+      "handwrittenNote": "Dimitri: 'Agah o ikonu vermezsen bu gece son gecen olur!'",
+      "hiddenClueUV": "Kaset kapağında Dimitri'nin çamurlu parmak izi bulundu.",
+      "hiddenClueMagnifier": "Kayıt arkasında Tünel nostaljik tramvayının saat 00:45 kalkış gong sesi duyuluyor.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "evidence_confession_letter",
+      "title": "1975 Tarihli Sahte Otopsi İtiraf Belgesi",
+      "category": "document",
+      "description": "Bizans sandığının çift tabanından çıkan, Dr. Feridun Çelik'in rüşvetle sahte otopsi raporu verdiğini itiraf eden orijinal mektup.",
+      "image": "/assets/case105_thumb.jpg",
+      "sourceLocation": "Bizans Sandığı Gizli Bölmesi",
+      "officialDocumentNo": "ADLİ BELGE // İTİRAF-1975",
+      "handwrittenNote": "Dr. Feridun'un ıslak imzası ve mührü var. Bu belge basına sızsaydı Feridun hapse girecek ve unvanı silinecekti!",
+      "hiddenClueUV": "Belgenin arkasında maktul Agah Sırrı'nın 'Yarın sabah Başsavcıya teslim edilecek - 14.11.1995' notu parlıyor.",
+      "hiddenClueMagnifier": "Mektubun kat yerinde taze ter ve Dr. Feridun'un altın yüzük arması baskısı var.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "evidence_autopsy_full",
+      "title": "Agah Sırrı Adli Tıp Tam Otopsi Raporu",
+      "category": "forensic",
+      "description": "Ölüm saati, toksikoloji konsantrasyonu ve omurga mekaniği detaylı otopsi tutanağı.",
+      "sourceLocation": "Adli Tıp Morg İhtisas Dairesi",
+      "officialDocumentNo": "T.C. ADLİ TIP // OTOPSİ-1995/8812",
+      "handwrittenNote": "Kurban zehirlenerek değil, 02:30'da saatin sarkacıyla mekanik olarak asılarak öldürülmüş!",
+      "hiddenClueUV": "Maktulün avuç içinde cerrahi pudra (talk) kalıntıları mevcut.",
+      "hiddenClueMagnifier": "Boyundaki bası açısı 45 derece dik; kurban asılırken tamamen uyuşuk vaziyetteymiş.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "evidence_byzantine_chest",
+      "title": "Restorasyondaki Bizans Sandığı",
+      "category": "object",
+      "description": "Sedef ve fildişi kakmalı, 16. yüzyıl Venedik-Bizans sandığı. Gizli tabanı açılmış vaziyette.",
+      "image": "/assets/crime_scene_dressing_room.jpg",
+      "sourceLocation": "Atölye Çalışma Tezgahı",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-05",
+      "handwrittenNote": "Agah Bey dün akşam bu sandığı restore ederken gizli bölmeyi açmış ve Feridun'un mektubunu bulmuştu.",
+      "hiddenClueUV": "Sandık kilidinde Dr. Feridun'un deri eldiven izleri parlıyor.",
+      "hiddenClueMagnifier": "Sandık menteşelerinde taze yağlanma izi var.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "evidence_broken_coffee",
+      "title": "Yarım Kalmış Fincan & Kahve Telvesi",
+      "category": "object",
+      "description": "Masanın üzerindeki porselen fincan. Dibinde yoğun telve ve digitalis tortusu kalmış.",
+      "sourceLocation": "Maktulün Masası",
+      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-06",
+      "handwrittenNote": "Leyla kahveye yüksükotu damlattı. Agah kahveyi 23:15 civarında içip masada uyuyakaldı.",
+      "hiddenClueUV": "Fincan kenarında Leyla Feruz'un bordo ruj izi mevcut.",
+      "hiddenClueMagnifier": "Kahve telvesinde erimemiş digitalis kristal parçacıkları görünüyor.",
+      "isPinnedByDefault": false
+    }
+  ],
+  "suspects": [
+    {
+      "id": "dr_feridun",
+      "name": "Dr. Feridun Çelik",
+      "age": 62,
+      "role": "Adli Tıp Kıdemli Tabibi (Maktulün 40 Yıllık Dostu)",
+      "imageNormal": "/assets/dr_thorne_normal.jpg",
+      "imageInterrogation": "/assets/dr_thorne_interrogation.jpg",
+      "alibi": "Gece 01:00 ile 03:00 arasında Taksim Polis Karakolu'nda adli muayene nöbetindeydim. Karakol nöbet defterinde imzam var, dışarı adım atmadım.",
+      "motive": "Agah Sırrı'nın Bizans sandığında bulduğu 1975 tarihli rüşvet ve sahte otopsi itiraf mektubunu sabah savcılığa vereceğini açıklaması.",
+      "stressLevel": 35,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Ben 35 yıllık devlet tabibiyim Başkomserim! Agah benim can dostumdu. İntihar ettiğini görmek beni kahretti, bana iftira atamazsınız!",
+      "dialogueTree": [
+        {
+          "question": "Agah Bey'in boynundaki ip sıradan bir ip değil, Adli Tıp'a özel No: 5 cerrahi ipek sütur ipi. Buna ne diyeceksiniz?",
+          "tactic": "evidence",
+          "requiredEvidence": "evidence_surgical_suture",
+          "response": "Şey... Agah benden rica etmişti! Antika kitap ciltlerini dikmek için sağlam iplik istediğini söylemişti, geçen hafta ben vermiştim...",
+          "stressDelta": 25,
+          "breakthrough": "Dr. Feridun terlemeye başladı ve gözlerini kaçırdı. Cerrahi ipin kaynağını kabul etti."
+        },
+        {
+          "question": "Taksim Karakolu nöbet defterini inceledik Doktor. İmza saatinizin daksillendiğini ve gece 01:40 ile 02:45 arasında karakoldan ayrıldığınızı nöbetçi polis doğruladı!",
+          "tactic": "evidence",
+          "requiredEvidence": "evidence_police_log",
+          "response": "Ben... sadece hava almak için çıktım! Beyoğlu'nda biraz yürüdüm, atölyeye gitmedim!",
+          "stressDelta": 30,
+          "breakthrough": "Sahte alibisi çöktü! Karakoldan ayrıldığını itiraf etti."
+        },
+        {
+          "question": "Bizans sandığından çıkan 1975 tarihli sahte otopsi itiraf mektubunuzu bulduk Feridun Bey. Agah sabah sizi savcılığa şikayet edecekti değil mi?",
+          "tactic": "evidence",
+          "requiredEvidence": "evidence_confession_letter",
+          "response": "(Gözyaşlarına boğulur) 40 yıllık itibarım, mesleğim, her şeyim bitecekti! Ona yalvardım, 'Agah yapma, beni rezil etme' dedim. Beni dinlemedi... Atölyeye girdiğimde Leyla'nın kahvesi yüzünden sızmıştı. Saatin mekanizmasını biliyordum; kuru buzu ağırlığa koydum, cerrahi ipi boynuna geçirdim ve karakola döndüm. Buz eriyince saat onu astı... Ben sadece hayatımı kurtarmak istedim!",
+          "stressDelta": 45,
+          "breakthrough": "TAM İTİRAF ALINDI! Dr. Feridun suçunu ve gecikmeli cinayet mekanizmasını itiraf etti."
+        },
+        {
+          "question": "40 yıllık dostunuzu bir saat düzeneğine bağlayıp soğukkanlılıkla ölüme terk ederken hiç mi vicdanınız sızlamadı?",
+          "tactic": "bad_cop",
+          "response": "Beni köşeye sıkıştırdı! 20 yıl önceki bir hata için beni hapse tıkacaktı! Beni buna o mecbur etti!",
+          "stressDelta": 20
+        },
+        {
+          "question": "Doktor Bey, gelin dürüst olun. O gece atölyeye sadece konuşmak için gittiğinizi biliyoruz, olaylar kontrolden çıktı değil mi?",
+          "tactic": "good_cop",
+          "response": "Evet... Sadece mektubu geri almak istiyordum. Ama o mektubu kasaya koymuştu. Onu baygın görünce şeytan aklıma girdi...",
+          "stressDelta": 15
+        }
+      ],
+      "freeformKeywords": [
+        {
+          "keywords": ["saat", "mekanizma", "kuru buz", "buz", "dişli"],
+          "response": "Saat mekaniğinden anlarım evet, Agah'a saatin dişlilerini tamir etmesinde yardım etmiştim. Ama cinayetle ne ilgisi var?",
+          "stressDelta": 15
+        },
+        {
+          "keywords": ["mektup", "1975", "itiraf", "rüşvet", "sandık"],
+          "response": "O mektup... O lanet mektup 20 yıl önce gömülmüştü! Agah'ın onu bulması bir lanetti!",
+          "stressDelta": 30
+        },
+        {
+          "keywords": ["sütur", "cerrahi", "ip", "düğüm"],
+          "response": "O düğümü... o düğümü sadece cerrahlar atabilir. Kendimi ele verdiğimi biliyordum...",
+          "stressDelta": 25
+        }
+      ]
+    },
+    {
+      "id": "leyla_feruz",
+      "name": "Leyla Feruz",
+      "age": 27,
+      "role": "Genç Ressam & Atölye Çırağı",
+      "imageNormal": "/assets/isabella_rossi_normal.jpg",
+      "imageInterrogation": "/assets/isabella_rossi_interrogation.jpg",
+      "alibi": "Gece 23:30'da atölyeden çıktım ve evime gittim. Sabah Paris trenine binecektim çünkü Agah ile ilişkimiz çıkmaza girmişti.",
+      "motive": "Agah'ın kendisini bırakmak istememesi ve atölyedeki emeklerini gasp etmesi.",
+      "stressLevel": 45,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Yemin ederim ben onu öldürmedim! Evet tartışıyorduk ama ben bir katil değilim!",
+      "dialogueTree": [
+        {
+          "question": "Çantanızda yüksükotu tentürü ve kahve fincanında digitalis kalıntısı bulduk. Onu zehirlediniz, değil mi?",
+          "tactic": "evidence",
+          "requiredEvidence": "evidence_digitalis_vial",
+          "response": "(Hıçkırarak ağlar) Evet... Kahvesine 10 damla damlattım! Ama öldürmek için değil! Sadece derin bir uykuya dalsın, kasları tutulsun istedim. Pasaportumu ve çizimlerimi kilitli çekmeceden alıp Paris trenine kaçabilmek için yaptım! Çıktığımda nefes alıyordu ve masada uyuyordu!",
+          "stressDelta": 35,
+          "breakthrough": "Leyla zehri verdiğini itiraf etti ancak öldürücü doz olmadığını ve saat 23:30'da Agah'ın sağ olduğunu belirtti."
+        },
+        {
+          "question": "Otopsi raporu da sizi doğruluyor Leyla Hanım. Zehir miktarı öldürücü değil, sadece felç edici düzeydeydi. Sizden sonra atölyeye biri daha girmiş olmalı.",
+          "tactic": "good_cop",
+          "response": "Biliyordum! Ben katil değilim! Çıkarken kapıyı çekip kapattım, arkamdan kimin girdiğini bilmiyorum!",
+          "stressDelta": -15
+        }
+      ]
+    },
+    {
+      "id": "tevfik_sirri",
+      "name": "Tevfik Sırrı",
+      "age": 34,
+      "role": "Maktulün Evlatlığı & Kumarbaz",
+      "imageNormal": "/assets/marco_bellini_normal.jpg",
+      "imageInterrogation": "/assets/marco_bellini_interrogation.jpg",
+      "alibi": "Bütün gece kumarhanedeydim. Babamın öldüğünü sabah polisten öğrendim.",
+      "motive": "120.000 TL kumar borcu ve mirasın reddedilme tehlikesi.",
+      "stressLevel": 50,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Babam bana beş kuruş koklatmazdı ama onu asacak kadar deli değilim ben!",
+      "dialogueTree": [
+        {
+          "question": "Cebinizdeki kanlı maket bıçağını ve kasadaki parmak izlerinizi açıklayın Tevfik Bey!",
+          "tactic": "evidence",
+          "requiredEvidence": "evidence_bloody_knife",
+          "response": "Tamam, itiraf ediyorum! Gece 01:00 gibi atölyeye girdim. Kasadan para değil, beni evlatlıktan sildiğine dair evrakı çalmak istedim. Kasayı maket bıçağıyla kanırtırken elimi kestim, yerdeki kan benim kanım! Babam masada horul horul uyuyordu, ona dokunmadım bile!",
+          "stressDelta": 30,
+          "breakthrough": "Kasadaki kanın kendine ait olduğunu ve babasının 01:00'de uyur vaziyette sağ olduğunu itiraf etti."
+        }
+      ]
+    },
+    {
+      "id": "dimitri_golge",
+      "name": "Dimitri 'Gölge'",
+      "age": 48,
+      "role": "Eski Kilise Zangoçu & Eser Kaçakçısı",
+      "imageNormal": "/assets/viktor_vance.jpg",
+      "imageInterrogation": "/assets/viktor_interrogation.jpg",
+      "alibi": "Gece boyu Karaköy kahvesinde çay içiyordum.",
+      "motive": "Maktulün vermeyi reddettiği paha biçilmez altın Meryem Ana İkonası.",
+      "stressLevel": 40,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Ben Agah'ı tanırım, iş yaparız. Cinayetle işim olmaz Komiser!",
+      "dialogueTree": [
+        {
+          "question": "Telesekreterdeki 'Seni asarım' tehdidiniz ve deponuzda bulunan çalınmış altın ikon her şeyi anlatıyor Dimitri!",
+          "tactic": "evidence",
+          "requiredEvidence": "evidence_blackmail_tape",
+          "response": "Bak Başkomserim, tehdit ettim doğru. Gece 01:15'te yangın merdiveninden içeri süzüldüm. İkon masanın yanındaydı, aldım çıktım. Agah masaya yığılmış uyuyordu. 'Oh ne güzel sızmış' dedim, dokunmadan tüydüm!",
+          "stressDelta": 30,
+          "breakthrough": "01:15'te atölyede olduğunu ve ikonu çaldığını, ancak kurbanın o sırada hayatta ve uyuyor olduğunu beyan etti."
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl_1",
+      "time": "21:30",
+      "title": "Bizans Sandığının Açılması",
+      "description": "Agah Sırrı atölyede restorasyon yaparken sandığın gizli tabanını açtı ve Dr. Feridun'un 1975 tarihli sahte otopsi itiraf mektubunu buldu.",
+      "associatedEvidenceId": "evidence_confession_letter",
+      "isVerified": true
+    },
+    {
+      "id": "tl_2",
+      "time": "22:15",
+      "title": "Dr. Feridun ile Telefon Görüşmesi",
+      "description": "Agah Bey Dr. Feridun'u arayarak mektubu bulduğunu ve yarın sabah Başsavcılığa teslim edeceğini bildirdi.",
+      "isVerified": true
+    },
+    {
+      "id": "tl_3",
+      "time": "23:00",
+      "title": "Leyla'nın Zehirli Kahvesi",
+      "description": "Leyla Feruz atölyeden kaçabilmek için Agah'ın kahvesine düşük dozda yüksükotu damlattı. Agah 23:30'da derin bir kas felci ve uykuya daldı.",
+      "associatedEvidenceId": "evidence_digitalis_vial",
+      "isVerified": true
+    },
+    {
+      "id": "tl_4",
+      "time": "00:45",
+      "title": "Dimitri'nin Tehdit Mesajı",
+      "description": "Dimitri telesekretere tehdit mesajı bıraktı ve 01:15'te atölyeye girerek altın ikonu çalıp kaçtı.",
+      "associatedEvidenceId": "evidence_blackmail_tape",
+      "isVerified": true
+    },
+    {
+      "id": "tl_5",
+      "time": "01:00",
+      "title": "Tevfik'in Kasa Hırsızlığı Girişimi",
+      "description": "Tevfik atölyeye girdi, kasayı maket bıçağıyla açmaya çalışırken elini kesti ve uyuyan babasına dokunmadan kaçtı.",
+      "associatedEvidenceId": "evidence_bloody_knife",
+      "isVerified": true
+    },
+    {
+      "id": "tl_6",
+      "time": "02:00",
+      "title": "Dr. Feridun'un Cinayet Düzeneğini Kurması",
+      "description": "Dr. Feridun karakoldan 'hava alma' bahanesiyle ayrıldı. Atölyeye gelip astronomik saatin dişlilerine kuru buz ve cerrahi sütur ipi yerleştirdi; baygın kurbanın boynuna ipi geçirip karakola döndü.",
+      "associatedEvidenceId": "evidence_police_log",
+      "isVerified": false
+    },
+    {
+      "id": "tl_7",
+      "time": "02:30",
+      "title": "Cinayetin Gerçekleşmesi (Mekanik Asılma)",
+      "description": "Kuru buz 02:30'da tamamen eridi. Saatin ağırlığı mekanik olarak serbest kaldı ve sarkaç Agah Sırrı'yı dikey kuvvetle asarak öldürdü.",
+      "associatedEvidenceId": "evidence_astronomic_clock",
+      "isVerified": false
+    }
+  ],
+  "dispatchMissions": [
+    {
+      "id": "mission_police_station",
+      "title": "Taksim Karakolu Nöbet Teftişi",
+      "targetLocation": "Taksim Asayiş Şube",
+      "team": "patrol",
+      "description": "Dr. Feridun'un cinayet gecesi nöbet defterini ve nöbetçi polisin ifadelerini yerinde incele.",
+      "durationSec": 10,
+      "status": "available",
+      "resultEvidenceId": "evidence_police_log",
+      "resultReport": "Teftiş Ekibi Raporu: Nöbet defterindeki imza saatinin daksille değiştirildiği tespit edildi! Dr. Feridun 01:40 - 02:45 arasında karakolda değildi!"
+    },
+    {
+      "id": "mission_galata_antique",
+      "title": "Karaköy Dimitri Depo Baskını",
+      "targetLocation": "Karaköy Rıhtımı",
+      "team": "forensic",
+      "description": "Dimitri'nin kaçak eşya deposunu bas ve atölyeden çalınan emanetleri ara.",
+      "durationSec": 12,
+      "status": "available",
+      "resultEvidenceId": "evidence_blackmail_tape",
+      "resultReport": "Kriminal Ekip: Çalınan altın ikon ele geçirildi. Dimitri kurbanı öldürmediğini, girdiğinde Agah'ın uyuduğunu itiraf etti."
+    },
+    {
+      "id": "mission_forensic_archive",
+      "title": "Adli Tıp 1975 Arşiv Teftişi",
+      "targetLocation": "Adli Tıp Arşivi",
+      "team": "bank_audit",
+      "description": "1975 tarihli Armatör Kazaz dosyasını ve Dr. Feridun'un eski şüpheli otopsi kayıtlarını tara.",
+      "durationSec": 15,
+      "status": "available",
+      "resultEvidenceId": "evidence_confession_letter",
+      "resultReport": "Mali Şube Raporu: Dr. Feridun'un 1975'te rüşvet karşılığı sahte rapor düzenlediğine dair banka hesap hareketleri doğrulandı."
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_suture_feridun",
+      "evidenceA": "evidence_surgical_suture",
+      "evidenceB": "evidence_police_log",
+      "hypothesisTitle": "CERRAHİ DÜĞÜM & ADLİ TIP TABİBİ",
+      "hypothesisText": "Maktulün boynundaki ipin sadece Adli Tıp'ta bulunan cerrahi sütur ipi olması ve Dr. Feridun'un karakol nöbetinden gizlice ayrılması, cinayeti bir tıp uzmanının işlediğini kanıtlıyor.",
+      "discovered": false
+    },
+    {
+      "id": "contra_clock_ice",
+      "evidenceA": "evidence_astronomic_clock",
+      "evidenceB": "evidence_autopsy_full",
+      "hypothesisTitle": "GECİKMELİ MEKANİK CİNAYET DÜZENEĞİ",
+      "hypothesisText": "Saat dişlilerindeki saf distile su ve mekanik omurga kırığı; katilin kuru buz kullanarak kurbanı uzaktan, gecikmeli bir saat mekanizmasıyla astığını ortaya çıkardı.",
+      "discovered": false
+    },
+    {
+      "id": "contra_digitalis_paralysis",
+      "evidenceA": "evidence_digitalis_vial",
+      "evidenceB": "evidence_autopsy_full",
+      "hypothesisTitle": "ÖLÜMCÜL OLMAYAN FELÇ ZEHRİ",
+      "hypothesisText": "Leyla'nın kahveye koyduğu yüksükotu maktulü öldürmemiş, yalnızca 2-3 saatlik derin bir felç ve uyuşukluk yaratarak katilin işini kolaylaştırmıştır.",
+      "discovered": false
+    },
+    {
+      "id": "contra_knife_dna",
+      "evidenceA": "evidence_bloody_knife",
+      "evidenceB": "evidence_autopsy_full",
+      "hypothesisTitle": "TEVFİK'İN SAHTE CİNAYET ŞÜPHESİ",
+      "hypothesisText": "Tevfik'in bıçağındaki kan maktule değil kendi parmak kesiğine ait; Tevfik cinayeti işlememiş, sadece kasa soymaya çalışmıştır.",
+      "discovered": false
+    },
+    {
+      "id": "contra_confession_motive",
+      "evidenceA": "evidence_confession_letter",
+      "evidenceB": "evidence_surgical_suture",
+      "hypothesisTitle": "20 YILLIK RÜŞVET SKANDALI VE CİNAYET MOTİFİ",
+      "hypothesisText": "Bizans sandığından çıkan 1975 tarihli itiraf mektubu, Dr. Feridun'un mesleki itibarını ve özgürlüğünü kurtarmak için 40 yıllık dostunu öldürdüğünü kesinleştirdi.",
+      "discovered": false
+    }
+  ],
+  "solution": {
+    "culpritId": "dr_feridun",
+    "murderWeaponId": "weapon_delayed_clockwork",
+    "criticalEvidenceId": "evidence_surgical_suture",
+    "keyMotive": "Maktulün Bizans sandığında bulduğu 1975 tarihli rüşvet ve sahte otopsi itiraf mektubunu sabah savcılığa vereceğini açıklaması üzerine Dr. Feridun'un kariyerini ve itibarını korumak için 40 yıllık dostunu mekanik bir düzenekle katletmesi.",
+    "correctVerdictSummary": "Tebrikler Dedektif! Katil Adli Tıp Kıdemli Tabibi Dr. Feridun Çelik'ti. Leyla'nın kahveye kattığı felç zehriyle sızan Agah Bey'i, saat mekanizmasına yerleştirdiği kuru buz ve cerrahi sütur ipiyle saat 02:30'da uzaktan asarak öldürdü. Sahte karakol alibisi ve cerrahi düğüm tekniği onu ele verdi!"
+  },
+  "newspaper": {
+    "newspaperName": "HÜRRİYET MANŞET",
+    "issueInfo": "16 Kasım 1995 // Sayı: 17402",
+    "headline": "BEYOĞLU'NDA KUKLACININ SON PERDESİ: KATİL ADLİ TIP TABİBİ ÇIKTI!",
+    "article": "İstanbul Emniyeti Cinayet Masası, Beyoğlu Tünel Meydanı'ndaki tarihi restorasyon atölyesinde işlenen akıl almaz cinayeti 48 saatte aydınlattı. Antika astronomik saatin sarkacına asılı bulunan Agah Sırrı'nın katilinin, 40 yıllık dostu Adli Tıp Tabibi Dr. Feridun Çelik olduğu kanıtlandı. Katilin, 1975 yılına ait bir rüşvet ve sahte otopsi skandalını örtbas etmek için saat çarklarına kuru buz ve cerrahi iplikle kurduğu şeytani düzenek dedektifin mikroskobik incelemesiyle çökertildi.",
+    "commendationTitle": "CUMHURİYET BAŞSAVCILIĞI TAKDİRNAMESİ",
+    "commendationBody": "Dedektifin üstün adli muhakemesi, delil-çelişki analizi ve titiz sorgu taktikleri sayesinde Türk Adaleti bir kez daha tecelli etmiştir."
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "case_305",
+    "title": "Vaka #305: Pera Palas Kanlı Senfoni",
+    "subtitle": "Dünyaca Ünlü Piyanist Julian Vance Cinayeti",
+    "date": "14 Kasım 1994",
+    "location": "Tarihi Pera Palas Oteli, 411 Numaralı Kral Dairesi",
+    "difficulty": "Zor",
+    "summary": "Dünyaca ünlü piyanist Julian Vance, Pera Palas'taki kilitli kral dairesinde yüzüstü düşmüş, tuşlarda kan lekeleriyle bulundu. Kırık bir şampanya kadehi ve acıbadem kokusu karanlık bir sırrı gizliyor...",
+    "thumbnail": "/assets/toxin_vial.jpg",
+    "isAvailable": true,
+    "tag": "SİYANÜR // KİLİTLİ ODA",
+    "filePath": "/cases/case_305.json"
+  },
+  {
+    "id": "case_201",
+    "title": "Vaka #201: Ağdaki Hayalet",
+    "subtitle": "Maslak Gökdelen Cinayeti",
+    "date": "04 Ekim 2014",
+    "location": "Maslak Plazalar Bölgesi, 38. Kat",
+    "difficulty": "Zor",
+    "summary": "Yapay zekâ girişimcisi Arda Sancak, biyometrik sunucu odasında sandalyeye bağlı ve aşırı doz insülinle zehirlenmiş bulundu. Oda termostatı -5 dereceye ayarlanmış, HTS baz kayıtlarında büyük çelişkiler tespit edilmişti...",
+    "isAvailable": true,
+    "tag": "SİBER CİNAYET // HTS BAZ",
+    "filePath": "/cases/case_201.json"
+  },
+  {
+    "id": "case_107",
+    "title": "Vaka #107: Ölü Adamın Son Hamlesi",
+    "subtitle": "Başsavcı Cevdet Serezli Cinayeti",
+    "date": "03 Aralık 1956",
+    "location": "Tarihi Adliye Sarayı, 5. Kat Kütüphanesi",
+    "difficulty": "Zor",
+    "summary": "İstanbul'un en sert Başsavcısı, kilitli kütüphanesinde satranç tahtası başında zehirlenmiş bulundu. Masada kanlı bir 'S' harfi ve mors kodlu fildişi bir şah taşı vardı...",
+    "isAvailable": true,
+    "tag": "KOMPLO // SATRANÇ MATI",
+    "filePath": "/cases/case_107.json"
+  },
+  {
+    "id": "case_104",
+    "title": "Vaka #104: Saat 03:14 Vakası",
+    "subtitle": "Lord Alistair Croft Cinayeti",
+    "date": "12 Ekim 1994",
+    "location": "Karasu Malikânesi, Çalışma Odası",
+    "difficulty": "Orta",
+    "summary": "Antika saat koleksiyoncusu Lord Croft, kilitli çalışma odasında başından ağır darbe alarak ölü bulundu. Masada kırık bir köstekli saat 03:14'te durmuş haldeydi.",
+    "thumbnail": "/assets/pocket_watch.jpg",
+    "isAvailable": true,
+    "tag": "CİNAYET // FORENSİK",
+    "filePath": "/cases/case_104.json"
+  }
+]

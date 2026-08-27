@@ -1,0 +1,418 @@
+{
+  "id": "case_107",
+  "title": "Vaka #107: Ölü Adamın Son Hamlesi",
+  "subtitle": "Başsavcı Cevdet Serezli Cinayeti",
+  "date": "03 Aralık 1956",
+  "location": "Tarihi Adliye Sarayı, 5. Kat Kütüphanesi",
+  "summary": "İstanbul'un en sert Başsavcısı, kilitli hususi kütüphanesinde maun satranç masası başında zehirlenmiş bulundu. Masada kanla çizilmiş yarım bir 'S' harfi ve mors kodlu fildişi bir şah taşı vardı...",
+  "weapons": [
+    {
+      "id": "weapon_sealed_candle",
+      "name": "Kardiyotoksinli Mühür Mumu (Soluma Yoluyla)",
+      "description": "Özel eritilip fitiline ölümcül akrep kardiyotoksini enjekte edilmiş kırmızı mühür mumu."
+    },
+    {
+      "id": "weapon_tea",
+      "name": "Zehirli Adaçayı Fincanı",
+      "description": "Kurbanın masasında yarım bırakılmış adaçayı porseleni."
+    },
+    {
+      "id": "weapon_arsenic",
+      "name": "Arsenik Tozu",
+      "description": "Adli Tıp dolabından kaybolduğu bildirilen beyaz toz toksin."
+    },
+    {
+      "id": "weapon_fular",
+      "name": "İpek Boğma Fuları",
+      "description": "Kütüphane koltuğunda unutulmuş siyah ipek fular."
+    }
+  ],
+  "audioTapes": [
+    {
+      "id": "tape_serezli_dict",
+      "title": "Kurbanın Son Dikte Kaydı (03 Aralık 1956)",
+      "subtitle": "Daktilo Masası Teyp Kaydı #4",
+      "associatedEvidenceId": "ev_medical_report"
+    }
+  ],
+  "directory": [
+    {
+      "id": "dir_adliye_nobet",
+      "name": "Adliye Gece Nöbetçi Kulübesi",
+      "role": "Güvenlik Amiri Mehmet Çavuş",
+      "status": "Hatta Bağlı // 0212 522 10 00",
+      "viewTarget": "desk"
+    },
+    {
+      "id": "dir_adli_tip",
+      "name": "Adli Tıp Toksikoloji Laboratuvarı",
+      "role": "Başhekimlik Santrali",
+      "status": "Otopsi Devam Ediyor // Dahili 104",
+      "viewTarget": "interrogation"
+    },
+    {
+      "id": "dir_nisantasi_karakol",
+      "name": "Nişantaşı Merkez Karakolu",
+      "role": "Saha Ekipleri Koordinasyon",
+      "status": "Devriye Hazır // Telsiz Kanalı 4",
+      "viewTarget": "desk"
+    }
+  ],
+  "suspects": [
+    {
+      "id": "suspect_suzan",
+      "name": "Suzan Berk",
+      "age": 29,
+      "role": "Özel Kalem Müdiresi & Kâtibe",
+      "alibi": "Saat 23:00'te Başsavcıma adaçayını bıraktım, bana 'Bu gece kimse beni rahatsız etmesin, büyük bir davayı kapatıyorum' dedi. Çıkıp kapıyı çektim.",
+      "motive": "Adliye içindeki gizli casusluk şebekesinin köstebek listesi Başsavcının kasasındaydı. Deşifre olmamak için suikast düzenledi.",
+      "stressLevel": 25,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Ben sadece Başsavcımın emrindeki sadık bir kâtibeyim. Sorularınız beni derinden incitiyor.",
+      "dialogueTree": [
+        {
+          "question": "O gece 23:00'te adliyeden tamamen ayrıldığınızı mı söylüyorsunuz?",
+          "tactic": "good_cop",
+          "response": "Evet memur bey, tramvaya binip Nişantaşı'ndaki evime gittim. Gece boyu evdeydim.",
+          "stressDelta": 5
+        },
+        {
+          "question": "Nöbetçi kayıtları 23:40'ta arka yangın kapısından çıktığınızı ve eldivenlerinizi attığınızı gösteriyor!",
+          "tactic": "evidence",
+          "requiredEvidence": "ev_adliye_camera_log",
+          "response": "Ş-şey... Bir evrak unutmuştum, onu almak için 23:30 gibi geri döndüm ama Başsavcımın odasına hiç girmedim yemin ederim!",
+          "stressDelta": 35,
+          "breakthrough": "Suzan'ın 23:35'te odaya geri döndüğü kesinleşti!"
+        },
+        {
+          "question": "Masanın üzerindeki kokulu Fransız kibriti sizin kuaförünüzün özel kibritiyle birebir eşleşiyor! Mumu siz yaktınız!",
+          "tactic": "bad_cop",
+          "requiredEvidence": "ev_french_match",
+          "response": "Yeter artık! O hasta adam kendi ölümünü kurgulamıştı zaten! Ben sadece... Ben sadece işini bitirdim, çünkü o mektup savcılığa gitseydi ben idam edilecektim!",
+          "stressDelta": 45,
+          "breakthrough": "TAM İTİRAF: Suzan zehirli mühür mumunu yakıp kurbanı öldürdüğünü itiraf etti!"
+        }
+      ],
+      "freeformKeywords": [
+        {
+          "keywords": ["kibrit", "kuaför", "fransız", "fitil", "mum", "mühür"],
+          "response": "Kibrit... Fransız kibriti mi? Çantamda vardı evet ama... Odanın içine kim bıraktı bilmiyorum!",
+          "stressDelta": 20,
+          "breakthrough": "Mühür mumu sorulduğunda elleri titremeye başladı."
+        },
+        {
+          "keywords": ["mors", "satranç", "şah", "fildişi", "harf", "s harfi", "suzan"],
+          "response": "Fildişi şah taşı mı? Başsavcı hep o taşla oynardı... 'En zayıf hamle kraliçeyi feda etmektir' derdi bana...",
+          "stressDelta": 25,
+          "breakthrough": "Satranç şifresi anıldığında gözlerini kaçırdı."
+        },
+        {
+          "keywords": ["tümör", "rapor", "kanser", "kumpas", "intihar", "kurban"],
+          "response": "Demek raporu buldunuz... Biliyordum! Başsavcı ölüyordu ve ölürken hepimizi adliyenin zindanlarına gömmek istiyordu!",
+          "stressDelta": 30,
+          "breakthrough": "Kurbanın hastalığını önceden bildiğini ağzından kaçırdı!"
+        }
+      ]
+    },
+    {
+      "id": "suspect_ozan",
+      "name": "Avukat Ozan Deren",
+      "age": 34,
+      "role": "Damadı & Ceza Avukatı",
+      "alibi": "22:30'da bürosuna uğradım, borçlarım için para istedim. Beni kovdu! Çıkıp Beyoğlu'nda meyhaneye gittim.",
+      "motive": "Kumar borçları ve Başsavcının 50.000 TL'lik çeki yırtması.",
+      "stressLevel": 40,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Kayınpederim zor bir adamdı ama ben bir katil değilim! Avukatlık haklarımı biliyorum.",
+      "dialogueTree": [
+        {
+          "question": "Kayınpederinizin kadehinde ve kapı kolunda sizin parmak izleriniz var!",
+          "tactic": "bad_cop",
+          "response": "İçkiyi bana ikram etti ama sonra tartıştık! Çeki yüzüme fırlatıp yırttı, ben de kadehi masaya bırakıp fırladım gittim!",
+          "stressDelta": 10
+        },
+        {
+          "question": "Yırtılan 50.000 liralık çek için onu tehdit ettiniz mi?",
+          "tactic": "evidence",
+          "requiredEvidence": "ev_torn_cheque",
+          "response": "Bağırdım, çağırdım evet! Ama çıktığımda saat 22:45'ti ve sapasağlam oturuyordu masasında!",
+          "stressDelta": 15
+        }
+      ],
+      "freeformKeywords": [
+        {
+          "keywords": ["çek", "para", "borç", "kumar", "50000"],
+          "response": "Borçlarım vardı doğru ama onu öldürmek elime ne geçirecekti? Vasiyetinde bana tek kuruş bırakmamış zaten!",
+          "stressDelta": 10
+        },
+        {
+          "keywords": ["zehir", "mum", "adaçayı", "şah"],
+          "response": "Ben odadan çıktığımda mum filan yanmıyordu, sadece tavan lambası açıktı.",
+          "stressDelta": 5
+        }
+      ]
+    },
+    {
+      "id": "suspect_selim",
+      "name": "Dr. Selim Karaca",
+      "age": 48,
+      "role": "Adli Tıp Kurumu Başhekimi",
+      "alibi": "Öğlen görüştük, gece boyu Adli Tıp Kurumu laboratuvarındaydım.",
+      "motive": "5 yıl önce intihar eden kız kardeşinin davasında Başsavcının verdiği karar.",
+      "stressLevel": 30,
+      "confessed": false,
+      "confessionStage": "denial",
+      "defaultResponse": "Cevdet benim 20 yıllık dostumdu. Adli Tıp olarak gerçeği ortaya çıkaracağız.",
+      "dialogueTree": [
+        {
+          "question": "Masadaki mühür mumunu öğlen Adli Tıp'tan bizzat sizin getirdiğiniz biliniyor.",
+          "tactic": "evidence",
+          "requiredEvidence": "ev_seal_wax_candle",
+          "response": "Evet, Adli Mühür mumu istediği için getirdim. Standart kırmızı balmumudur, içine zehir koyacak kadar aklımı yitirmedim!",
+          "stressDelta": 15
+        },
+        {
+          "question": "Kız kardeşinizin dosyasından dolayı ona karşı kin beslemiyor muydunuz?",
+          "tactic": "bad_cop",
+          "response": "Kırgındım... Ama Cevdet bir ay önce bana gelip hastalığını anlattı ve helallik istedi. Ona düşmanlığım kalmamıştı.",
+          "stressDelta": 20,
+          "breakthrough": "Dr. Selim kurbanın hastalığını doğruladı."
+        }
+      ],
+      "freeformKeywords": [
+        {
+          "keywords": ["kardiyotoksin", "zehir", "toksin", "otopsi"],
+          "response": "Kardiyotoksin kalbi dakikalar içinde durdurur ve doğal enfarktüs süsü verir. Ancak solunduğunda ciğerlerde mikroskopik kristaller bırakır.",
+          "stressDelta": 10
+        },
+        {
+          "keywords": ["tümör", "kanser", "hastalık", "ömür"],
+          "response": "Cevdet'in son evre beyin tümörü vardı. En fazla 3-4 haftası kalmıştı. Bana 'Giderken adaleti yanımda götürmeyeceğim, bırakacağım' demişti.",
+          "stressDelta": 15,
+          "breakthrough": "Başsavcının kurban matı planının arkasındaki tıbbi nedeni açıkladı."
+        }
+      ]
+    }
+  ],
+  "evidences": [
+    {
+      "id": "ev_chess_king",
+      "title": "Fildişi Şah Taşı (Mors Şifreli)",
+      "category": "object",
+      "description": "Kurbanın avucunda sıkı sıkıya tuttuğu, alt tabanı oyulmuş fildişi satranç şahı.",
+      "sourceLocation": "Kütüphane Satranç Masası",
+      "dateStr": "03 Aralık 1956",
+      "hiddenClueMagnifier": "Tabana iğne ucuyla ters mors alfabesi kazınmış: ..- --.. .- -. ➔ (Ters Çevrilince: S-U-Z-A-N!)",
+      "hiddenClueUV": "Taşın üzerinde Suzan Berk'in pudra ve parmak izi parlıyor.",
+      "handwrittenNote": "Şah feda edildi ama mat kaçınılmaz.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "ev_seal_wax_candle",
+      "title": "Kırmızı Mühür Mumu (Zehir Fitili)",
+      "category": "forensic",
+      "description": "Masada yarı erimiş vaziyette bulunan, badem kokulu ağır kırmızı mühür mumu.",
+      "sourceLocation": "Başsavcının Çalışma Masası",
+      "dateStr": "03 Aralık 1956",
+      "hiddenClueUV": "Fitilde iki ayrı kimyasal katman var: Kurbanın koyduğu hafif afyon ve Suzan'ın eklediği ölümcül Kardiyotoksin!",
+      "hiddenClueMagnifier": "Fitilin dibine ince bir şırınga deliği açılmış.",
+      "handwrittenNote": "Dumanı soluyan kişi 3 dakika içinde felç olur.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "ev_bloody_letter_s",
+      "title": "Masadaki Kanlı 'S' Harfi",
+      "category": "forensic",
+      "description": "Kurbanın can çekişirken masanın cilalı maun yüzeyine parmağıyla çizdiği kanlı harf.",
+      "sourceLocation": "Satranç Masası Kenarı",
+      "dateStr": "03 Aralık 1956",
+      "hiddenClueMagnifier": "Harfin son kuyruğu Suzan'ın oturduğu kâtibe koltuğuna doğru uzanıyor.",
+      "handwrittenNote": "'S' harfi Serezli'yi değil, katili işaret ediyor!",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "ev_french_match",
+      "title": "Kokulu Yanık Fransız Kibriti",
+      "category": "object",
+      "description": "Küllükte bulunan, Pera kadın kuaförlerine özel lavanta kokulu ithal kibrit çöpü.",
+      "sourceLocation": "Masa Üstü Kristal Küllük",
+      "dateStr": "03 Aralık 1956",
+      "hiddenClueUV": "Kibrit kutusundan koparılan parça Suzan'ın el çantasındaki kutuyla tam uyuşuyor.",
+      "handwrittenNote": "Mumu Başsavcı değil, Suzan yaktı.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "ev_medical_report",
+      "title": "Gizli Tıbbi Rapor (Son Evre Tümör)",
+      "category": "document",
+      "description": "Cerrahpaşa Tıp Fakültesi antetli, Başsavcı adına düzenlenmiş gizli onkoloji raporu.",
+      "sourceLocation": "Arşiv Havalandırma Menfezi",
+      "dateStr": "15 Kasım 1956",
+      "hiddenClueUV": "Raporun arkasında kurbanın el yazısı: 'Ömrüm bitti ama davam bitmedi. Kendi şahımı yem olarak sürüyorum.'",
+      "handwrittenNote": "Kurban zaten 1 ay içinde ölecekti.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "ev_torn_cheque",
+      "title": "Yırtık 50.000 TL'lik Çek",
+      "category": "document",
+      "description": "Ozan Deren adına düzenlenmiş, ortadan ikiye yırtılarak çöp sepetine atılmış banka çeki.",
+      "sourceLocation": "Çalışma Odası Çöp Sepeti",
+      "dateStr": "03 Aralık 1956",
+      "handwrittenNote": "Ozan cinayetten önce saat 22:30'da odadaydı.",
+      "isPinnedByDefault": true
+    },
+    {
+      "id": "ev_microfilm",
+      "title": "Çalınan Köstebek Mikrofilmleri",
+      "category": "document",
+      "description": "Başsavcının gizli çelik kasasından çalınmış, adliye içindeki casusları listeleyen mikrofilmler.",
+      "sourceLocation": "Suzan Berk'in Nişantaşı Evi",
+      "dateStr": "04 Aralık 1956",
+      "hiddenClueMagnifier": "Mikrofilmin 1. sayfasında Kod Adı 'KARDELEN' olarak Suzan Berk'in fotoğrafı ve imzası var.",
+      "handwrittenNote": "Suzan'ın asıl casusluk motifi.",
+      "isPinnedByDefault": false
+    },
+    {
+      "id": "ev_adliye_camera_log",
+      "title": "Adliye Gece Nöbetçi Çıkış Tutanakları",
+      "category": "document",
+      "description": "Nöbetçi Mehmet Çavuş'un tuttuğu resmi gece giriş-çıkış defteri.",
+      "sourceLocation": "Adliye Giriş Nizamiyesi",
+      "dateStr": "03 Aralık 1956",
+      "handwrittenNote": "Suzan 23:40'ta telaşla çıkıp deri eldivenlerini çöp tenekesine attı.",
+      "isPinnedByDefault": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "time_1",
+      "time": "14:00",
+      "title": "Mühür Mumunun Teslimi",
+      "description": "Dr. Selim Karaca adliyeye gelerek kurbanın istediği mühür mumunu teslim etti.",
+      "associatedEvidenceId": "ev_seal_wax_candle",
+      "isVerified": true
+    },
+    {
+      "id": "time_2",
+      "time": "22:30",
+      "title": "Damat Ozan ile Tartışma",
+      "description": "Ozan para istedi, Başsavcı çeki yırtarak onu odadan kovdu.",
+      "associatedEvidenceId": "ev_torn_cheque",
+      "isVerified": true
+    },
+    {
+      "id": "time_3",
+      "time": "23:00",
+      "title": "Adaçayı Servisi",
+      "description": "Suzan Berk odaya adaçayı bıraktı ve kurbanın 'beni yalnız bırakın' dediğini söyledi.",
+      "isVerified": false
+    },
+    {
+      "id": "time_4",
+      "time": "23:35",
+      "title": "Zehirli Mumun Yakılması",
+      "description": "Suzan odaya gizlice dönüp kokulu Fransız kibritiyle zehirli mühür mumunu yaktı.",
+      "associatedEvidenceId": "ev_french_match",
+      "isVerified": false
+    },
+    {
+      "id": "time_5",
+      "time": "23:40",
+      "title": "Telaşlı Firar & Eldiven İmhası",
+      "description": "Suzan'ın arka kapıdan çıkıp eldivenlerini çöp tenekesine attığı kaydedildi.",
+      "associatedEvidenceId": "ev_adliye_camera_log",
+      "isVerified": false
+    }
+  ],
+  "dispatchMissions": [
+    {
+      "id": "disp_suzan_apt",
+      "title": "Suzan Berk'in Nişantaşı Evi Baskını",
+      "targetLocation": "Nişantaşı, Valikonağı Cad. No:14",
+      "team": "patrol",
+      "description": "Özel Kalem Müdiresinin evi ve kiralık kasası adli arama emriyle taranacak.",
+      "durationSec": 5,
+      "status": "available",
+      "resultEvidenceId": "ev_microfilm",
+      "resultReport": "Telsiz Raporu: Şüphelinin gardırobunda gizli bölmede boş kardiyotoksin tüpü ve çalınan mikrofilmler ele geçirildi!"
+    },
+    {
+      "id": "disp_archive_search",
+      "title": "Tarihi Adliye Arşiv Havalandırması",
+      "targetLocation": "Adliye Sarayı Arşiv Katı",
+      "team": "forensic",
+      "description": "Havalandırma kanallarında kurbanın sakladığı iddia edilen asıl tıbbi rapor ve veda kaseti aranacak.",
+      "durationSec": 4,
+      "status": "available",
+      "resultEvidenceId": "ev_medical_report",
+      "resultReport": "Telsiz Raporu: Havalandırma menfezinde Başsavcının gizli tıbbi onkoloji raporu ele geçirildi!"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_mastermind",
+      "evidenceA": "ev_medical_report",
+      "evidenceB": "ev_seal_wax_candle",
+      "hypothesisTitle": "Kurgulanmış Cinayet & Ölümcül Değişim",
+      "hypothesisText": "Başsavcı beyin tümörü yüzünden sahte bir cinayet planlamıştı; ancak fitildeki asıl kardiyotoksin onun planı dışındaydı, birisi tuzağı ölümcül yaptı!",
+      "discovered": false
+    },
+    {
+      "id": "contra_match_alibi",
+      "evidenceA": "ev_french_match",
+      "evidenceB": "ev_adliye_camera_log",
+      "hypothesisTitle": "Gece Yarısı Kokulu Kibrit",
+      "hypothesisText": "Suzan 23:00'te çıktığını söylemişti ancak odadaki Fransız kibriti ve 23:40 çıkış kaydı onun 23:35'te odaya dönüp mumu yaktığını kanıtlıyor!",
+      "discovered": false
+    },
+    {
+      "id": "contra_chess_s",
+      "evidenceA": "ev_chess_king",
+      "evidenceB": "ev_bloody_letter_s",
+      "hypothesisTitle": "Kanlı 'S' Harfinin Gerçek Sahibi",
+      "hypothesisText": "Kırık fildişi şahtaki mors kodu ve kanlı 'S' harfi 'Serezli'yi değil, katili yani 'SUZAN'ı işaret ediyor!",
+      "discovered": false
+    }
+  ],
+  "filePages": [
+    {
+      "pageNumber": 1,
+      "title": "Olay Yeri İnceleme Tutanakları",
+      "classification": "GİZLİ // ADLİ ARŞİV",
+      "contentMarkdown": "## VAKA #107: ADLİYE SARAYI CİNAYETİ\n\n**Tarih:** 03 Aralık 1956  \n**Saat:** 23:45  \n**Maktul:** Başsavcı Cevdet Serezli (62)  \n\nMaktul, Adliye Sarayı 5. kattaki hususi kütüphanesinde satranç masası başında sandalyede yığılmış halde bulunmuştur. Kapı içeriden kilitlidir. Masada dumanı tüten mühür mumu, kırık bir satranç taşı ve kanlı 'S' harfi tespit edilmiştir.",
+      "associatedEvidenceIds": ["ev_chess_king", "ev_seal_wax_candle", "ev_bloody_letter_s"]
+    },
+    {
+      "pageNumber": 2,
+      "title": "Şüpheli Profil Raporları",
+      "classification": "İSTİHBARAT & ASAYİŞ",
+      "contentMarkdown": "### ŞÜPHELİ LİSTESİ:\n\n1. **Suzan Berk (29):** Özel Kalem Müdiresi. Kurbanın son gördüğü kişi.\n2. **Avukat Ozan Deren (34):** Kurbanın damadı. Ağır kumar borçları var.\n3. **Dr. Selim Karaca (48):** Adli Tıp Kurumu Başhekimi. Mühür mumunu tedarik eden kişi.",
+      "associatedEvidenceIds": ["ev_torn_cheque", "ev_french_match"]
+    },
+    {
+      "pageNumber": 3,
+      "title": "Forensik Toksikoloji & Tıbbi Kayıtlar",
+      "classification": "KORUMA ZİNCİRİ",
+      "contentMarkdown": "### TOKSİKOLOJİ ANALİZİ:\n\nKurbanda saptanan zehir kadehten değil, mühür mumunun solunmasıyla ciğerlere nüfuz eden nadir bir **Kardiyotoksin**dir. Kurbanın son 1 aydır gizli bir beyin tümörü tedavisi gördüğü öğrenilmiştir.",
+      "associatedEvidenceIds": ["ev_medical_report", "ev_microfilm", "ev_adliye_camera_log"]
+    }
+  ],
+  "solution": {
+    "culpritId": "suspect_suzan",
+    "murderWeaponId": "weapon_sealed_candle",
+    "criticalEvidenceId": "ev_chess_king",
+    "keyMotive": "Adliye içindeki köstebek kimliğini gizlemek ve Başsavcının sahte intihar kumpasını ölümcül silaha çevirmek.",
+    "correctVerdictSummary": "Başsavcı Cevdet Serezli'nin dâhiyane intikam kumpasını ve Suzan Berk'in zehirli mum suikastını çözen dedektif, Adliye Sarayındaki büyük köstebek ağını çökertti!"
+  },
+  "newspaper": {
+    "newspaperName": "CUMHURİYET ASAYİŞ İLAVESİ",
+    "issueInfo": "Sayı: 11.408 // Fiyatı: 25 Kuruş",
+    "headline": "ADLİYE SARAYINDA ŞAH-MAT: BAŞSAVCININ KATİLİ ÖZEL KALEM MÜDİRESİ ÇIKTI!",
+    "article": "Başsavcı Cevdet Serezli'nin kilitli kütüphanesindeki şüpheli ölümü aydınlatıldı. Dedektifimizin mikroskobik satranç incelemesi ve mühür mumu analizi sayesinde, Özel Kalem Müdiresi Suzan Berk'in şeytani suikast planı ve gizli casusluk ağı çökertildi.",
+    "commendationTitle": "ÜSTÜN HİZMET VE LİYAKAT MADALYASI",
+    "commendationBody": "İstanbul Emniyet Müdürlüğü ve Adalet Bakanlığı, akılalmaz bir zihin labirentini çözerek adaleti sağlayan Başkomiserimize teşekkürlerini sunar."
+  }
+}

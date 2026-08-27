@@ -1,543 +1,227 @@
 {
-  "id": "case_505",
-  "caseNumber": "1996/505",
-  "title": "Vaka #505: Kandilli Yalı Muamması",
-  "subtitle": "Dilsiz Şahit & Boğaz'da Satranç Matı",
-  "date": "24 Aralık 1996 - Gece 01:15",
-  "location": "Ziya Paşa Yalısı, 3. Kat Kütüphanesi, Kandilli / İstanbul",
-  "summary": "Boğaz'daki yüzyılın kar fırtınasında, ünlü armatör ve eski milli satranç şampiyonu Halid Ziya Arman, içeriden kilitli çalışma odasında satranç tahtası başında ölü bulundu. Masada konyak kadehi, şöminedeki gizli düzenek ve 5 şüphelinin iç içe geçmiş sırları... Kimsenin kolay kolay çözemeyeceği bir satranç matı!",
-  "weapons": [
-    {
-      "id": "weapon_fireplace_mechanism",
-      "name": "Şömine Menfezi Gizli Gaz Salınım Düzeneği",
-      "description": "Şöminenin döküm hava kanalına yerleştirilen, 22 derecede eriyen özel balmumu kapsüllü gaz mekanizması.",
-      "isCorrect": true
-    },
-    {
-      "id": "weapon_cognac_glass",
-      "name": "Konyak Kadehindeki Ağır Uyku İlacı",
-      "description": "Kadehe damlatılan konsantre uyku solüsyonu (Maktul kadehi içtikten sonra kusarak atmıştır).",
-      "isCorrect": false
-    },
-    {
-      "id": "weapon_ivory_dagger",
-      "name": "Fildişi Mektup Açacağı",
-      "description": "Masanın üzerindeki antika gümüş işlemeli mektup açacağı bıçak.",
-      "isCorrect": false
-    },
-    {
-      "id": "weapon_pillow_suffocation",
-      "name": "Deri Minderle Boğma",
-      "description": "Fiziksel güç kullanılarak koltukta solunum yolunun kapatılması.",
-      "isCorrect": false
-    }
-  ],
-  "audioTapes": [
-    {
-      "id": "tape_chess_clock",
-      "title": "Kaset #01: Mekanik Satranç Saati Tıkırtısı",
-      "subtitle": "Kütüphane Teyp Kaydı (00:30 AM) - Arka Planda Fırtına Sesi",
-      "associatedEvidenceId": "evidence_chess_board"
-    },
-    {
-      "id": "tape_radio_ferry",
-      "title": "Kaset #02: Şehir Hatları Vapuru Telsiz Sinyali",
-      "subtitle": "Kadıköy İskelesi Baz İletişim Kaydı",
-      "associatedEvidenceId": "evidence_hts_log"
-    }
-  ],
-  "directory": [
-    {
-      "id": "dir_morgue",
-      "name": "Adli Tıp Kurumu Toksikoloji Dairesi",
-      "role": "Başhekimlik Rapor Masası",
-      "status": "Laboratuvar Testleri Tamamlandı",
-      "viewTarget": "board"
-    },
-    {
-      "id": "dir_station",
-      "name": "Üsküdar Asayiş & Sahil Güvenlik",
-      "role": "Fırtına Devriye Ekip Amiri",
-      "status": "Yalı İskelesi Ablukada",
-      "viewTarget": "desk"
-    },
-    {
-      "id": "dir_interrogation",
-      "name": "Yalı Büyük Salonu (5 Şüpheli)",
-      "role": "Gözaltı ve Çapraz Sorgu",
-      "status": "Sorgu Devam Ediyor",
-      "viewTarget": "interrogation"
-    }
-  ],
+  "id": "505",
+  "title": "Kandilli Yalı Muamması",
+  "difficulty": "Çok Zor",
+  "description": "Ünlü armatör Halid Aral, Kandilli'deki yalısının kilitli çalışma odasında ölü bulundu. İlk bulgular kadehindeki zehri işaret etse de, boğucu gerçek şöminenin küllerinde saklı.",
+  "background": "Soğuk bir kasım gecesi. Cemiyetin tanınmış ismi Halid Aral, ertesi gün çıkacağı uzun gemi seyahati öncesi çalışma odasında ölü bulundu. Oda içeriden kilitliydi. Adli tıp, maktulün kanında uyku ilacı ve zehirli gaz kalıntıları buldu. Yalının sakinleri birbirini suçlarken, kimse kilitli odanın sırrını çözemiyor.",
+  "coverImage": "images/case505_cover.jpg",
   "filePages": [
     {
-      "pageNumber": 1,
       "id": "page_1",
-      "title": "Olay Yeri İnceleme & Kilitli Oda Analizi",
-      "classification": "GİZLİ // CİNAYET MASASI ASAYİŞ RAPORU",
-      "contentMarkdown": "### İSTANBUL CİNAYET BÜRO AMİRLİĞİ // VAKA 1996/505\n\n**Tarih:** 24 Aralık 1996, Salı - Gece 01:15  \n**Olay Yeri:** Ziya Paşa Yalısı, 3. Kat Kütüphanesi, Kandilli / İstanbul  \n**Maktul:** Halid Ziya Arman (71, Armatör ve Eski Milli Satranç Şampiyonu)  \n\n#### 📌 Kilitli Oda Sırrı\nMaktul, ceviz çalışma masasının başındaki deri koltukta, başı geriye düşmüş vaziyette ölü bulundu. Odanın kapısı içeriden ağır pirinç sürgüyle kilitliydi ve kilit kırılmadan içeri girilemedi. Pencerelerin demir mandalları içeriden kapalı ve fırtına nedeniyle camlar tamamen buz tutmuş durumda.\n\nMasanın üzerinde **kristal bir konyak kadehi**, şöminede yavaş yavaş küle dönen meşe odunları ve masanın tam ortasında fildişi satranç tahtasında **'Taç Giyme Matı'** pozisyonunda duran siyah şah görüldü.\n\n> 🕵️‍♂️ **Dedektif Notu:** *İçeriden sürgülü bir oda... Masadaki konyak kadehi ve şöminenin hafif rüzgar sesi. Katil içeri girmeden cinayeti nasıl işledi? Satranç tahtasındaki son hamle bize ne anlatıyor?*",
-      "content": "### İSTANBUL CİNAYET BÜRO AMİRLİĞİ // VAKA 1996/505\n\n**Tarih:** 24 Aralık 1996, Salı - Gece 01:15  \n**Olay Yeri:** Ziya Paşa Yalısı, 3. Kat Kütüphanesi, Kandilli / İstanbul  \n**Maktul:** Halid Ziya Arman (71, Armatör ve Eski Milli Satranç Şampiyonu)  \n\n#### 📌 Kilitli Oda Sırrı\nMaktul, ceviz çalışma masasının başındaki deri koltukta, başı geriye düşmüş vaziyette ölü bulundu. Odanın kapısı içeriden ağır pirinç sürgüyle kilitliydi ve kilit kırılmadan içeri girilemedi. Pencerelerin demir mandalları içeriden kapalı ve fırtına nedeniyle camlar tamamen buz tutmuş durumda.\n\nMasanın üzerinde **kristal bir konyak kadehi**, şöminede yavaş yavaş küle dönen meşe odunları ve masanın tam ortasında fildişi satranç tahtasında **'Taç Giyme Matı'** pozisyonunda duran siyah şah görüldü.\n\n> 🕵️‍♂️ **Dedektif Notu:** *İçeriden sürgülü bir oda... Masadaki konyak kadehi ve şöminenin hafif rüzgar sesi. Katil içeri girmeden cinayeti nasıl işledi? Satranç tahtasındaki son hamle bize ne anlatıyor?*",
-      "associatedEvidenceIds": [
-        "evidence_chess_board",
-        "evidence_cognac_glass"
+      "title": "Olay Yeri İnceleme Tutanakları",
+      "content": "<h1>Olay Yeri İnceleme Raporu</h1><p><strong>Tarih:</strong> 12 Kasım<br><strong>Mekan:</strong> Aral Yalısı, 2. Kat Çalışma Odası</p><p>Maktul masasında, başı öne düşmüş halde bulundu. Odanın kapısı içeriden sürgülüydü. Pencereler sıkıca kapatılmış ve içeriden kilitlenmişti.</p><p>Masada yarım içilmiş bir şarap kadehi ve kül tablasında yarısı yanmış bir puro mevcut. Şömine tamamen sönmüş ancak küller henüz sıcak. Odanın içi ağır bir kokuyla kaplı.</p>",
+      "evidence": [
+        {
+          "id": "ev_locked_room",
+          "name": "Kilitli Pencereler",
+          "description": "Olay yeri raporuna göre, odanın kapısı ve tüm pencereleri içeriden kilitliydi.",
+          "type": "document"
+        },
+        {
+          "id": "ev_warm_ashes",
+          "name": "Şömine Külleri",
+          "description": "Şömine sönmüş olmasına rağmen küllerin sıcak olması, yakın saatte ateş yakıldığını gösteriyor.",
+          "type": "item",
+          "requiresMicroscope": true
+        }
       ]
     },
     {
-      "pageNumber": 2,
       "id": "page_2",
-      "title": "Adli Tıp Otopsisi: Büyük Toksikoloji Yanılgısı",
-      "classification": "GİZLİ // ADLİ TIP KURUMU BAŞKANLIĞI",
-      "contentMarkdown": "### T.C. ADLİ TIP KURUMU BAŞKANLIĞI // OTOPSİ NO: 1996/9941\n\n#### 1. Konyak Kadehi Analizi (Büyük Çeldirici)\n- Masadaki kristal kadeh içerisinde yoğun miktarda sıvılaştırılmış uyku ilacı ve mide felci yapan solüsyon tespit edilmiştir.\n- **Kritik Bulgular:** Maktulün banyodaki lavabosunda kusmuk kalıntıları bulunmuştur. Maktul konyaktan tek bir küçük yudum almış, tadındaki acılığı fark ederek derhal banyoya koşup kusmuş ve **konyaktaki zehirden ölmemiştir!**\n\n#### 2. Gerçek Ölüm Nedeni\n- Maktulün kanında ve akciğer alveollerinde havadan solunan **yoğun uçucu gaz partikülleri** tespit edilmiştir.\n- Ölüm saati: **23:45 - 00:15** arası. Ölüm, oda içerisindeki solunan havanın şömine havalandırma menfezinden gelen buharla kirlenmesi sonucu ani solunum durmasıyla gerçekleşmiştir.",
-      "content": "### T.C. ADLİ TIP KURUMU BAŞKANLIĞI // OTOPSİ NO: 1996/9941\n\n#### 1. Konyak Kadehi Analizi (Büyük Çeldirici)\n- Masadaki kristal kadeh içerisinde yoğun miktarda sıvılaştırılmış uyku ilacı ve mide felci yapan solüsyon tespit edilmiştir.\n- **Kritik Bulgular:** Maktulün banyodaki lavabosunda kusmuk kalıntıları bulunmuştur. Maktul konyaktan tek bir küçük yudum almış, tadındaki acılığı fark ederek derhal banyoya koşup kusmuş ve **konyaktaki zehirden ölmemiştir!**\n\n#### 2. Gerçek Ölüm Nedeni\n- Maktulün kanında ve akciğer alveollerinde havadan solunan **yoğun uçucu gaz partikülleri** tespit edilmiştir.\n- Ölüm saati: **23:45 - 00:15** arası. Ölüm, oda içerisindeki solunan havanın şömine havalandırma menfezinden gelen buharla kirlenmesi sonucu ani solunum durmasıyla gerçekleşmiştir.",
-      "associatedEvidenceIds": [
-        "evidence_autopsy_report",
-        "evidence_fireplace_vent"
+      "title": "Adli Tıp Ön Raporu",
+      "content": "<h1>Adli Tıp Otopsi Özeti</h1><p>Maktulün tahmini ölüm saati 23:20 ile 23:45 arasıdır. Maktulün midesinde ve şarap kadehinde yüksek dozda <em>Diazepam</em> (güçlü bir uyku ilacı) bulunmuştur. Ancak ölüm sebebi uyku ilacı değildir.</p><p>Akciğer dokularında yüksek yoğunlukta Karbonmonoksit ve siyanür türevi organik gaz partiküllerine rastlanmıştır. Solunum yetmezliği sonucu vefat gerçekleşmiştir.</p>",
+      "evidence": [
+        {
+          "id": "ev_tox_report",
+          "name": "Toksikoloji Raporu",
+          "description": "Ölüm sebebi şaraptaki zehir değil, havadan solunan gaz (karbonmonoksit/siyanür).",
+          "type": "document"
+        }
       ]
     },
     {
-      "pageNumber": 3,
       "id": "page_3",
-      "title": "Yalıdaki 5 Şüphelinin Çapraz Sorgu Dökümleri",
-      "classification": "GİZLİ // EMNİYET ASAYİŞ ŞÜPHELİ LİSTESİ",
-      "contentMarkdown": "### KANDİLLİ YALISINDAKİ 5 ŞÜPHELİ\n\n1. **Berna Arman (34, Genç Eş):** Çantasında yüksek doz uyku solüsyonu bulundu. Konyak kadehine ilacı koyduğunu itiraf etti ancak amacının sadece Halid'i uyutup kasanın anahtarını almak olduğunu söyledi.\n2. **Selim Arman (38, Damat & Borsa Spekülatörü):** Borsa krizinde 5 Milyon Dolar batırdı. Konyak şişesini odaya bizzat getiren kişi.\n3. **Kaptan Cemal (52, Özel Yat Kaptanı):** Fırtınada iskeleye yanaştı. Halid Bey'in eski kaçakçılık belgeleriyle şantaj yapıyordu.\n4. **Meryem (60, Dilsiz Hizmetkâr):** Yalıda 30 yıldır çalışan emektar. Olay gecesi konağın sigortalarını indirirken görüldü.\n5. **Av. Kenan Bilgin (58, Aile Avukatı & Satranç Hakemi):** Maktulün 25 yıllık avukatı. O gece Kadıköy'de vapurda olduğunu iddia ediyor ancak cep telefonu HTS baz kayıtlarında büyük bir kör nokta var!",
-      "content": "### KANDİLLİ YALISINDAKİ 5 ŞÜPHELİ\n\n1. **Berna Arman (34, Genç Eş):** Çantasında yüksek doz uyku solüsyonu bulundu. Konyak kadehine ilacı koyduğunu itiraf etti ancak amacının sadece Halid'i uyutup kasanın anahtarını almak olduğunu söyledi.\n2. **Selim Arman (38, Damat & Borsa Spekülatörü):** Borsa krizinde 5 Milyon Dolar batırdı. Konyak şişesini odaya bizzat getiren kişi.\n3. **Kaptan Cemal (52, Özel Yat Kaptanı):** Fırtınada iskeleye yanaştı. Halid Bey'in eski kaçakçılık belgeleriyle şantaj yapıyordu.\n4. **Meryem (60, Dilsiz Hizmetkâr):** Yalıda 30 yıldır çalışan emektar. Olay gecesi konağın sigortalarını indirirken görüldü.\n5. **Av. Kenan Bilgin (58, Aile Avukatı & Satranç Hakemi):** Maktulün 25 yıllık avukatı. O gece Kadıköy'de vapurda olduğunu iddia ediyor ancak cep telefonu HTS baz kayıtlarında büyük bir kör nokta var!",
-      "associatedEvidenceIds": [
-        "evidence_hts_log",
-        "evidence_will_draft"
+      "title": "Masadaki Evrak",
+      "content": "<h1>Şömineden Kurtarılan Evrak</h1><p>Polis ekipleri, şöminenin külleri arasında tamamen yanmamış, alt kısmı sağlam kalmış bir A4 kağıdı buldu. Üzerinde sadece 'Tüm hisselerim...' kelimesi okunabiliyor.</p>",
+      "evidence": [
+        {
+          "id": "ev_burnt_will",
+          "name": "Yanık Vasiyetname",
+          "description": "Şöminede yanmaktan son anda kurtulmuş bir kağıt parçası. Belki UV ışığıyla silik yazılar okunabilir.",
+          "type": "item",
+          "requiresUV": true
+        }
       ]
-    },
-    {
-      "pageNumber": 4,
-      "id": "page_4",
-      "title": "HTS Baz Analizi & Kadıköy Vapuru Sahte Alibisi",
-      "classification": "GİZLİ // TELEKOMÜNİKASYON BAZ İNCELEMESİ",
-      "contentMarkdown": "### HTS BAZ İSTASYONU VE KURYENİN İTİRAFI\n\nAv. Kenan Bilgin, cinayet saati olan 23:30 - 00:30 arasında Kadıköy vapurunda olduğunu ve cep telefonunun Kadıköy İskelesi baz istasyonundan sinyal verdiğini öne sürmüştür.\n\nSaha ekiplerinin Kadıköy İskelesi'nde yaptığı baskında, Kenan Bey'in cep telefonunu 200 Dolar karşılığında genç bir vapur kuryesine teslim ettiği ve kuryenin telefonla vapurda tur attığı ortaya çıkmıştır! Kenan Bey o saatte Kadıköy'de değil, Kandilli Yalısı'ndaydı!",
-      "content": "### HTS BAZ İSTASYONU VE KURYENİN İTİRAFI\n\nAv. Kenan Bilgin, cinayet saati olan 23:30 - 00:30 arasında Kadıköy vapurunda olduğunu ve cep telefonunun Kadıköy İskelesi baz istasyonundan sinyal verdiğini öne sürmüştür.\n\nSaha ekiplerinin Kadıköy İskelesi'nde yaptığı baskında, Kenan Bey'in cep telefonunu 200 Dolar karşılığında genç bir vapur kuryesine teslim ettiği ve kuryenin telefonla vapurda tur attığı ortaya çıkmıştır! Kenan Bey o saatte Kadıköy'de değil, Kandilli Yalısı'ndaydı!",
-      "associatedEvidenceIds": [
-        "evidence_courier_receipt",
-        "evidence_wax_capsule"
-      ]
-    },
-    {
-      "pageNumber": 5,
-      "id": "page_5",
-      "title": "Satranç Şifresi & 1971 Batan Gemi İtirafnamesi",
-      "classification": "GİZLİ // ÖZEL ARŞİV BELGELERİ",
-      "contentMarkdown": "### SATRANÇ TAHTASINDAKİ ŞİFRE ÇÖZÜLDÜ\n\nSatranç tahtasında maktulün son yaptığı 5 hamle cebirsel notasyonla kağıda dökülmüştür:\n`K-e4`, `E-f5`, `N-g6`, `A-c4`, `N-d7` (Baş harfler: **K-E-N-A-N**)\n\nMaktul ölmeden önce katilinin adını satranç tahtasına şifrelemiştir!\n\nKütüphanedeki gizli kasadan çıkan 1971 tarihli 'Karadeniz Gemisi Sigorta Dolandırıcılığı' evrakı, Avukat Kenan'ın Halid Bey tarafından savcılığa ihbar edilmek üzere olduğunu ve Kenan'ın ömür boyu hapisle yüz yüze kaldığını kanıtlamıştır.",
-      "content": "### SATRANÇ TAHTASINDAKİ ŞİFRE ÇÖZÜLDÜ\n\nSatranç tahtasında maktulün son yaptığı 5 hamle cebirsel notasyonla kağıda dökülmüştür:\n`K-e4`, `E-f5`, `N-g6`, `A-c4`, `N-d7` (Baş harfler: **K-E-N-A-N**)\n\nMaktul ölmeden önce katilinin adını satranç tahtasına şifrelemiştir!\n\nKütüphanedeki gizli kasadan çıkan 1971 tarihli 'Karadeniz Gemisi Sigorta Dolandırıcılığı' evrakı, Avukat Kenan'ın Halid Bey tarafından savcılığa ihbar edilmek üzere olduğunu ve Kenan'ın ömür boyu hapisle yüz yüze kaldığını kanıtlamıştır.",
-      "associatedEvidenceIds": [
-        "evidence_chess_cipher",
-        "evidence_insurance_fraud"
-      ]
-    }
-  ],
-  "evidences": [
-    {
-      "id": "evidence_chess_board",
-      "title": "Fildişi Satranç Tahtası & Son Hamle",
-      "category": "object",
-      "description": "Çalışma masasında duran fildişi antika satranç takımı. Siyah Şah mat edilmiş durumda.",
-      "sourceLocation": "Maktulün Çalışma Masası",
-      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-01",
-      "handwrittenNote": "Maktul son nefesinde tahtadaki 5 taşı bilerek özel bir sırayla dizmiş!",
-      "hiddenClueUV": "Taşların üzerinde Av. Kenan'ın parmak izleri ve tebeşir tozu parlıyor.",
-      "hiddenClueMagnifier": "Siyah Şah taşının altında maktulün tırnağıyla kazıdığı 'K' harfi var.",
-      "isPinnedByDefault": true
-    },
-    {
-      "id": "evidence_cognac_glass",
-      "title": "Kristal Konyak Kadehi",
-      "category": "object",
-      "description": "Masanın kenarında duran, dibinde az miktarda konyak ve ilaç tortusu kalmış kadeh.",
-      "sourceLocation": "Çalışma Masası Kenarı",
-      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-02",
-      "handwrittenNote": "Berna ilacı buraya koydu ama maktul kadehi içtikten sonra banyoya koşup çıkardı!",
-      "hiddenClueUV": "Kadeh kenarında Berna'nın parmak izi parlıyor.",
-      "hiddenClueMagnifier": "Kadeh dibindeki tortu kurbanın midesindeki asıl ölüm sebebiyle uyuşmuyor.",
-      "isPinnedByDefault": true
-    },
-    {
-      "id": "evidence_fireplace_vent",
-      "title": "Şömine Döküm Hava Menfezi",
-      "category": "object",
-      "description": "Şöminenin arkasında yer alan, kütüphanenin hava sirkülasyonunu sağlayan döküm demir kanal.",
-      "sourceLocation": "Kütüphane Şöminesi Arkası",
-      "officialDocumentNo": "T.C. İST-KRİMİNAL // DELİL-03",
-      "handwrittenNote": "Katil odaya girmeden, şömine bacasının menfezine balmumu kapsülü yerleştirmiş!",
-      "hiddenClueUV": "Menfezin iç ızgarasında erimiş özel balmumu kalıntısı mor ışıkta sarı renkte parlıyor!",
-      "hiddenClueMagnifier": "Menfez vidasının üzerinde Avukat Kenan'ın antika cep çakısının tornavida ucu çiziği var.",
-      "isPinnedByDefault": true
-    },
-    {
-      "id": "evidence_autopsy_report",
-      "title": "Toksikoloji & Akciğer Gaz Otopsisi",
-      "category": "forensic",
-      "description": "Adli Tıp Kurumu resmi otopsi raporu. Konyaktaki zehirden değil, havadan solunan gazdan ölüm gerçekleştiği belgesi.",
-      "sourceLocation": "Adli Tıp Morg İhtisas",
-      "officialDocumentNo": "T.C. ADLİ TIP // OTOPSİ-1996/9941",
-      "handwrittenNote": "Maktul konyaktaki ilacı kusmuş! Asıl ölüm şömineden yayılan gazla 00:00 sularında gerçekleşmiş!",
-      "hiddenClueUV": "Kusmuk analizi raporu konyaktaki maddenin öldürücü doza ulaşmadan atıldığını onaylıyor.",
-      "hiddenClueMagnifier": "Akciğer dokusunda balmumu bazlı termal gaz partikülleri saptandı.",
-      "isPinnedByDefault": true
-    },
-    {
-      "id": "evidence_hts_log",
-      "title": "Kadıköy Vapuru HTS Baz Analiz Haritası",
-      "category": "document",
-      "description": "Av. Kenan Bilgin'in cep telefonu sinyal dökümleri ve baz istasyonu hareket haritası.",
-      "sourceLocation": "Telekomünikasyon Şube Masası",
-      "officialDocumentNo": "T.C. EMNİYET // HTS-1996/B4",
-      "handwrittenNote": "Telefon Kadıköy vapurunda dolaşıyordu ama Kenan Bey Kandilli'deydi!",
-      "hiddenClueUV": "Haritanın üzerinde saat 23:45'teki vapur sefer saati işaretli.",
-      "hiddenClueMagnifier": "Telefonu taşıyan kuryenin imzaladığı 200 Dolarlık makbuz bulundu.",
-      "isPinnedByDefault": false
-    },
-    {
-      "id": "evidence_courier_receipt",
-      "title": "Kuryeye Verilen 200 Dolarlık Makbuz",
-      "category": "document",
-      "description": "Kadıköy İskelesi'nde yakalanan kuryenin cebinden çıkan, Kenan Bey'in el yazısıyla yazılmış talimat notu.",
-      "sourceLocation": "Kadıköy İskele Karakolu",
-      "officialDocumentNo": "T.C. İST-ASAYİŞ // DELİL-04",
-      "handwrittenNote": "Kurye itiraf etti: 'Bana telefonu verip gece boyu vapurda gezmemi istedi!'",
-      "hiddenClueUV": "Kağıttaki imza Avukat Kenan Bilgin'e ait.",
-      "hiddenClueMagnifier": "Dolmakalem mürekkebi Kenan Bey'in bürosundaki mürekkeple birebir aynı.",
-      "isPinnedByDefault": false
-    },
-    {
-      "id": "evidence_wax_capsule",
-      "title": "Erimiş Özel Balmumu Kapsül Parçası",
-      "category": "forensic",
-      "description": "Şöminenin kül haznesinde bulunan, 22 derecede eriyen özel kimyasal balmumu kalıbı.",
-      "sourceLocation": "Şömine Kül Haznesi",
-      "officialDocumentNo": "T.C. KRİMİNAL // DELİL-05",
-      "handwrittenNote": "Şömine yandıkça balmumu erimiş ve içindeki gazı kütüphaneye salmış!",
-      "hiddenClueUV": "Balmumu üzerinde Kenan Bey'in satranç kulübü armalı mühür mumu izi var.",
-      "hiddenClueMagnifier": "Kalıp Kenan Bey'in avukatlık ofisinde bulunan mühür setiyle uyuşuyor.",
-      "isPinnedByDefault": false
-    },
-    {
-      "id": "evidence_chess_cipher",
-      "title": "Çözülen Satranç Şifresi Notu",
-      "category": "document",
-      "description": "Satranç federasyonu hakemlerinin tahtadaki hamleleri deşifre ettiği resmi tutanak.",
-      "sourceLocation": "Türkiye Satranç Federasyonu Masası",
-      "officialDocumentNo": "TSF // ŞİFRE-1996",
-      "handwrittenNote": "K-e4, E-f5, N-g6, A-c4, N-d7 = KENAN!",
-      "hiddenClueUV": "Notun altında Halid Ziya Arman'ın acil durum şifreleme protokolü imzası var.",
-      "hiddenClueMagnifier": "Hamleler yalnızca profesyonel bir satranç ustasının anlayabileceği bir düzenle seçilmiş.",
-      "isPinnedByDefault": false
-    },
-    {
-      "id": "evidence_insurance_fraud",
-      "title": "1971 Batan Gemi Sigorta Dolandırıcılığı Dosyası",
-      "category": "document",
-      "description": "Halid Bey'in kasasından çıkan, Avukat Kenan'ın 25 yıl önce sahte evrakla gemi batırıp milyonlarca lira sigorta parası aldığını belgeleyen itirafname.",
-      "sourceLocation": "Kütüphane Çelik Kasası",
-      "officialDocumentNo": "ADLİ ARŞİV // DOSYA-1971/84",
-      "handwrittenNote": "Halid Bey bu dosyayı sabah Cumhuriyet Başsavcısına götürecekti. Kenan'ın ömür boyu hapis cezası kapıdaydı!",
-      "hiddenClueUV": "Evrakın üzerinde 'İhbar Dilekçesi - 25 Aralık 1996' tarihi parlıyor.",
-      "hiddenClueMagnifier": "Kenan'ın 1971 tarihli ıslak imzası ve noter damgası mevcut.",
-      "isPinnedByDefault": true
-    },
-    {
-      "id": "evidence_will_draft",
-      "title": "Halid Bey'in Değiştirilen Son Vasiyetnamesi",
-      "category": "document",
-      "description": "Halid Ziya Arman'ın tüm mirasını Satranç Vakfı ve Kimsesiz Çocuklar Yurdu'na bıraktığı yeni vasiyet taslağı.",
-      "sourceLocation": "Avukatlık Çantası",
-      "officialDocumentNo": "NOTER TASLAK // 1996/VASİYET",
-      "handwrittenNote": "Berna ve Selim mirastan tamamen çıkarılmıştı. Ancak Kenan bu vasiyet onaylanırsa eski suçunun da ortaya çıkacağını biliyordu.",
-      "hiddenClueUV": "Taslağın köşesinde gözyaşı damlası izi mevcut.",
-      "hiddenClueMagnifier": "Henüz resmi onay mührü vurulmamış.",
-      "isPinnedByDefault": false
     }
   ],
   "suspects": [
     {
-      "id": "av_kenan",
-      "name": "Av. Kenan Bilgin",
-      "age": 58,
-      "role": "Aile Avukatı & Satranç Hakemi (KATİL)",
-      "alibi": "Gece boyu Kadıköy vapurundaydım, telefonum Kadıköy İskelesi baz istasyonundan sinyal verdi. Kandilli'ye hiç gelmedim.",
-      "motive": "Halid Bey'in 1971 batan gemi sigorta dolandırıcılığı dosyasını sabah Başsavcılığa teslim edeceğini öğrenmesi.",
-      "stressLevel": 30,
-      "confessed": false,
-      "confessionStage": "denial",
-      "defaultResponse": "Ben 30 yıllık saygın bir baro avukatıyım Komiserim. Halid benim en eski dostum ve satranç arkadaşımdı, bana iftira atamazsınız!",
-      "dialogueTree": [
-        {
-          "question": "Kadıköy vapurundaki kuryeyi yakaladık Kenan Bey! Telefonunuzu 200 Dolar verip ona verdiğinizi ve sahte HTS alibisi ürettiğinizi itiraf etti!",
-          "tactic": "evidence",
-          "requiredEvidence": "evidence_courier_receipt",
-          "response": "Şey... Ben sadece önemli bir müvekkil görüşmesi için telefonumu sekreteryama göndermek istemiştim...",
-          "stressDelta": 30,
-          "breakthrough": "Sahte HTS alibisi çöktü! O gece Kadıköy'de olmadığını kabul etmek zorunda kaldı."
-        },
-        {
-          "question": "Şöminenin hava menfezindeki erimiş balmumu kapsülünü ve üzerindeki mühür numaranızı kriminal laboratuvar eşleştirdi!",
-          "tactic": "evidence",
-          "requiredEvidence": "evidence_wax_capsule",
-          "response": "Bu... Bu imkansız! O menfeze hiç dokunmadım!",
-          "stressDelta": 35,
-          "breakthrough": "Cinayet düzeneğinin kaynağı kesinleşti. Kenan köşeye sıkıştı."
-        },
-        {
-          "question": "Halid Bey ölmeden önce satranç tahtasındaki taşlarla adınızı şifreledi: K-E-N-A-N! Ve kasanızdaki 1971 dolandırıcılık dosyasını savcıya verecekti!",
-          "tactic": "evidence",
-          "requiredEvidence": "evidence_chess_cipher",
-          "response": "(Yıkılarak ellerini başına koyar) Halid... Son nefesinde bile beni mat etmeyi başardı öyle mi? Evet! Beni bitirecekti! 25 yıl önceki o lanet gemi dosyasını açtı, 'Yarın sabah teslim olacaksın Kenan' dedi. Ona yalvardım! Şömineye kapsülü akşamüstü yerleştirmiştim... Şömine yandıkça balmumu eriyecek ve o satranç oynarken onu uyutacaktı... Ben bir katil olmak istemedim, beni mecbur bıraktı!",
-          "stressDelta": 50,
-          "breakthrough": "TAM İTİRAF ALINDI! Avukat Kenan Bilgin cinayeti ve şömine düzeneğini itiraf etti."
-        },
-        {
-          "question": "30 yıllık dostunuzu bir satranç tahtasının başında zehirli gazla boğarak öldürdünüz!",
-          "tactic": "bad_cop",
-          "response": "Beni hapse gönderecekti! Barodan atılacaktım, tüm hayatım mahvolacaktı!",
-          "stressDelta": 20
-        },
-        {
-          "question": "Kenan Bey, Halid Bey'in sizi köşeye sıkıştırdığını biliyoruz. Gelin her şeyi dürüstçe anlatın, adalete yardımcı olun.",
-          "tactic": "good_cop",
-          "response": "Halid çok inatçıydı... Satrançta asla affetmezdi, hayatta da affetmedi...",
-          "stressDelta": 15
-        }
-      ],
-      "freeformKeywords": [
-        {
-          "keywords": ["şömine", "menfez", "balmumu", "gaz", "kapsül"],
-          "response": "Şömine mi? Yalının kışın çok soğuk olduğunu herkes bilir, şömineyi yakması gayet normal!",
-          "stressDelta": 20
-        },
-        {
-          "keywords": ["satranç", "mat", "şifre", "kenan"],
-          "response": "Satranç onun hayatıydı... Tahtadaki hamlelerin tesadüf olduğunu düşünüyorum!",
-          "stressDelta": 25
-        },
-        {
-          "keywords": ["kurye", "kadıköy", "hts", "baz", "telefon"],
-          "response": "Telefonum... Şarjı bitmişti, kurye arkadaşa şarj ettirmesi için vermiştim...",
-          "stressDelta": 30
-        }
-      ]
+      "id": "s_wife",
+      "name": "Gülfem Aral (Eş)",
+      "avatar": "/avatars/suspect1.jpg",
+      "dialogues": {
+        "intro": "Halid ile aramız pek iyi değildi ama onu öldürecek kadar da değil. 23:00'te odasına şarabını götürdüm. Çok sıcaktı, pencereleri ardına kadar açtım ve odadan çıktım. O sırada yaşıyordu!",
+        "interrogation": [
+          {
+            "id": "wife_q1",
+            "question": "Eşinizin şarabına neden uyku ilacı kattınız?",
+            "answer": "Sadece onu uyutup ertesi günkü gemi seyahatini kaçırmasını istiyordum. Yemin ederim sadece uyku ilacıydı, öldürücü değildi!",
+            "evidence": {
+              "id": "ev_wife_statement",
+              "name": "Gülfem'in İfadesi",
+              "description": "Eşine göre, odadan çıktığında saat 23:00'tü ve pencereler AÇIKTI.",
+              "type": "testimony"
+            }
+          }
+        ]
+      }
     },
     {
-      "id": "berna_arman",
-      "name": "Berna Arman",
-      "age": 34,
-      "role": "Maktulün Genç Eşi",
-      "alibi": "Gece 23:00'te odamda uyuyordum.",
-      "motive": "Mirasın tamamına konma arzusu ve Halid Bey'in boşanma davası açma tehdidi.",
-      "stressLevel": 50,
-      "confessed": false,
-      "confessionStage": "denial",
-      "defaultResponse": "Ben kocamı çok seviyordum! Aramızdaki yaş farkı dedikodu malzemesi yapılıyor sadece!",
-      "dialogueTree": [
-        {
-          "question": "Konyak kadehinde parmak iziniz ve çantanızda uyku ilacı bulundu Berna Hanım!",
-          "tactic": "evidence",
-          "requiredEvidence": "evidence_cognac_glass",
-          "response": "(Ağlayarak) Evet kadehe ilacı koydum! Ama öldürmek için değil! Beni evden beş kuruşsuz atacaktı. Kasadaki mücevherlerimi alıp kaçabilmek için onu birkaç saat uyutmak istedim! Ama Halid konyaktan bir yudum alıp banyoda kustu, ona bir şey olmadı yemin ederim!",
-          "stressDelta": 35,
-          "breakthrough": "Konyaktaki ilacı itiraf etti ancak maktulün kusarak kurtulduğunu ve kendisinin katil olmadığını beyan etti."
-        }
-      ]
+      "id": "s_lawyer",
+      "name": "Kenan Vardar (Avukat)",
+      "avatar": "/avatars/suspect3.jpg",
+      "dialogues": {
+        "intro": "Halid Bey benim en büyük müvekkilimdi. O gece ben Kadıköy'deki ofisimdeydim. Yalıda olan bitenden haberim yok.",
+        "interrogation": [
+          {
+            "id": "lawyer_q1",
+            "question": "O gece yalıya hiç gelmediniz mi?",
+            "answer": "Size Kadıköy'deydim diyorum. Maktulün vasiyetiyle ilgili de hiçbir bilgim yok. Belgeleri kasasında saklardı.",
+            "evidence": {
+              "id": "ev_lawyer_statement",
+              "name": "Kenan'ın Alibisi",
+              "description": "Avukat Kenan, o gece Kadıköy'de olduğunu ve vasiyetten haberi olmadığını iddia ediyor.",
+              "type": "testimony"
+            }
+          }
+        ]
+      }
     },
     {
-      "id": "selim_arman",
-      "name": "Selim Arman",
-      "age": 38,
-      "role": "Damat & Borsa Spekülatörü",
-      "alibi": "Gece boyu alt kattaki bilardo odasında viski içiyordum.",
-      "motive": "5 Milyon Dolarlık batık borsa borcu.",
-      "stressLevel": 45,
-      "confessed": false,
-      "confessionStage": "denial",
-      "defaultResponse": "Kayınpederim sert adamdı ama ona dokunmadım. Konyak şişesini odaya ben çıkardım çünkü kendisi istedi!",
-      "dialogueTree": [
-        {
-          "question": "Borsa borçlarınız için Halid Bey'den para istediniz ve reddedildiniz değil mi Selim Bey?",
-          "tactic": "bad_cop",
-          "response": "Evet tartıştık, bana tek kuruş vermeyeceğini söyledi. Ama ben onu öldürmedim, aşağı inip içmeye devam ettim!",
-          "stressDelta": 20
-        }
-      ]
-    },
-    {
-      "id": "kaptan_cemal",
-      "name": "Kaptan Cemal",
-      "age": 52,
-      "role": "Özel Yat Kaptanı",
-      "alibi": "Fırtınada tekneyi iskeleye bağlamakla meşguldüm.",
-      "motive": "Yıllardır ödenmeyen sus payı şantajı.",
-      "stressLevel": 40,
-      "confessed": false,
-      "confessionStage": "denial",
-      "defaultResponse": "Fırtınada tekne parçalanacaktı Komserim, Halid Bey'in odasına adım atmadım!",
-      "dialogueTree": [
-        {
-          "question": "Yalı iskelesinde Halid Bey ile bağrıştığınızı hizmetkâr duydu!",
-          "tactic": "bad_cop",
-          "response": "Paramı istedim! 20 yıldır onun kirli işlerini taşıdım, hakkımı istedim. Ama yukarı çıkmadım!",
-          "stressDelta": 20
-        }
-      ]
-    },
-    {
-      "id": "meryem_hizmetkar",
-      "name": "Meryem Hanım",
-      "age": 60,
-      "role": "Dilsiz Hizmetkâr",
-      "alibi": "Mutfakta ve çamaşırhanedeydim.",
-      "motive": "Maktulün ailesine karşı 30 yıllık bastırılmış öfke.",
-      "stressLevel": 30,
-      "confessed": false,
-      "confessionStage": "denial",
-      "defaultResponse": "(İşaret dili ve yazılı notla) Ben Halid Bey'e yıllarca hizmet ettim. Fırtınada sigorta attığı için şalteri kaldırmaya gitmiştim.",
-      "dialogueTree": [
-        {
-          "question": "Olay gecesi 3. katta kimi gördünüz Meryem Hanım?",
-          "tactic": "good_cop",
-          "response": "(Yazılı kağıt verir) Saat 23:30 sularında kütüphane merdivenlerinde uzun pardösülü ve eldivenli bir silüet gördüm. Şömine bacasına doğru uzanıyordu...",
-          "stressDelta": -10,
-          "breakthrough": "Şömine menfezine düzenek kuran katilin eşkalini verdi!"
-        }
-      ]
-    }
-  ],
-  "timeline": [
-    {
-      "id": "tl_1",
-      "time": "20:00",
-      "title": "Akşam Yemeği & Miras Tartışması",
-      "description": "Halid Bey yemekte ailesine yeni bir vasiyet hazırladığını ve tüm mirası vakfa bırakacağını açıkladı.",
-      "associatedEvidenceId": "evidence_will_draft",
-      "isVerified": true
-    },
-    {
-      "id": "tl_2",
-      "time": "21:30",
-      "title": "Avukat Kenan ile Gizli Yüzleşme",
-      "description": "Halid Bey kütüphanede Av. Kenan'a 1971 tarihli dolandırıcılık dosyasını gösterdi ve sabah savcılığa teslim edeceğini bildirdi.",
-      "associatedEvidenceId": "evidence_insurance_fraud",
-      "isVerified": true
-    },
-    {
-      "id": "tl_3",
-      "time": "22:15",
-      "title": "Şömine Düzeneğinin Kurulması",
-      "description": "Kenan Bey kütüphaneden ayrılırken şöminenin arka hava menfezine 22 derecede eriyen özel balmumu gaz kapsülünü gizlice yerleştirdi.",
-      "associatedEvidenceId": "evidence_fireplace_vent",
-      "isVerified": false
-    },
-    {
-      "id": "tl_4",
-      "time": "22:45",
-      "title": "Berna'nın İlaçlı Konyak Girişimi",
-      "description": "Berna konyak kadehine uyku ilacı koydu. Halid Bey bir yudum aldıktan sonra tadını fark edip banyoda kustu ve kilitli odada satranç oynamaya devam etti.",
-      "associatedEvidenceId": "evidence_cognac_glass",
-      "isVerified": true
-    },
-    {
-      "id": "tl_5",
-      "time": "23:30",
-      "title": "Sahte HTS Operasyonu",
-      "description": "Av. Kenan Kadıköy'deki kuryeye cep telefonunu vererek vapurda dolaşmasını sağladı ve sahte baz alibisi oluşturdu.",
-      "associatedEvidenceId": "evidence_courier_receipt",
-      "isVerified": true
-    },
-    {
-      "id": "tl_6",
-      "time": "00:00",
-      "title": "Cinayetin Gerçekleşmesi & Satranç Şifresi",
-      "description": "Şöminenin ısısıyla balmumu tamamen eridi ve salınan gaz odayı kapladı. Halid Bey can verirken son hamleleriyle tahtaya KENAN adını şifreledi.",
-      "associatedEvidenceId": "evidence_chess_board",
-      "isVerified": false
+      "id": "s_maid",
+      "name": "Zehra (Hizmetçi)",
+      "avatar": "/avatars/suspect2.jpg",
+      "dialogues": {
+        "intro": "Halid Bey zor bir adamdı. O gece ben alt katta mutfaktaydım. Hiç yukarı çıkmadım.",
+        "interrogation": [
+          {
+            "id": "maid_q1",
+            "question": "O gece çalışma odasında şömineyi sen mi yaktın?",
+            "answer": "Asla! Yalının kaloriferleri yanıyordu, o oda zaten çok sıcak olur. O gece şömine kesinlikle yakılmadı, odun bile taşımadım.",
+            "evidence": {
+              "id": "ev_maid_statement",
+              "name": "Zehra'nın İfadesi",
+              "description": "Hizmetçi, o gece şöminenin KESİNLİKLE YAKILMADIĞINI iddia ediyor.",
+              "type": "testimony"
+            }
+          }
+        ]
+      }
     }
   ],
   "dispatchMissions": [
     {
-      "id": "mission_kadikoy_courier",
-      "title": "Kadıköy İskelesi Kurye Operasyonu",
-      "targetLocation": "Kadıköy Şehir Hatları İskelesi",
-      "team": "patrol",
-      "description": "Av. Kenan'ın telefon sinyalini taşıyan şüpheli kuryeyi iskelede yakala ve sorgula.",
-      "durationSec": 10,
-      "status": "available",
-      "resultEvidenceId": "evidence_courier_receipt",
-      "resultReport": "Asayiş Raporu: Kurye yakalandı! 200 Dolar karşılığı telefonu taşıdığını itiraf etti ve Kenan'ın imzaladığı makbuz ele geçirildi!"
+      "id": "disp_mobese",
+      "title": "Mobese Kayıtları (Kadıköy-Kandilli)",
+      "description": "Avukat Kenan'ın aracının plakasını MOBESE kameralarından tarat.",
+      "duration": 3,
+      "successEvidence": {
+        "id": "ev_mobese_log",
+        "name": "MOBESE Plaka Kaydı",
+        "description": "Avukat Kenan'ın aracı saat 23:15'te Kandilli Yalı yolunda kameralara takılmış.",
+        "type": "document"
+      }
     },
     {
-      "id": "mission_chess_federation",
-      "title": "Satranç Federasyonu Kripto Analizi",
-      "targetLocation": "Türkiye Satranç Federasyonu",
-      "team": "bank_audit",
-      "description": "Tahtadaki son hamle dizilimini büyükustalara analiz ettir ve şifreyi çöz.",
-      "durationSec": 12,
-      "status": "available",
-      "resultEvidenceId": "evidence_chess_cipher",
-      "resultReport": "Federasyon Raporu: Tahtadaki taşların baş harfleri deşifre edildi: K-E-N-A-N!"
-    },
-    {
-      "id": "mission_forensic_vent",
-      "title": "Şömine Bacası Kriminal İncelemesi",
-      "targetLocation": "Yalı 3. Kat Bacası",
-      "team": "forensic",
-      "description": "Kriminal laboratuvar ekibiyle şöminenin hava kanalını ve kül haznesini detaylı tara.",
-      "durationSec": 15,
-      "status": "available",
-      "resultEvidenceId": "evidence_wax_capsule",
-      "resultReport": "Kriminal Ekip: Kül haznesinde Kenan'ın mühür setine ait erimiş balmumu kapsül parçası bulundu!"
+      "id": "disp_chemical",
+      "title": "Adli Tıp - Kül Analizi",
+      "description": "Şöminedeki sıcak küllerden alınan numuneyi detaylı laboratuvar testine gönder.",
+      "duration": 5,
+      "successEvidence": {
+        "id": "ev_cyanide_wax",
+        "name": "Siyanürlü Mum Kalıntısı",
+        "description": "Küllerin arasında erimiş, siyanür bileşenli özel yapım bir mum kalıntısı bulundu. Yandığında ölümcül gaz çıkarıyor.",
+        "type": "item"
+      }
     }
   ],
   "contradictions": [
     {
-      "id": "contra_cognac_autopsy",
-      "evidenceA": "evidence_cognac_glass",
-      "evidenceB": "evidence_autopsy_report",
-      "hypothesisTitle": "KONYAK TUZAĞI & GERÇEK ÖLÜM NEDENİ",
-      "hypothesisText": "Maktul konyaktaki ilacı banyoda kusarak vücudundan atmıştır; konyak kadehi bir çeldiricidir ve maktul şömineden salınan gazla öldürülmüştür.",
-      "discovered": false
+      "id": "c1_wife_windows",
+      "evidence1Id": "ev_wife_statement",
+      "evidence2Id": "ev_locked_room",
+      "result": "Gülfem yalan söylüyor veya odada ondan sonra başkası vardı!",
+      "resolutionText": "Gülfem: 'Haklısınız... Pencereleri açmıştım! Biri benden sonra odaya girip pencereleri içeriden kilitlemiş olmalı! Yoksa eşim havasızlıktan boğulmazdı.'",
+      "unlockedEvidence": [
+        {
+          "id": "ev_someone_else",
+          "name": "Üçüncü Kişi",
+          "description": "Gülfem odadan çıktıktan (23:00) sonra, ölüm saatinden (23:45) önce odaya giren biri pencereleri kilitledi.",
+          "type": "document"
+        }
+      ]
     },
     {
-      "id": "contra_hts_courier",
-      "evidenceA": "evidence_hts_log",
-      "evidenceB": "evidence_courier_receipt",
-      "hypothesisTitle": "SAHTE VAPUR ALİBİSİ VE KURYENİN İTİRAFI",
-      "evidenceId": "evidence_courier_receipt",
-      "hypothesisText": "Av. Kenan'ın telefonunu para karşılığı bir kuryeye vererek Kadıköy vapurunda gezdirdiği ve sahte alibi oluşturduğu kanıtlandı.",
-      "discovered": false
+      "id": "c2_lawyer_alibi",
+      "evidence1Id": "ev_lawyer_statement",
+      "evidence2Id": "ev_mobese_log",
+      "result": "Avukat Kenan Kadıköy'de değildi, yalıya geldi!",
+      "resolutionText": "Avukat Kenan: 'Lanet olsun... Evet, 23:20'de yalıya geldim. Halid beni vasiyetten çıkarmıştı. Onu engellemek için gizlice odaya girdim. Halid masada sızmıştı. Vasiyeti alıp şömineye attım! O sırada şömine harıl harıl yanıyordu!'",
+      "unlockedEvidence": [
+        {
+          "id": "ev_kenan_confession",
+          "name": "Kenan'ın İtirafı",
+          "description": "Kenan odaya 23:20'de girdiğinde maktul baygındı ve ŞÖMİNE YANIYORDU.",
+          "type": "testimony"
+        }
+      ]
     },
     {
-      "id": "contra_vent_wax",
-      "evidenceA": "evidence_fireplace_vent",
-      "evidenceB": "evidence_wax_capsule",
-      "hypothesisTitle": "TERMAL BALMUMU VE KİLİTLİ ODA GAZI",
-      "hypothesisText": "Şöminenin hava menfezine konulan balmumu kapsülü şöminenin ısısıyla erimiş ve odaya içeri girmeden ölümcül gaz salmıştır.",
-      "discovered": false
+      "id": "c3_maid_fireplace",
+      "evidence1Id": "ev_maid_statement",
+      "evidence2Id": "ev_kenan_confession",
+      "result": "Zehra 'Şömine yakılmadı' demişti, ama Kenan 23:20'de yanıyordu diyor!",
+      "resolutionText": "Hizmetçi Zehra: (Panikler) 'Avukat yalan söylüyor! O şömine yanmıyordu, ben hiç odun getirmedim...'",
+      "unlockedEvidence": [
+        {
+          "id": "ev_maid_panic",
+          "name": "Zehra'nın Paniği",
+          "description": "Zehra, şömine konusunda yalan söylediği ortaya çıkınca terlemeye başladı. Neden şöminenin yanmadığında ısrarcı?",
+          "type": "testimony"
+        }
+      ]
     },
     {
-      "id": "contra_chess_motive",
-      "evidenceA": "evidence_chess_cipher",
-      "evidenceB": "evidence_insurance_fraud",
-      "hypothesisTitle": "SON SATRANÇ ŞİFRESİ VE 25 YILLIK HESAPLAŞMA",
-      "hypothesisText": "Halid Bey'in tahtaya yazdığı KENAN şifresi ve kasadan çıkan 1971 sigorta dolandırıcılığı dosyası, cinayetin failini ve motifini tartışmasız kesinleştirdi.",
-      "discovered": false
+      "id": "c4_the_murder_weapon",
+      "evidence1Id": "ev_maid_panic",
+      "evidence2Id": "ev_cyanide_wax",
+      "result": "Zehra odaya girdi, camları kilitledi ve siyanürlü mumu şömineye attı!",
+      "resolutionText": "Hizmetçi Zehra: 'Evet, ben yaptım! Yıllar önce babamın gemisini sigorta için bilerek yaktırdı. Babam o gemide kül oldu. Ben de o uyurken pencereleri kilitledim ve zehirli mumu şömineye atıp odadan çıktım!'",
+      "unlockedEvidence": []
+    }
+  ],
+  "timeline": [
+    {
+      "time": "23:00",
+      "description": "Eş Gülfem odaya gelir, uyku ilaçlı şarabı verir ve serinlesin diye pencereleri açıp çıkar."
+    },
+    {
+      "time": "23:10",
+      "description": "Zehra gizlice odaya girer, pencereleri kilitler ve siyanürlü mumu şömineye atarak çıkar."
+    },
+    {
+      "time": "23:20",
+      "description": "Avukat Kenan gelir, maktulü baygın bulur. Şöminede vasiyeti yakmaya çalışırken aslında zehirli gazı tüm odaya yaydığından habersizdir."
+    },
+    {
+      "time": "23:45",
+      "description": "Maktul karbonmonoksit/siyanür gazından boğularak hayatını kaybeder."
     }
   ],
   "solution": {
-    "culpritId": "av_kenan",
-    "murderWeaponId": "weapon_fireplace_mechanism",
-    "criticalEvidenceId": "evidence_fireplace_vent",
-    "keyMotive": "Halid Bey'in 1971 batan gemi sigorta dolandırıcılığı dosyasını sabah savcılığa teslim edeceğini açıklaması üzerine Avukat Kenan Bilgin'in ömür boyu hapis ve itibar kaybını önlemek için kütüphane şöminesinin menfezine termal gaz kapsülü yerleştirmesi.",
-    "correctVerdictSummary": "Tebrikler Başkomiserim! Katil Aile Avukatı Kenan Bilgin'di. Konyaktaki ilaç tuzağını ve sahte vapur HTS alibisini çürüttünüz. Şömine menfezine yerleştirilen balmumu kapsülü ve kurbanın ölmeden önce satranç tahtasına şifrelediği KENAN ismi adaleti tecelli ettirdi!"
-  },
-  "newspaper": {
-    "newspaperName": "HÜRRİYET MANŞET",
-    "issueInfo": "26 Aralık 1996 // Sayı: 17805",
-    "headline": "KANDİLLİ'DE SATRANÇ MATI: KATİL AİLE AVUKATI ÇIKTI!",
-    "article": "İstanbul Asayiş Şube Cinayet Masası, Kandilli Ziya Paşa Yalısı'nda fırtınalı gecede işlenen imkansız kilitli oda cinayetini çözdü. Armatör Halid Ziya Arman'ın katilinin, 30 yıllık avukatı Kenan Bilgin olduğu kanıtlandı. Şömine menfezine gizlenen balmumu gaz kapsülü, sahte vapur HTS alibisi ve satranç tahtasına kazınan şifre dedektifin titiz çalışmasıyla aydınlatıldı.",
-    "commendationTitle": "CUMHURİYET BAŞSAVCILIĞI TEBRİKNAMESİ",
-    "commendationBody": "Dedektifin kilitli oda mantığını çökerten üstün muhakemesi ve HTS/toksikoloji analizi emniyet tarihine geçmiştir."
+    "killerId": "s_maid",
+    "weapon": "Siyanürlü Mum ve Kilitli Pencereler",
+    "motive": "İntikam. Maktul geçmişte babasının ölümüne sebep olmuştu.",
+    "explanation": "Mükemmel bir kapalı oda cinayetiydi. Eşi sadece uyku ilacı verdi (Cinayet teşebbüsü). Avukat Kenan hırsızlıktan oradaydı. Asıl katil, odayı havasız bırakıp şömineye zehirli mumu atan Hizmetçi Zehra'ydı. Oyuncu, pencerelerin açıklık durumu, mobese kayıtları ve şöminenin yanıp yanmadığı çelişkilerini adım adım eşleştirerek gerçeği çözdü."
   }
 }
